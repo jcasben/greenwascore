@@ -1,0 +1,44 @@
+{
+  "HEADER": {
+    "NAVBAR": {
+      "HOME": "Inicio",
+      "RUBRIC": "Rúbrica",
+      "CONTACT": "Contacto"
+    }
+  },
+  "HOME": {
+    "ABOUT_PROJECT_TITLE": "¿Qué es este proyecto?",
+    "ABOUT_PROJECT_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+    "PROJECT_OBJECTIVES_TITLE": "¿Cuáles son sus objetivos?",
+    "PROJECT_OBJECTIVES_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+    "RUBRIC_FUNCTION_TITLE": "¿Cómo funciona la rúbrica?",
+    "RUBRIC_FUNCTION_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+  },
+  "RUBRIC": {
+    "CRITERIA": {
+      "1": {
+        "TITLE": "Criterio 1. La coherencia entre la actividad principal de la entidad y los objetivos y contenidos del Plan y/o Programa de Educación Ambiental (PPEA) que se patrocina, diseña y/o ejecuta",
+        "DESCRIPTION": "En ocasiones, entidades y/o empresas que no se dedican a la EA, el medio ambiente o la educación en general (fundaciones, entidades sin ánimo de lucro, bancos o cajas…) patrocinan, diseñan y/o ejecutan programas. Consideramos que las finalidades y objetivos de los PPEA deberían coincidir con la misión y los valores de la entidad o empresa que patrocina, diseña y/o ejecuta el programa. Este criterio podría contribuir a identificar el greenwashing, si no existiera una relación clara entre la misión y los valores de la entidad o empresa y aquello que se trabaja con el programa",
+        "INDICATORS": {
+          "1": {
+            "TITLE": "1.1.¿La misión y los valores descritos por la entidad integran los principios de sostenibilidad",
+            "OPTIONS": {
+              "1": "Se integran los principios de sostenibilidad, aunque estos se alejan o no están vinculados con la actividad económica principal de la empresa",
+              "2": "No se puede identificar de forma clara la integración de los principios de sostenibilidad",
+              "3": "Se integran los principios de sostenibilidad y además son coherentes con la actividad económica principal de la empresa"
+            }
+          },
+          "2": {
+            "TITLE": "1.2.¿Establece la entidad entre sus funciones la sensibilización, la formación o la educación en relación con la problemática socioambiental del PPEA?",
+            "OPTIONS": {
+              "1": "Se establecen funciones de sensibilización, formación o educación, aunque a través de empresas/entidades secundarias o fundaciones propias, intentándolas alejar de la idea de la actividad principal de la entidad",
+              "2": "No se establecen o no se pueden identificar entre sus funciones la sensibilización, formación o educación en relación con la problemática tratada, ni de manera directa ni indirecta",
+              "3": "Se establece la sensibilización, formación o educación como una de sus funciones principales y ésta es consciente y transparente en su posible contribución a la problemática ambiental que se trata en el PPEA"
+            }
+          }
+        }
+      }
+    }
+  },
+  "CONTACT": {}
+}

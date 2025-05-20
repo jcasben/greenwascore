@@ -1,0 +1,43 @@
+<header class="flex flex-row justify-between shadow-md items-center">
+  <a
+    class="p-4 text-3xl text-blue-600 font-bold hover:cursor-pointer"
+    routerLink=""
+  >
+    GreenwaScore
+  </a>
+
+  <nav class="px-4 py-2 space-x-8">
+    <a
+      class="navbar-option"
+      routerLink=""
+      routerLinkActive="text-blue-600 font-bold"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      {{ 'HEADER.NAVBAR.HOME' | translate }}
+    </a>
+    <a
+      class="navbar-option"
+      routerLink="/rubric"
+      routerLinkActive="text-blue-600 font-bold"
+    >
+      {{ 'HEADER.NAVBAR.RUBRIC' | translate }}
+    </a>
+    <a
+      class="navbar-option"
+      routerLink="/contact"
+      routerLinkActive="text-blue-600 font-bold"
+    >
+      {{ 'HEADER.NAVBAR.CONTACT' | translate }}
+    </a>
+  </nav>
+
+  <select
+    class="rounded-md p-4 m-4"
+    (change)="changeLang($event)"
+    [value]="this.translate.currentLang"
+  >
+    <option value="cat">Català</option>
+    <option value="es">Español</option>
+    <option value="en">English</option>
+  </select>
+</header>
