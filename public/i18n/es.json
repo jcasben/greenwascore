@@ -7,15 +7,30 @@
 		}
 	},
 	"HOME": {
-		"ABOUT_PROJECT_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-		"ABOUT_PROJECT_TITLE": "¿Qué es este proyecto?",
-		"PROJECT_OBJECTIVES_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-		"PROJECT_OBJECTIVES_TITLE": "¿Cuáles son sus objetivos?",
-		"RUBRIC_FUNCTION_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-		"RUBRIC_FUNCTION_TITLE": "¿Cómo funciona la rúbrica?"
+		"ABOUT_PROJECT": {
+			"TEXT": "Este proyecto nace con la intención de dar respuesta a una preocupación cada vez más presente: las campañas y programas que se presentan como de educación ambiental (EA), pero que en realidad no lo son. A menudo, detrás de una imagen \"verde\", se esconden prácticas empresariales u organizativas poco sostenibles o que no siguen una ética ambiental. A esto se le llama greenwashing o “lavado verde”.\n\nEl greenwashing es una técnica de comunicación de información ambiental engañosa, falsa o incompleta por parte de empresas, organizaciones e instituciones, que pretenden transmitir una imagen de sostenibilidad y responsabilidad medioambiental pero que no se corresponde con sus prácticas reales.\nEl lavado verde se puede manifestar de diversas formas. En los últimos años, esta práctica ha llegado también al ámbito de la educación y está entrando peligrosamente en las aulas. Diversas empresas de diferentes sectores, como el energético o el de la gestión de residuos, ofrecen programas y materiales educativos que, bajo una apariencia de compromiso ambiental, podrían estar transmitiendo mensajes sesgados o alineados con sus propios intereses. \n\nCon este proyecto, desde el Grupo de Investigación de Educación Ambiental para la Sostenibilidad (GREAS, en sus siglas en catalán) de la Universitat de les Illes Balears (UIB), desarrollado parcialmente en el marco del programa SOIB Recerca i Innovació , hemos creado una herramienta práctica que ayuda a identificar si un programa, proyecto o actividad de EA promueve de verdad valores sostenibles o si simplemente busca mejorar la imagen verde de una entidad.",
+			"TITLE": "¿Qué es este proyecto?"
+		},
+		"PROJECT_OBJECTIVES": {
+			"OBJECTIVE_LIST": {
+				"1": "Dar a conocer el greenwashing como una práctica educativa engañosa.",
+				"2": "Ofrecer una herramienta práctica, útil y accesible, en forma de rúbrica, para analizar y evaluar la calidad de campañas y programas de educación ambiental.",
+				"3": "Apoyar al profesorado en activo y en formación en la toma de decisiones informadas al seleccionar recursos educativos, promoviendo una educación ambiental de calidad, crítica y coherente con los principios de sostenibilidad."
+			},
+			"TEXT": "Este proyecto tiene como objetivos principales:",
+			"TITLE": "¿Cuáles son sus objetivos?"
+		},
+		"RUBRIC_FUNCTION": {
+			"TEXT": "",
+			"TITLE": "¿Cómo funciona la rúbrica?"
+		},
+		"RUBRIC_FUNCTION_TEXT": "La rúbrica es fácil de utilizar y sirve para poder analizar críticamente proyectos y programas de educación ambiental (PPEA). Consta de tres niveles de ejecución cualitativos (incurre en greenwashing, podría incurrir en greenwashing, no incurre en greenwashing) y 43 indicadores divididos en 8 criterios. Para cada uno de los indicadores se debe elegir el nivel al que pertenece teniendo en cuenta los descriptores de los indicadores y las características del proyecto o programa que se está evaluando, así como de la organización que lo ofrece.\n\nCada nivel aporta una puntuación distinta:\n\n1. Incurre en greenwashing: 1 punto\n\n2. Podría incurrir en greenwashing: 2 puntos\n\n3. No incurre en greenwashing: 3 puntos\n\nPor tanto:\n\n Mínimo total posible: 43 (todos los indicadores con 1 punto)\n\n Máximo total posible: 129 (todos con 3 puntos)\n\nPara identificar en qué grado el proyecto o programa que se está evaluando podría incurrir qué en greenwashing, se sumaran los valores obtenidos en cada indicador y la puntuación total indicará a qué nivel pertenece, siendo los rangos:\n Incurre en greenwashing: 43–65\n Podría incurrir en greenwashing: 66–105\n No incurre en greenwashing: 106–129\n",
+		"RUBRIC_FUNCTION_TITLE": "¿Cómo funciona la rúbrica?",
+		"RUBRIC_USE_TEXT": "Para poder utilizar la rúbrica se deben considerar los siguientes aspectos:\n Qué entidad ha diseñado/ejecutado/patrocinado el PPEA y las características\nde ésta\n Qué información, conceptos, datos y contenidos ofrece el PPEA\n Cuáles son las características de un buen PPEA\n Cuáles son las principales técnicas de greenwashing\nSe debe tener en cuenta que para algunos de estos aspectos no será suficiente analizar\nel PPEA y se tendrán que consultar, por tanto, otras fuentes de información (Consultar\nGuía de Apoyo Uso Rúbrica)",
+		"RUBRIC_USE_TITLE": "¿Cómo usar la rúbrica?"
 	},
 	"RUBRIC": {
-    "BUTTON": "Completar",
+		"BUTTON": "Ver resultados",
 		"CRITERIA": {
 			"1": {
 				"DESCRIPTION": "En ocasiones, entidades y/o empresas que no se dedican a la EA, el medio ambiente o la educación en general (fundaciones, entidades sin ánimo de lucro, bancos o cajas…) patrocinan, diseñan y/o ejecutan programas. Consideramos que las finalidades y objetivos de los PPEA deberían coincidir con la misión y los valores de la entidad o empresa que patrocina, diseña y/o ejecuta el programa. Este criterio podría contribuir a identificar el greenwashing, si no existiera una relación clara entre la misión y los valores de la entidad o empresa y aquello que se trabaja con el programa",
@@ -410,6 +425,8 @@
 				"TITLE": "8. Una previsión de estrategias de evaluación del PEEA y la posterior publicación de resultados"
 			}
 		},
+		"PROJECT_NAME": "Nombre del proyecto/empresa",
+		"PROJECT_URL": "URL del proyecto/empresa",
 		"SCORE": {
 			"1": {
 				"DESCRIPTION": "No es un buen programa de educación ambiental, esté incurriendo o no en greenwashing, ya que carece de alguna, o varias, de las dimensiones propias de los programas de educación ambiental(no se define correctamente a las personas destinatarias, los objetivos; no se aporta una visión sistémica e interdisciplinaria de la problemática ambiental que se trata, la estrategia educativa no es la adecuada, no dispone de sistema de evaluación de los resultados y/o del programa",
@@ -423,6 +440,7 @@
 				"DESCRIPTION": "Es un buen programa de educación ambiental, ya que presenta todas las dimensiones propias de un PPEA y además expone los problemas ambientales de una forma que invitan a la reflexión, explicando las causas y las consecuencias reales y aportando una visión sistémica e interdisciplinaria de la problemática ambiental que se trata",
 				"TITLE": "No incurre en greenwashing"
 			}
-		}
+		},
+		"TITLE": "Nueva evaluación"
 	}
 }

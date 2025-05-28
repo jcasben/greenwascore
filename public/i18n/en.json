@@ -7,15 +7,30 @@
 		}
 	},
 	"HOME": {
-		"ABOUT_PROJECT_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt  explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut  odit aut fugit, sed quia consequuntur magni dolores eos qui ratione  voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum  quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam  eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat  voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam  corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse  quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo  voluptas nulla pariatur?",
-		"ABOUT_PROJECT_TITLE": "What is this project?",
-		"PROJECT_OBJECTIVES_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-		"PROJECT_OBJECTIVES_TITLE": "Which are its objectives?",
+		"ABOUT_PROJECT": {
+			"TEXT": "This project was born out of a growing concern: campaigns and programs that claim to be environmental education (EE) but, in reality, are not. Often, behind a \"green\" image, there are business or organizational practices that are not sustainable or do not follow environmental ethics. This is known as greenwashing.\n\nGreenwashing is a communication technique used to share misleading, false, or incomplete environmental information by companies, organizations, and institutions that seek to convey an image of sustainability and environmental responsibility that does not align with their actual practices.\nGreenwashing can take many forms. In recent years, this practice has also entered the field of education and is increasingly making its way into classrooms. Various companies from different sectors, such as energy or waste management, offer educational programs and materials that, under the guise of environmental commitment, may be promoting biased messages aligned with their own interests.\n\nWith this project, from the Environmental Education for Sustainability Research Group (GREAS, by its Catalan acronym) at the University of the Balearic Islands (UIB), developed in part under the SOIB Research and Innovation program, we have created a practical tool that helps identify whether an EE program, project, or activity genuinely promotes sustainable values or is simply trying to enhance an entity’s green image.",
+			"TITLE": "What is this project?"
+		},
+		"PROJECT_OBJECTIVES": {
+			"OBJECTIVE_LIST": {
+				"1": "Raise awareness of greenwashing as a misleading educational practice.",
+				"2": "Provide a practical, useful, and accessible tool, in the form of a rubric, to analyze and evaluate the quality of environmental education campaigns and programs.",
+				"3": "Support both current and future teachers in making informed decisions when selecting educational resources, promoting high-quality, critical environmental education that aligns with sustainability principles."
+			},
+			"TEXT": "This project has the following main objectives:",
+			"TITLE": "Which are its objectives?"
+		},
+		"RUBRIC_FUNCTION": {
+			"TEXT": "",
+			"TITLE": ""
+		},
 		"RUBRIC_FUNCTION_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-		"RUBRIC_FUNCTION_TITLE": "How does the rubric work?"
+		"RUBRIC_FUNCTION_TITLE": "How does the rubric work?",
+		"RUBRIC_USE_TEXT": "",
+		"RUBRIC_USE_TITLE": ""
 	},
 	"RUBRIC": {
-    "BUTTON": "Complete",
+		"BUTTON": "View results",
 		"CRITERIA": {
 			"1": {
 				"DESCRIPTION": "Sometimes, entities and/or companies that are not dedicated to EA, the environment or education in general (foundations, non-profit organizations, banks or savings banks...) sponsor, design and/or execute programs. We consider that the aims and objectives of the PPEA should coincide with the mission and values of the entity or company sponsoring, designing and/or executing the program. This criterion could contribute to identify greenwashing, if there is no clear relationship between the mission and values of the entity or company and what is being worked with the program.",
@@ -410,6 +425,8 @@
 				"TITLE": "8. A forecast of evaluation strategies for the PEEA and subsequent publication of results"
 			}
 		},
+		"PROJECT_NAME": "Project/Business name",
+		"PROJECT_URL": "Project/Business URL",
 		"SCORE": {
 			"1": {
 				"DESCRIPTION": "Not a good environmental education program, whether or not it is greenwashing, as it lacks some, or several, dimensions of environmental education programs(target groups, objectives are not correctly defined; there is no systemic and interdisciplinary view of the environmental problem at stake, the educational strategy is not adequate, there is no system for evaluating results and/or programme",
@@ -423,6 +440,7 @@
 				"DESCRIPTION": "It is a good environmental education programme, as it presents all the dimensions of a PPEA and also exposes environmental problems in a way that invites reflection, explaining the real causes and consequences and providing a systemic and interdisciplinary view of the environmental problems being addressed",
 				"TITLE": "Does not engage in greenwashing"
 			}
-		}
+		},
+		"TITLE": "New evaluation"
 	}
 }

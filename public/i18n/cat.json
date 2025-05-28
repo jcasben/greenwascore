@@ -7,15 +7,30 @@
 		}
 	},
 	"HOME": {
-		"ABOUT_PROJECT_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-		"ABOUT_PROJECT_TITLE": "Què és aquest projecte?",
-		"PROJECT_OBJECTIVES_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-		"PROJECT_OBJECTIVES_TITLE": "Quins son els seus objectius?",
+		"ABOUT_PROJECT": {
+			"TEXT": "Aquest projecte neix amb la intenció de donar resposta a una preocupació cada vegada més present: les campanyes i programes que es presenten com d'educació ambiental (EA), però que en realitat no ho són. Sovint, darrere d'una imatge \"verda\", s'amaguen pràctiques empresarials o organitzatives poc sostenibles o que no segueixen una ètica ambiental. Això s'anomena greenwashing o \"rentat verd\".\n\nEl greenwashing és una tècnica de comunicació d'informació ambiental enganyosa, falsa o incompleta per part d'empreses, organitzacions i institucions, que pretenen transmetre una imatge de sostenibilitat i responsabilitat ambiental que no es correspon amb les seves pràctiques reals.\nEl rentat verd es pot manifestar de diverses formes. En els darrers anys, aquesta pràctica també ha arribat a l'àmbit educatiu i està entrant perillosament a les aules. Diverses empreses de diferents sectors, com l'energètic o la gestió de residus, ofereixen programes i materials educatius que, sota una aparença de compromís ambiental, podrien estar transmetent missatges esbiaixats o alineats amb els seus propis interessos.\n\nAmb aquest projecte, des del Grup de Recerca en Educació Ambiental per a la Sostenibilitat (GREAS, en les seves sigles en català) de la Universitat de les Illes Balears (UIB), desenvolupat parcialment en el marc del programa SOIB Recerca i Innovació, hem creat una eina pràctica que ajuda a identificar si un programa, projecte o activitat d’EA promou realment valors sostenibles o si simplement busca millorar la imatge verda d’una entitat.",
+			"TITLE": "Què és aquest projecte?"
+		},
+		"PROJECT_OBJECTIVES": {
+			"OBJECTIVE_LIST": {
+				"1": "Donar a conèixer el greenwashing com una pràctica educativa enganyosa.",
+				"2": "Oferir una eina pràctica, útil i accessible, en forma de rúbrica, per analitzar i avaluar la qualitat de campanyes i programes d’educació ambiental.",
+				"3": "Donar suport al professorat en actiu i en formació en la presa de decisions informades a l’hora de seleccionar recursos educatius, promovent una educació ambiental de qualitat, crítica i coherent amb els principis de la sostenibilitat."
+			},
+			"TEXT": "Aquest projecte té com a objectius principals:",
+			"TITLE": "Quins son els seus objectius?"
+		},
+		"RUBRIC_FUNCTION": {
+			"TEXT": "",
+			"TITLE": ""
+		},
 		"RUBRIC_FUNCTION_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-		"RUBRIC_FUNCTION_TITLE": "Com funciona la rúbrica?"
+		"RUBRIC_FUNCTION_TITLE": "Com funciona la rúbrica?",
+		"RUBRIC_USE_TEXT": "",
+		"RUBRIC_USE_TITLE": ""
 	},
 	"RUBRIC": {
-    "BUTTON": "Completar",
+		"BUTTON": "Veure resultats",
 		"CRITERIA": {
 			"1": {
 				"DESCRIPTION": "A vegades, entitats i/o empreses que no es dediquen a l'EA, el medi ambient o l'educació en general (fundacions, entitats sense ànim de lucre, bancs o caixes…) patrocinen, dissenyen i/o executen programes. Considerem que les finalitats i objectius dels PPEA haurien de coincidir amb la missió i els valors de l'entitat o empresa que patrocina, dissenya i/o executa el programa. Aquest criteri podria contribuir a identificar el greenwashing, si no existís una relació clara entre la missió i els valors de l'entitat o empresa i allò que es treballa amb el programa",
@@ -410,6 +425,8 @@
 				"TITLE": "8. Una previsió d'estratègies d'avaluació del PEEA i la posterior publicació de resultats"
 			}
 		},
+		"PROJECT_NAME": "Nom del projecte/empresa",
+		"PROJECT_URL": "URL del projecte/empresa",
 		"SCORE": {
 			"1": {
 				"DESCRIPTION": "No és un bon programa d'educació ambiental, estigui incorrent o no en greenwashing, ja que manca d'alguna, o vàries, de les dimensions pròpies dels programes d'educació ambiental(no es defineix correctament a les persones destinatàries, els objectius; no s'aporta una visió sistèmica i interdisciplinària de la problemàtica ambiental que es tracta, l'estratègia educativa no és l'adequada, no disposa de sistema d'avaluació dels resultats i/o del programa",
@@ -423,6 +440,7 @@
 				"DESCRIPTION": "És un bon programa d'educació ambiental, ja que presenta totes les dimensions pròpies d'un PPEA i a més exposa els problemes ambientals d'una forma que conviden a la reflexió, explicant les causes i les conseqüències reals i aportant una visió sistèmica i interdisciplinària de la problemàtica ambiental que es tracta",
 				"TITLE": "No incorre en greenwashing"
 			}
-		}
+		},
+		"TITLE": "Nova evaluació"
 	}
 }
