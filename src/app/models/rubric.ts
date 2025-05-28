@@ -7,19 +7,19 @@ export interface Rubric {
 interface RubricCriterion {
   id: number;
   labelKey: string;
-  description: string;
+  descriptionKey: string;
   indicators: RubricIndicator[];
 }
 
-interface RubricIndicator {
+export interface RubricIndicator {
   id: number;
   labelKey: string;
   options: RubricOption[];
-  selectedOptionId?: string;
+  selectedOptionId?: number;
 }
 
 interface RubricOption {
-  id: string;
+  id: number;
   labelKey: string;
   value: number;
 }
