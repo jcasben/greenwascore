@@ -1,0 +1,7 @@
+.rubric-input {
+  @apply text-2xl border-4 rounded-md p-2 focus:border-blue-400;
+}
+
+.rubric-label {
+  @apply text-2xl font-semibold pe-2;
+}

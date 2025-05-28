@@ -1,1 +1,45 @@
-<p>rubric works!</p>
+<main class="py-8 px-64">
+  <h1 class="text-5xl text-blue-500 font-bold">{{ 'RUBRIC.TITLE' | translate }}</h1>
+
+  <section class="flex flex-col gap-2 py-6">
+    <label>
+      <span class="rubric-label">{{ 'RUBRIC.PROJECT_NAME' | translate }}</span>
+      <input class="rubric-input" [(ngModel)]="rubric.title">
+    </label>
+    <label>
+      <span class="rubric-label">{{ 'RUBRIC.PROJECT_URL' | translate }}</span>
+      <input class="rubric-input" [(ngModel)]="rubric.projectURL">
+    </label>
+  </section>
+
+  @for (crit of rubric.criteria; track crit.id) {
+    <details class="py-4" open>
+      <summary class="text-3xl font-extrabold cursor-pointer">{{ crit.labelKey | translate }}</summary>
+      <h5 class="text-xl text-gray-700">{{ crit.descriptionKey | translate }}</h5>
+
+        @for (indicator of crit.indicators; track indicator.id) {
+          <div class="py-4">
+            <h6 class="text-lg font-bold pb-2">{{ indicator.labelKey | translate }}</h6>
+            <div class="grid grid-cols-3 gap-8">
+              @for (option of indicator.options; track option.id) {
+                <div
+                  class="flex items-center p-4 rounded-lg border-2 border-gray-500 cursor-pointer h-full transition-colors"
+                  [ngClass]="['hover:' + getOptionColor(option.value), indicator.selectedOptionId === option.id ? getOptionColor(option.id) : '']"
+                  (click)="indicator.selectedOptionId = option.id"
+                >
+                  <p>{{ option.labelKey | translate }}</p>
+                </div>
+              }
+            </div>
+          </div>
+        }
+    </details>
+  }
+  <button
+    class="p-6 rounded-lg bg-blue-500 text-lg font-semibold text-white cursor-pointer"
+    [disabled]="isRubricComplete()"
+    (click)="completeRubric()"
+  >
+    {{ 'RUBRIC.BUTTON' | translate }}
+  </button>
+</main>
