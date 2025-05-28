@@ -1,22 +1,29 @@
-<main class="flex flex-col space-y-8 p-14">
+<main class="flex flex-col space-y-8 py-8 px-64">
   <section>
     <h2 class="section-title">
-      {{ 'HOME.ABOUT_PROJECT_TITLE' | translate }}
+      {{ 'HOME.ABOUT_PROJECT.TITLE' | translate }}
     </h2>
-    <p class="p-4">{{ 'HOME.ABOUT_PROJECT_TEXT' | translate }}</p>
+    <p class="p-4 whitespace-pre-line">{{ 'HOME.ABOUT_PROJECT.TEXT' | translate }}</p>
   </section>
 
   <section>
     <h2 class="section-title">
-      {{ 'HOME.PROJECT_OBJECTIVES_TITLE' | translate }}
+      {{ 'HOME.PROJECT_OBJECTIVES.TITLE' | translate }}
     </h2>
-    <p class="p-4">{{ 'HOME.ABOUT_PROJECT_TEXT' | translate }}</p>
+    <div class="p-4">
+      <p>{{ 'HOME.PROJECT_OBJECTIVES.TEXT' | translate }}</p>
+      <ul class="list-disc pl-5 pt-4">
+        <li>{{ 'HOME.PROJECT_OBJECTIVES.OBJECTIVE_LIST.1' | translate }}</li>
+        <li>{{ 'HOME.PROJECT_OBJECTIVES.OBJECTIVE_LIST.2' | translate }}</li>
+        <li>{{ 'HOME.PROJECT_OBJECTIVES.OBJECTIVE_LIST.3' | translate }}</li>
+      </ul>
+    </div>
   </section>
 
   <section>
     <h2 class="section-title">
       {{ 'HOME.RUBRIC_FUNCTION_TITLE' | translate }}
     </h2>
-    <p class="p-4">{{ 'HOME.ABOUT_PROJECT_TEXT' | translate }}</p>
+    <p class="p-4 whitespace-pre-line">{{ 'HOME.RUBRIC_FUNCTION_TEXT' | translate }}</p>
   </section>
 </main>
