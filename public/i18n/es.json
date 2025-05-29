@@ -21,13 +21,36 @@
 			"TITLE": "¿Cuáles son sus objetivos?"
 		},
 		"RUBRIC_FUNCTION": {
-			"TEXT": "",
+			"LIST1": {
+				"1": "Incurre en greenwashing: 1 punto",
+				"2": "Podría incurrir en greenwashing: 2 puntos",
+				"3": "No incurre en greenwashing: 3 puntos"
+			},
+			"LIST2": {
+				"1": "Mínimo total posible: 43 (todos los indicadores con 1 punto)",
+				"2": "Máximo total posible: 129 (todos con 3 puntos)"
+			},
+			"LIST3": {
+				"1": "Incurre en greenwashing: 43–65",
+				"2": "Podría incurrir en greenwashing: 66–105",
+				"3": "No incurre en greenwashing: 106–129"
+			},
+			"TEXT1": "La rúbrica es fácil de utilizar y sirve para poder analizar críticamente proyectos y programas de educación ambiental (PPEA). Consta de tres niveles de ejecución cualitativos (incurre en greenwashing, podría incurrir en greenwashing, no incurre en greenwashing) y 43 indicadores divididos en 8 criterios. Para cada uno de los indicadores se debe elegir el nivel al que pertenece teniendo en cuenta los descriptores de los indicadores y las características del proyecto o programa que se está evaluando, así como de la organización que lo ofrece.\n\nCada nivel aporta una puntuación distinta:",
+			"TEXT2": "Por tanto:",
+			"TEXT3": "Para identificar en qué grado el proyecto o programa que se está evaluando podría incurrir qué en greenwashing, se sumaran los valores obtenidos en cada indicador y la puntuación total indicará a qué nivel pertenece, siendo los rangos:",
 			"TITLE": "¿Cómo funciona la rúbrica?"
 		},
-		"RUBRIC_FUNCTION_TEXT": "La rúbrica es fácil de utilizar y sirve para poder analizar críticamente proyectos y programas de educación ambiental (PPEA). Consta de tres niveles de ejecución cualitativos (incurre en greenwashing, podría incurrir en greenwashing, no incurre en greenwashing) y 43 indicadores divididos en 8 criterios. Para cada uno de los indicadores se debe elegir el nivel al que pertenece teniendo en cuenta los descriptores de los indicadores y las características del proyecto o programa que se está evaluando, así como de la organización que lo ofrece.\n\nCada nivel aporta una puntuación distinta:\n\n1. Incurre en greenwashing: 1 punto\n\n2. Podría incurrir en greenwashing: 2 puntos\n\n3. No incurre en greenwashing: 3 puntos\n\nPor tanto:\n\n Mínimo total posible: 43 (todos los indicadores con 1 punto)\n\n Máximo total posible: 129 (todos con 3 puntos)\n\nPara identificar en qué grado el proyecto o programa que se está evaluando podría incurrir qué en greenwashing, se sumaran los valores obtenidos en cada indicador y la puntuación total indicará a qué nivel pertenece, siendo los rangos:\n Incurre en greenwashing: 43–65\n Podría incurrir en greenwashing: 66–105\n No incurre en greenwashing: 106–129\n",
-		"RUBRIC_FUNCTION_TITLE": "¿Cómo funciona la rúbrica?",
-		"RUBRIC_USE_TEXT": "Para poder utilizar la rúbrica se deben considerar los siguientes aspectos:\n Qué entidad ha diseñado/ejecutado/patrocinado el PPEA y las características\nde ésta\n Qué información, conceptos, datos y contenidos ofrece el PPEA\n Cuáles son las características de un buen PPEA\n Cuáles son las principales técnicas de greenwashing\nSe debe tener en cuenta que para algunos de estos aspectos no será suficiente analizar\nel PPEA y se tendrán que consultar, por tanto, otras fuentes de información (Consultar\nGuía de Apoyo Uso Rúbrica)",
-		"RUBRIC_USE_TITLE": "¿Cómo usar la rúbrica?"
+		"RUBRIC_USE": {
+			"LIST": {
+				"1": "Qué entidad ha diseñado/ejecutado/patrocinado el PPEA y las características de ésta",
+				"2": "Qué información, conceptos, datos y contenidos ofrece el PPEA",
+				"3": "Cuáles son las características de un buen PPEA",
+				"4": "Cuáles son las principales técnicas de greenwashing"
+			},
+			"TEXT1": "Para poder utilizar la rúbrica se deben considerar los siguientes aspectos:",
+			"TEXT2": "Se debe tener en cuenta que para algunos de estos aspectos no será suficiente analizar el PPEA y se tendrán que consultar, por tanto, otras fuentes de información (Consultar Guía de Apoyo Uso Rúbrica)",
+			"TITLE": "¿Cómo usar la rúbrica?"
+		}
 	},
 	"RUBRIC": {
 		"BUTTON": "Ver resultados",

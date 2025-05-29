@@ -21,13 +21,36 @@
 			"TITLE": "Quins son els seus objectius?"
 		},
 		"RUBRIC_FUNCTION": {
-			"TEXT": "",
-			"TITLE": ""
+			"LIST1": {
+				"1": "Incorre en greenwashing: 1 punt",
+				"2": "Podria incórrer en greenwashing: 2 punts",
+				"3": "No incorre en greenwashing: 3 punts"
+			},
+			"LIST2": {
+				"1": "Mínim total possible: 43 (tots els indicadors amb 1 punt)",
+				"2": "Màxim total possible: 129 (tots amb 3 punts)"
+			},
+			"LIST3": {
+				"1": "Incorre en greenwashing: 43–65",
+				"2": "Podria incórrer en greenwashing: 66–105",
+				"3": "No incorre en greenwashing: 106–129"
+			},
+			"TEXT1": "La rúbrica és fàcil d'utilitzar i serveix per analitzar de manera crítica projectes i programes d'educació ambiental (PPEA). Consta de tres nivells d'execució qualitatius (incorre en greenwashing, podria incórrer en greenwashing, no incorre en greenwashing) i 43 indicadors dividits en 8 criteris. Per a cadascun dels indicadors, s'ha de triar el nivell corresponent tenint en compte els descriptors dels indicadors i les característiques del projecte o programa que s'està avaluant, així com de l'organització que l'ofereix.\n\nCada nivell aporta una puntuació diferent:",
+			"TEXT2": "Per tant:",
+			"TEXT3": "Per identificar en quin grau el projecte o programa avaluat podria incórrer en greenwashing, es sumen els valors obtinguts en cada indicador i la puntuació total indica a quin nivell pertany:",
+			"TITLE": "Com funciona la rúbrica?"
 		},
-		"RUBRIC_FUNCTION_TEXT": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-		"RUBRIC_FUNCTION_TITLE": "Com funciona la rúbrica?",
-		"RUBRIC_USE_TEXT": "",
-		"RUBRIC_USE_TITLE": ""
+		"RUBRIC_USE": {
+			"LIST": {
+				"1": "Quina entitat ha dissenyat/executat/patrocinat el PPEA i quines són les seves característiques",
+				"2": "Quina informació, conceptes, dades i continguts ofereix el PPEA",
+				"3": "Quines són les característiques d’un bon PPEA",
+				"4": "Quines són les principals tècniques de greenwashing"
+			},
+			"TEXT1": "Per poder utilitzar la rúbrica s'han de considerar els següents aspectes:",
+			"TEXT2": "Cal tenir en compte que per a alguns d’aquests aspectes no serà suficient analitzar el PPEA, i s’hauran de consultar, per tant, altres fonts d’informació (Consultar la Guia de Suport Ús Rúbrica).",
+			"TITLE": "Com utilitzar la rúbrica?"
+		}
 	},
 	"RUBRIC": {
 		"BUTTON": "Veure resultats",
