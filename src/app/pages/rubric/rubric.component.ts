@@ -478,10 +478,6 @@ export class RubricComponent {
     }
   }
 
-  protected isDetailsOpen(indicators: RubricIndicator[]): boolean {
-    return indicators.some(indicator => indicator.selectedOptionId === undefined)
-  }
-
   protected isRubricComplete(): boolean {
     return !this.rubric.criteria.every(
       crit => crit.indicators.every(
