@@ -8,6 +8,7 @@
     </a>
     <button
       class="block md:hidden text-blue-600 focus:outline-none"
+      [ngClass]="isMenuOpen ? 'transform transition-all rotate-90 duration-150' : ''"
       (click)="isMenuOpen = !isMenuOpen"
       aria-label="Toggle navigation"
     >
