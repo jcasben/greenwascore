@@ -42,6 +42,7 @@
   }
   <button
     class="p-6 rounded-lg bg-blue-500 text-lg font-semibold text-white cursor-pointer"
+    [ngClass]="isRubricComplete() ? 'opacity-50 cursor-not-allowed pointer-event-none' : ''"
     [disabled]="isRubricComplete()"
     (click)="completeRubric()"
   >
