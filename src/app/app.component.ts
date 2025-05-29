@@ -13,6 +13,11 @@ export class AppComponent {
   constructor(translate: TranslateService) {
     translate.addLangs(['en', 'es', 'cat']);
     const browserLang = translate.getBrowserLang();
+    const localStorageLang = localStorage.getItem('lang');
+    if (localStorageLang) {
+      translate.use(localStorageLang);
+      return;
+    }
     translate.use(browserLang?.match(/en|es|cat/) ? browserLang : 'cat');
   }
 }

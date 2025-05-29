@@ -17,6 +17,10 @@ export class HeaderComponent {
 
   protected changeLang(event: Event) {
     const selectElement = event.target as HTMLSelectElement;
-    this.translate.use(selectElement.value);
+    const lang = selectElement.value;
+
+    localStorage.setItem('lang', lang);
+
+    this.translate.use(lang);
   }
 }
