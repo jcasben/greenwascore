@@ -20,7 +20,7 @@
         @for (indicator of crit.indicators; track indicator.id) {
           <div class="py-4">
             <h6 class="text-lg font-bold pb-2">{{ indicator.labelKey | translate }}</h6>
-            <div class="grid grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-8">
               @for (option of indicator.options; track option.id) {
                 <div
                   class="flex items-center p-4 rounded-lg border-2 border-gray-500 cursor-pointer h-full transition-colors"
