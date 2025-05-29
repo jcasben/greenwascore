@@ -1,4 +1,4 @@
-<main class="py-8 px-64">
+<main class="py-8 px-8 sm:px-14 md:px-24 lg:px-34 xl:px-44 2xl:px-64">
   <h1 class="text-5xl text-blue-500 font-bold">{{ 'RUBRIC.TITLE' | translate }}</h1>
 
   <section class="flex flex-col gap-2 py-6">
@@ -24,7 +24,12 @@
               @for (option of indicator.options; track option.id) {
                 <div
                   class="flex items-center p-4 rounded-lg border-2 border-gray-500 cursor-pointer h-full transition-colors"
-                  [ngClass]="['hover:' + getOptionColor(option.value), indicator.selectedOptionId === option.id ? getOptionColor(option.id) : '']"
+                  [ngClass]="[
+                    option.id === 1 ? 'hover:bg-red-200' : '',
+                    option.id === 2 ? 'hover:bg-yellow-200' : '',
+                    option.id === 3 ? 'hover:bg-green-200' : '',
+                    indicator.selectedOptionId === option.id ? getOptionColor(option.id) : ''
+                  ]"
                   (click)="indicator.selectedOptionId = option.id"
                 >
                   <p>{{ option.labelKey | translate }}</p>
