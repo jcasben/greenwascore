@@ -1,14 +1,32 @@
-<header class="flex flex-row justify-between shadow-md items-center">
-  <a
-    class="p-4 text-3xl text-blue-600 font-bold hover:cursor-pointer"
-    routerLink=""
-  >
-    GreenwaScore
-  </a>
-
-  <nav class="px-4 py-2 space-x-8">
+<header class="flex flex-wrap items-center justify-between shadow-md">
+  <div class="flex gap-2 p-4">
     <a
-      class="navbar-option"
+      class="text-xl lg:text-3xl text-blue-600 font-extrabold hover:cursor-pointer"
+      routerLink=""
+    >
+      GreenwaScore
+    </a>
+    <button
+      class="block md:hidden text-blue-600 focus:outline-none"
+      (click)="isMenuOpen = !isMenuOpen"
+      aria-label="Toggle navigation"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+           viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </div>
+
+
+
+  <nav
+    class="w-full md:w-auto md:flex md:items-center space-y-4 md:space-y-0 md:space-x-8 mt-4 md:mt-0 p-4"
+    [ngClass]="{ 'block': isMenuOpen, 'hidden': !isMenuOpen }"
+  >
+    <a
+      class="block md:inline navbar-option"
       routerLink=""
       routerLinkActive="text-blue-600 font-bold"
       [routerLinkActiveOptions]="{ exact: true }"
@@ -16,28 +34,28 @@
       {{ 'HEADER.NAVBAR.HOME' | translate }}
     </a>
     <a
-      class="navbar-option"
+      class="block md:inline navbar-option"
       routerLink="/rubric"
       routerLinkActive="text-blue-600 font-bold"
     >
       {{ 'HEADER.NAVBAR.RUBRIC' | translate }}
     </a>
     <a
-      class="navbar-option"
+      class="block md:inline navbar-option"
       routerLink="/contact"
       routerLinkActive="text-blue-600 font-bold"
     >
       {{ 'HEADER.NAVBAR.CONTACT' | translate }}
     </a>
-  </nav>
 
-  <select
-    class="rounded-md p-4 m-4"
-    (change)="changeLang($event)"
-    [value]="this.translate.currentLang"
-  >
-    <option value="cat">Català</option>
-    <option value="es">Español</option>
-    <option value="en">English</option>
-  </select>
+    <select
+      class="block md:inline rounded-md py-2 px-1"
+      (change)="changeLang($event)"
+      [value]="this.translate.currentLang"
+    >
+      <option value="cat">Català</option>
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select>
+  </nav>
 </header>
