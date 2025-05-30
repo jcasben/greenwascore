@@ -1,5 +1,5 @@
 import {ApplicationConfig, importProvidersFrom, provideZoneChangeDetection} from '@angular/core';
-import { provideRouter } from '@angular/router';
+import {provideRouter, withInMemoryScrolling} from '@angular/router';
 
 import { routes } from './app.routes';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
@@ -13,7 +13,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes),
+    provideRouter(routes, withInMemoryScrolling({scrollPositionRestoration: "top"})),
     provideHttpClient(),
     importProvidersFrom([TranslateModule.forRoot({
       loader: {
