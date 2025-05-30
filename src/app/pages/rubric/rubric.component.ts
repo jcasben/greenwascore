@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import {Rubric, RubricIndicator} from '../../models/rubric';
+import {Component} from '@angular/core';
+import {Rubric} from '../../models/rubric';
 import {TranslatePipe} from '@ngx-translate/core';
 import {NgClass} from '@angular/common';
 import {FormsModule} from '@angular/forms';

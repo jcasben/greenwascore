@@ -11,7 +11,7 @@ interface RubricCriterion {
   indicators: RubricIndicator[];
 }
 
-export interface RubricIndicator {
+interface RubricIndicator {
   id: number;
   labelKey: string;
   options: RubricOption[];
