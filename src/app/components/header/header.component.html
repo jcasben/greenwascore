@@ -27,26 +27,26 @@
     [ngClass]="{ 'block': isMenuOpen, 'hidden': !isMenuOpen }"
   >
     <a
-      class="block md:inline navbar-option"
-      routerLink=""
-      routerLinkActive="text-blue-600 font-bold"
+      class="navbar-option"
+      routerLink="/"
+      routerLinkActive="navbar-option-active"
       [routerLinkActiveOptions]="{ exact: true }"
     >
       {{ 'HEADER.NAVBAR.HOME' | translate }}
     </a>
     <a
-      class="block md:inline navbar-option"
+      class="navbar-option"
       routerLink="/rubric"
-      routerLinkActive="text-blue-600 font-bold"
+      routerLinkActive="navbar-option-active"
     >
       {{ 'HEADER.NAVBAR.RUBRIC' | translate }}
     </a>
     <a
-      class="block md:inline navbar-option"
-      routerLink="/contact"
-      routerLinkActive="text-blue-600 font-bold"
+      class="navbar-option"
+      routerLink="/evaluations"
+      routerLinkActive="navbar-option-active"
     >
-      {{ 'HEADER.NAVBAR.CONTACT' | translate }}
+      {{ 'HEADER.NAVBAR.EVALUATIONS' | translate }}
     </a>
 
     <select

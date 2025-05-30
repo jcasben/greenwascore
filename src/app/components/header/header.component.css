@@ -1,3 +1,7 @@
 .navbar-option {
-  @apply text-lg text-gray-600 hover:text-blue-500 transition-colors cursor-pointer;
+  @apply block md:inline text-lg text-gray-600 hover:text-blue-500 transition-colors cursor-pointer;
+}
+
+.navbar-option-active {
+  @apply text-blue-600 font-bold;
 }
