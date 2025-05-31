@@ -1,7 +1,12 @@
 {
+	"FOOTER": {
+		"CONTACT": "Contact",
+		"LEGAL": "Legal / Contact",
+		"NAVIGATION": "Navigation"
+	},
 	"HEADER": {
 		"NAVBAR": {
-			"CONTACT": "Contact",
+			"EVALUATIONS": "Evaluations",
 			"HOME": "Home",
 			"RUBRIC": "Rubric"
 		}
