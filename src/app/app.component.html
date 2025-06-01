@@ -3,9 +3,11 @@
   <div class="flex-1 sm:mx-14 md:mx-24 lg:mx-34 xl:mx-44 2xl:mx-64 my-8 px-4">
     <router-outlet />
   </div>
-  <footer class="bg-gray-800 text-white py-8 px-6">
+  <footer
+    class="flex flex-col items-center justify-center gap-8 bg-gray-800 text-white py-8 px-6"
+  >
     <div
-      class="max-w-screen-xl mx-auto grid grid-cols-1 justify-items-center md:grid-cols-4 md:justify-items-start gap-8 items-center"
+      class="max-w-screen-xl mx-auto grid grid-cols-1 justify-items-center md:grid-cols-4 gap-8 items-center"
     >
       <img src="/assets/logo-uib.webp" alt="Logo UIB" class="w-72" />
 
@@ -23,5 +25,9 @@
 
       <img src="/assets/logo-soib.webp" alt="Logo SOIB" class="w-72" />
     </div>
+
+    <p class="text-center md:text-start">
+      {{ "FOOTER.COPYRIGHT" | translate }}
+    </p>
   </footer>
 </main>
