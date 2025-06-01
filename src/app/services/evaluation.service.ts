@@ -9,10 +9,12 @@ import {
   collection,
   collectionData,
   CollectionReference,
+  docData,
   Firestore,
+  getDoc,
 } from "@angular/fire/firestore";
 import { Evaluation } from "../models/evaluation";
-import { Observable } from "rxjs";
+import { from, Observable, switchMap } from "rxjs";
 
 @Injectable({
   providedIn: "root",
@@ -30,9 +32,14 @@ export class EvaluationService {
   }
 
   saveEvaluation(evaluation: Evaluation) {
-    return runInInjectionContext(this.injector, () =>
-      addDoc(this.evaluationsCollection, evaluation),
-    );
+    return runInInjectionContext(this.injector, () => {
+      const docRef$ = from(addDoc(this.evaluationsCollection, evaluation));
+      return docRef$.pipe(
+        switchMap((docRef) => {
+          return docData(docRef, { idField: "id" }) as Observable<Evaluation>;
+        }),
+      );
+    });
   }
 
   getEvaluations(): Observable<Evaluation[]> {

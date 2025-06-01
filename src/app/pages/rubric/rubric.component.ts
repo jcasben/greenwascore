@@ -4,6 +4,9 @@ import { TranslatePipe } from "@ngx-translate/core";
 import { NgClass } from "@angular/common";
 import { FormsModule } from "@angular/forms";
 import { EvaluationService } from "../../services/evaluation.service";
+import { Router } from "@angular/router";
+import { take } from "rxjs";
+import { Evaluation } from "../../models/evaluation";
 
 @Component({
   selector: "app-rubric",
@@ -13,6 +16,7 @@ import { EvaluationService } from "../../services/evaluation.service";
 })
 export class RubricComponent {
   private evaluationService = inject(EvaluationService);
+  private router = inject(Router);
 
   protected rubric = new Rubric();
 
@@ -52,7 +56,7 @@ export class RubricComponent {
     return count;
   }
 
-  protected completeRubric() {
+  protected async completeRubric() {
     const count: Map<number, number> = this.countSelectedOptions();
     let totalResult = 0;
     count.forEach((times, value) => (totalResult += value * times));
@@ -62,10 +66,17 @@ export class RubricComponent {
       plainMap[key] = value;
     });
 
-    this.evaluationService.saveEvaluation({
-      rubric: this.rubric.toPlainObject(),
-      result: totalResult,
-      selectedOptions: plainMap,
-    });
+    this.evaluationService
+      .saveEvaluation({
+        rubric: this.rubric.toPlainObject(),
+        result: totalResult,
+        selectedOptions: plainMap,
+      })
+      .pipe(take(1))
+      .subscribe((data) => {
+        this.router.navigate([`/evaluations/${data.id}`], {
+          state: { evaluation: data },
+        });
+      });
   }
 }
