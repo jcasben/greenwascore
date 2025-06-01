@@ -1,0 +1,26 @@
+<div>
+  @let value = evaluation.result;
+
+  <div class="flex items-center justify-between">
+    <div>
+      <h2 class="text-4xl font-bold">{{ evaluation.rubric.title }}</h2>
+      <h3>Project URL: {{ evaluation.rubric.projectURL }}</h3>
+    </div>
+  </div>
+
+  <hr class="border-2 border-gray-400 my-1 rounded-xl" />
+
+  <div class="my-10">
+    @if (value <= 65) {
+      <h3 class="text-4xl text-red-500 font-extrabold">
+        {{ "RUBRIC.SCORE.1.TITLE" | translate }}
+      </h3>
+      <p>{{ "RUBRIC.SCORE.1.DESCRIPTION" | translate }}</p>
+    } @else if (value >= 65 && value <= 105) {
+      <h3 class="text-4xl text-yellow-500 font-extrabold">
+        {{ "RUBRIC.SCORE.2.TITLE" | translate }}
+      </h3>
+      <p class="text-xl my-4">{{ "RUBRIC.SCORE.2.DESCRIPTION" | translate }}</p>
+    }
+  </div>
+</div>
