@@ -3,7 +3,7 @@
 }
 
 .footer-nav a {
-  @apply hover:text-blue-600 transition-colors;
+  @apply hover:text-blue-600 transition-colors underline;
 }
 
 .footer-nav h4 {
