@@ -1,6 +1,7 @@
 {
 	"FOOTER": {
 		"CONTACT": "Contacte",
+		"COPYRIGHT": "© 2025 Universitat de les Illes Balears. Tots els drets reservats.",
 		"LEGAL": "Legal / Contacte",
 		"NAVIGATION": "Navegació"
 	},
@@ -55,6 +56,13 @@
 			"TEXT1": "Per poder utilitzar la rúbrica s'han de considerar els següents aspectes:",
 			"TEXT2": "Cal tenir en compte que per a alguns d’aquests aspectes no serà suficient analitzar el PPEA, i s’hauran de consultar, per tant, altres fonts d’informació (Consultar la Guia de Suport Ús Rúbrica).",
 			"TITLE": "Com utilitzar la rúbrica?"
+		}
+	},
+	"LEGAL": {
+		"COPYRIGHT": "Aquesta pàgina web va ser desenvolupada per Jesús Castillo, estudiant del Grau en Enginyeria Informàtica de la Universitat de les Illes Balears.\n\nAmb el suport de la Universitat de les Illes Balears – Facultat d’Educació.\n\nLa rúbrica d’anàlisi de programes d’educació ambiental va ser dissenyada per Mireia Costa Bisquerra, investigadora en educació per a la sostenibilitat en el marc del Projecte de contractació: Personal investigador en educació per a la sostenibilitat del programa SOIB Recerca i Innovació – INVESTIGO, amb vinculació a la UIB.",
+		"LICENSE": {
+			"TEXT": "Aquesta rúbrica pot ser utilitzada lliurement amb finalitats educatives i no comercials, sempre que se’n citi correctament la font original.\nEs permet la reproducció, distribució i adaptació per a contextos educatius, investigacions acadèmiques o projectes formatius, sempre que no tinguin finalitats lucratives.\nNo es permet l’ús amb propòsits comercials ni la modificació amb la intenció d’ocultar-ne l’autoria.\n\nSi tens qualsevol dubte sobre com utilitzar aquests recursos, no dubtis a contactar amb nosaltres.\n\nEl codi font d’aquesta pàgina web està disponible sota la Llicència MIT.\nAixò vol dir que pots utilitzar, copiar, modificar i distribuir el codi lliurement per a qualsevol finalitat, sempre que es mantingui l’avís original de copyright.",
+			"TITLE": "Llicència d'ús"
 		}
 	},
 	"RUBRIC": {

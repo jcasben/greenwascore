@@ -1,6 +1,7 @@
 {
 	"FOOTER": {
 		"CONTACT": "Contact",
+		"COPYRIGHT": "© 2025 University of the Balearic Islands. All rights reserved.",
 		"LEGAL": "Legal / Contact",
 		"NAVIGATION": "Navigation"
 	},
@@ -55,6 +56,13 @@
 			"TEXT1": "To use the rubric, the following aspects must be considered:",
 			"TEXT2": "It should be noted that for some of these aspects, analyzing the EEPP itself will not be enough, and therefore other sources of information must be consulted (Refer to the Rubric User Support Guide).",
 			"TITLE": "How to use the rubric?"
+		}
+	},
+	"LEGAL": {
+		"COPYRIGHT": "This website was developed by Jesús Castillo, a student of the Bachelor's Degree in Computer Engineering at the University of the Balearic Islands.\n\nWith the support of the University of the Balearic Islands – Faculty of Education.\n\nThe rubric for analyzing environmental education programs was designed by Mireia Costa Bisquerra, a researcher in education for sustainability, within the framework of the Projecte de contractació: Personal investigador en educació per a la sostenibilitat of the SOIB Research and Innovation – INVESTIGO program, in collaboration with the UIB.",
+		"LICENSE": {
+			"TEXT": "This rubric may be freely used for educational and non-commercial purposes, provided that the original source is properly cited.\nReproduction, distribution, and adaptation are allowed for educational settings, academic research, or training projects, as long as there is no commercial intent.\nCommercial use or modification intended to obscure authorship is not permitted.\n\nIf you have any questions about how to use these resources, please feel free to contact us.\n\nThe source code of this website is available under the MIT License.\nThis means you are free to use, copy, modify, and distribute the code for any purpose, as long as the original copyright notice is preserved.",
+			"TITLE": "Usage license"
 		}
 	},
 	"RUBRIC": {

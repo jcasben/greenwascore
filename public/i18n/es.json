@@ -1,6 +1,7 @@
 {
 	"FOOTER": {
 		"CONTACT": "Contacto",
+		"COPYRIGHT": "© 2025 Universidad de las Islas Baleares. Todos los derechos reservados.",
 		"LEGAL": "Legal / Contacto",
 		"NAVIGATION": "Navegación"
 	},
@@ -55,6 +56,13 @@
 			"TEXT1": "Para poder utilizar la rúbrica se deben considerar los siguientes aspectos:",
 			"TEXT2": "Se debe tener en cuenta que para algunos de estos aspectos no será suficiente analizar el PPEA y se tendrán que consultar, por tanto, otras fuentes de información (Consultar Guía de Apoyo Uso Rúbrica)",
 			"TITLE": "¿Cómo usar la rúbrica?"
+		}
+	},
+	"LEGAL": {
+		"COPYRIGHT": "Esta página web fue desarrollada por Jesús Castillo, estudiante del Grado en Ingeniería Informática de la Universidad de las Islas Baleares. \n\nCon el apoyo de la Universidad de las Isla Baleares – Facultad de Educación.\n\nLa rúbrica de análisis de programas de educación ambiental fue diseñada por Mireia Costa Bisquerra, investigadora en educación para la sostenibilidad en el marco del Projecte de contractació: Personal investigador en educació per a la sostenibilitat del programa SOIB Recerca i Innovació – INVESTIGO, con vinculación a la UIB.",
+		"LICENSE": {
+			"TEXT": "Esta rúbrica puede utilizarse libremente con fines educativos y no comerciales, siempre que se cite adecuadamente la fuente original.\nSe permite su reproducción, distribución y adaptación para contextos educativos, investigaciones académicas o proyectos formativos, siempre que no se haga con fines lucrativos.\nNo se permite su uso con propósitos comerciales ni su modificación con la intención de ocultar la autoría.\n\nSi tienes alguna duda sobre cómo utilizar estos recursos, no dudes en ponerte en contacto con nosotros.\n\nEl código fuente de esta página web está disponible bajo la Licencia MIT.\nEsto significa que puedes utilizar, copiar, modificar y distribuir libremente el código con cualquier propósito, siempre que se mantenga el aviso de copyright original.",
+			"TITLE": "Licencia de uso"
 		}
 	},
 	"RUBRIC": {
