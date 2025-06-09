@@ -1,4 +1,10 @@
 {
+	"EVALUATIONS": {
+		"DETAILS": "Detalls",
+		"EMPTY": "Encara no hi ha avaluacions a la base de dades.",
+		"PROJECT_URL": "URL del projecte:",
+		"TITLE": "Base de dades de avaluacions"
+	},
 	"FOOTER": {
 		"CONTACT": "Contacte",
 		"COPYRIGHT": "© 2025 Universitat de les Illes Balears. Tots els drets reservats.",

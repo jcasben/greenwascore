@@ -3,8 +3,16 @@
 
   <div class="flex items-center justify-between">
     <div>
-      <h2 class="text-4xl font-bold">{{ evaluation.rubric.title }}</h2>
-      <h3>Project URL: {{ evaluation.rubric.projectURL }}</h3>
+      <h2 class="text-5xl font-bold">{{ evaluation.rubric.title }}</h2>
+      <div class="flex gap-2">
+        <p>{{ "EVALUATIONS.PROJECT_URL" | translate }}</p>
+        <a
+          class="text-blue-500 cursor-pointer hover:underline hover:text-blue-700"
+          [href]="evaluation.rubric.projectURL"
+          target="_blank"
+          >{{ evaluation.rubric.projectURL }}</a
+        >
+      </div>
     </div>
   </div>
 
@@ -27,5 +35,9 @@
       </h3>
       <p class="text-xl my-4">{{ "RUBRIC.SCORE.3.DESCRIPTION" | translate }}</p>
     }
+  </div>
+
+  <div>
+    <h3 class="text-3xl">{{ "EVALUATIONS.DETAILS" | translate }}</h3>
   </div>
 </div>

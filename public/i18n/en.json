@@ -1,4 +1,10 @@
 {
+	"EVALUATIONS": {
+		"DETAILS": "Details",
+		"EMPTY": "There aren't evaluations in the database yet.",
+		"PROJECT_URL": "Project URL:",
+		"TITLE": "Evaluations database"
+	},
 	"FOOTER": {
 		"CONTACT": "Contact",
 		"COPYRIGHT": "© 2025 University of the Balearic Islands. All rights reserved.",

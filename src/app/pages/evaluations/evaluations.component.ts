@@ -3,10 +3,11 @@ import { EvaluationService } from "../../services/evaluation.service";
 import { Evaluation } from "../../models/evaluation";
 import { take } from "rxjs";
 import { Router } from "@angular/router";
+import { TranslatePipe } from "@ngx-translate/core";
 
 @Component({
   selector: "app-evaluations",
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: "./evaluations.component.html",
   styleUrl: "./evaluations.component.css",
 })
