@@ -20,52 +20,48 @@
 	},
 	"HOME": {
 		"ABOUT_PROJECT": {
-			"TEXT": "Aquest projecte neix amb la intenció de donar resposta a una preocupació cada vegada més present: les campanyes i programes que es presenten com d'educació ambiental (EA), però que en realitat no ho són. Sovint, darrere d'una imatge \"verda\", s'amaguen pràctiques empresarials o organitzatives poc sostenibles o que no segueixen una ètica ambiental. Això s'anomena greenwashing o \"rentat verd\".\n\nEl greenwashing és una tècnica de comunicació d'informació ambiental enganyosa, falsa o incompleta per part d'empreses, organitzacions i institucions, que pretenen transmetre una imatge de sostenibilitat i responsabilitat ambiental que no es correspon amb les seves pràctiques reals.\nEl rentat verd es pot manifestar de diverses formes. En els darrers anys, aquesta pràctica també ha arribat a l'àmbit educatiu i està entrant perillosament a les aules. Diverses empreses de diferents sectors, com l'energètic o la gestió de residus, ofereixen programes i materials educatius que, sota una aparença de compromís ambiental, podrien estar transmetent missatges esbiaixats o alineats amb els seus propis interessos.\n\nAmb aquest projecte, des del Grup de Recerca en Educació Ambiental per a la Sostenibilitat (GREAS, en les seves sigles en català) de la Universitat de les Illes Balears (UIB), desenvolupat parcialment en el marc del programa SOIB Recerca i Innovació, hem creat una eina pràctica que ajuda a identificar si un programa, projecte o activitat d’EA promou realment valors sostenibles o si simplement busca millorar la imatge verda d’una entitat.",
+			"TEXT": "El projecte GreenWaScore neix amb la intenció de donar resposta a una preocupació cada vegada més present: les campanyes i programes que es presenten com d'educació ambiental (EA), però que poden ser d'una dubtosa qualitat educativa. Sovint, darrere d'una imatge \"verda\", s'amaguen pràctiques empresarials o organitzatives poc sostenibles o que  d'ètica ambiental. Pràctica coneguda com greenwashing o \"rentat verd\".\n\nEl greenwashing és una tècnica de comunicació d'informació ambiental enganyosa, falsa o incompleta per part d'empreses, organitzacions i institucions, que pretenen transmetre una imatge de sostenibilitat i responsabilitat ambiental que no es correspon amb les seves pràctiques reals.\n\nAmb aquest projecte, des del Grup de Recerca en Educació Ambiental per a la Sostenibilitat (GREAS) de la Universitat de les Illes Balears (UIB), desenvolupat parcialment en el marc del programa SOIB Recerca i Innovació - INVESTIGO, hem creat una eina pràctica que ajuda a identificar si un programa, projecte o activitat d’EA promou valors de sostenibilitat o si simplement busca millorar la imatge verda d’una entitat.",
 			"TITLE": "Què és aquest projecte?"
 		},
 		"PROJECT_OBJECTIVES": {
 			"OBJECTIVE_LIST": {
-				"1": "Donar a conèixer el greenwashing com una pràctica educativa enganyosa.",
-				"2": "Oferir una eina pràctica, útil i accessible, en forma de rúbrica, per analitzar i avaluar la qualitat de campanyes i programes d’educació ambiental.",
-				"3": "Donar suport al professorat en actiu i en formació en la presa de decisions informades a l’hora de seleccionar recursos educatius, promovent una educació ambiental de qualitat, crítica i coherent amb els principis de la sostenibilitat."
+				"1": "Donar a conèixer les característiques del greenwashing com pràctica educativa enganyosa.",
+				"2": "Oferir una eina pràctica, útil i accessible en forma de rúbrica per analitzar i avaluar la qualitat de projectes i programes d’educació ambiental.",
+				"3": "Ajudar al professorat (en actiu i en formació) i a educadors/es ambientals en la presa de decisions informades a l’hora de seleccionar recursos educatius per la sostenibilitat ambiental, promovent una educació ambiental de qualitat, crítica i coherent amb els principis de la sostenibilitat."
 			},
-			"TEXT": "Aquest projecte té com a objectius principals:",
+			"TEXT": "El projecte GreenWaScore té com a objectius principals:",
 			"TITLE": "Quins son els seus objectius?"
 		},
 		"RUBRIC_FUNCTION": {
 			"LIST1": {
-				"1": "Incorre en greenwashing: 1 punt",
-				"2": "Podria incórrer en greenwashing: 2 punts",
-				"3": "No incorre en greenwashing: 3 punts"
-			},
-			"LIST2": {
-				"1": "Mínim total possible: 43 (tots els indicadors amb 1 punt)",
-				"2": "Màxim total possible: 129 (tots amb 3 punts)"
-			},
-			"LIST3": {
-				"1": "Incorre en greenwashing: 43–65",
-				"2": "Podria incórrer en greenwashing: 66–105",
-				"3": "No incorre en greenwashing: 106–129"
-			},
-			"TEXT1": "La rúbrica és fàcil d'utilitzar i serveix per analitzar de manera crítica projectes i programes d'educació ambiental (PPEA). Consta de tres nivells d'execució qualitatius (incorre en greenwashing, podria incórrer en greenwashing, no incorre en greenwashing) i 43 indicadors dividits en 8 criteris. Per a cadascun dels indicadors, s'ha de triar el nivell corresponent tenint en compte els descriptors dels indicadors i les característiques del projecte o programa que s'està avaluant, així com de l'organització que l'ofereix.\n\nCada nivell aporta una puntuació diferent:",
-			"TEXT2": "Per tant:",
-			"TEXT3": "Per identificar en quin grau el projecte o programa avaluat podria incórrer en greenwashing, es sumen els valors obtinguts en cada indicador i la puntuació total indica a quin nivell pertany:",
-			"TITLE": "Com funciona la rúbrica?"
-		},
-		"RUBRIC_USE": {
-			"LIST": {
 				"1": "Quina entitat ha dissenyat/executat/patrocinat el PPEA i quines són les seves característiques",
 				"2": "Quina informació, conceptes, dades i continguts ofereix el PPEA",
 				"3": "Quines són les característiques d’un bon PPEA",
 				"4": "Quines són les principals tècniques de greenwashing"
 			},
-			"TEXT1": "Per poder utilitzar la rúbrica s'han de considerar els següents aspectes:",
-			"TEXT2": "Cal tenir en compte que per a alguns d’aquests aspectes no serà suficient analitzar el PPEA, i s’hauran de consultar, per tant, altres fonts d’informació (Consultar la Guia de Suport Ús Rúbrica).",
-			"TITLE": "Com utilitzar la rúbrica?"
+			"LIST2": {
+				"1": "Incorre en greenwashing: 1 punt",
+				"2": "Podria incórrer en greenwashing: 2 punts",
+				"3": "No incorre en greenwashing: 3 punts"
+			},
+			"LIST3": {
+				"1": "Mínim total possible: 43 (tots els indicadors amb 1 punt)",
+				"2": "Màxim total possible: 129 (tots amb 3 punts)"
+			},
+			"LIST4": {
+				"1": "Incorre en greenwashing: 43–65",
+				"2": "Podria incórrer en greenwashing: 66–105",
+				"3": "No incorre en greenwashing: 106–129"
+			},
+			"TEXT1": "La rúbrica és fàcil d'utilitzar i serveix per analitzar de manera crítica projectes i programes d'educació ambiental (PPEA). Consta de tres nivells d'execució qualitatius (incorre en greenwashing, podria incórrer en greenwashing, no incorre en greenwashing) i 43 indicadors dividits en 8 criteris. Per a cadascun dels indicadors, s'ha de triar el nivell corresponent tenint en compte els descriptors dels indicadors i les característiques del projecte o programa que s'està avaluant, així com de l'organització que l'ofereix.\n\nCada nivell aporta una puntuació diferent:",
+			"TEXT2": "S'ha de tenir en compte que per a alguns d'aquests aspectes no serà suficient analitzar el PPEA i s'hauran de consultar, per tant, altres fonts d'informació (Consultar Guia de Suport Ús Rúbrica).\n\nEn analitzar el PPEA s'ha de determinar de cada criteri i d'acord amb els descriptors de cada indicador, quin nivell d'execució li correspondria al PPEA. Cada nivell aporta una puntuació distinta:",
+			"TEXT3": "Per tant:",
+			"TEXT4": "Per identificar en quin grau el PPEA avaluat podria incórrer en greenwashing, es sumen els valors obtinguts en cada indicador i la puntuació total determinarà a quin nivell pertany:",
+			"TITLE": "Com utilitzar l'eina?"
 		}
 	},
 	"LEGAL": {
-		"COPYRIGHT": "Aquesta pàgina web va ser desenvolupada per Jesús Castillo, estudiant del Grau en Enginyeria Informàtica de la Universitat de les Illes Balears.\n\nAmb el suport de la Universitat de les Illes Balears – Facultat d’Educació.\n\nLa rúbrica d’anàlisi de programes d’educació ambiental va ser dissenyada per Mireia Costa Bisquerra, investigadora en educació per a la sostenibilitat en el marc del Projecte de contractació: Personal investigador en educació per a la sostenibilitat del programa SOIB Recerca i Innovació – INVESTIGO, amb vinculació a la UIB.",
+		"COPYRIGHT": "Aquesta pàgina web va ser desenvolupada per Jesús Castillo, estudiant del Grau en Enginyeria Informàtica de la Universitat de les Illes Balears.\n\nAmb el suport de la Universitat de les Illes Balears – Facultat d’Educació.\n\nLa rúbrica d’anàlisi de programes d’educació ambiental va ser dissenyada per el Grup d' Investigació d'Educació Ambiental per la Sostenibilidtat de la Universitat de les Illes Balears en el marc del Programa SOIB Recerca i Innovació - Investigo.",
 		"LICENSE": {
 			"TEXT": "Aquesta rúbrica pot ser utilitzada lliurement amb finalitats educatives i no comercials, sempre que se’n citi correctament la font original.\nEs permet la reproducció, distribució i adaptació per a contextos educatius, investigacions acadèmiques o projectes formatius, sempre que no tinguin finalitats lucratives.\nNo es permet l’ús amb propòsits comercials ni la modificació amb la intenció d’ocultar-ne l’autoria.\n\nSi tens qualsevol dubte sobre com utilitzar aquests recursos, no dubtis a contactar amb nosaltres.\n\nEl codi font d’aquesta pàgina web està disponible sota la Llicència MIT.\nAixò vol dir que pots utilitzar, copiar, modificar i distribuir el codi lliurement per a qualsevol finalitat, sempre que es mantingui l’avís original de copyright.",
 			"TITLE": "Llicència d'ús"

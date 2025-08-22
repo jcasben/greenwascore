@@ -20,52 +20,48 @@
 	},
 	"HOME": {
 		"ABOUT_PROJECT": {
-			"TEXT": "This project was born out of a growing concern: campaigns and programs that claim to be environmental education (EE) but, in reality, are not. Often, behind a \"green\" image, there are business or organizational practices that are not sustainable or do not follow environmental ethics. This is known as greenwashing.\n\nGreenwashing is a communication technique used to share misleading, false, or incomplete environmental information by companies, organizations, and institutions that seek to convey an image of sustainability and environmental responsibility that does not align with their actual practices.\nGreenwashing can take many forms. In recent years, this practice has also entered the field of education and is increasingly making its way into classrooms. Various companies from different sectors, such as energy or waste management, offer educational programs and materials that, under the guise of environmental commitment, may be promoting biased messages aligned with their own interests.\n\nWith this project, from the Environmental Education for Sustainability Research Group (GREAS, by its Catalan acronym) at the University of the Balearic Islands (UIB), developed in part under the SOIB Research and Innovation program, we have created a practical tool that helps identify whether an EE program, project, or activity genuinely promotes sustainable values or is simply trying to enhance an entity’s green image.",
+			"TEXT": "The GreenWaScore project was created with the intention of responding to a growing concern: campaigns and programs that are presented as environmental education (EE) but may be of dubious educational quality. Often, behind a “green” image, there are business or organizational practices that are unsustainable or lack environmental ethics. This practice is known as greenwashing.\n\nGreenwashing is a technique used by companies, organizations, and institutions to communicate misleading, false, or incomplete environmental information in order to convey an image of sustainability and environmental responsibility that does not correspond to their actual practices.\n\nWith this project, the Environmental Education for Sustainability Research Group (GREAS) at the University of the Balearic Islands (UIB), developed in part within the framework of the SOIB Research and Innovation - INVESTIGO program, has created a practical tool that helps identify whether an EE program, project, or activity promotes sustainability values or simply seeks to improve an entity's green image.",
 			"TITLE": "What is this project?"
 		},
 		"PROJECT_OBJECTIVES": {
 			"OBJECTIVE_LIST": {
-				"1": "Raise awareness of greenwashing as a misleading educational practice.",
-				"2": "Provide a practical, useful, and accessible tool, in the form of a rubric, to analyze and evaluate the quality of environmental education campaigns and programs.",
-				"3": "Support both current and future teachers in making informed decisions when selecting educational resources, promoting high-quality, critical environmental education that aligns with sustainability principles."
+				"1": "Raise awareness of greenwashing characteristics as a misleading educational practice.",
+				"2": "Provide a practical, useful, and accessible tool in the form of a rubric to analyze and evaluate the quality of environmental education projects and programs.",
+				"3": "To assist teachers (active or in training) and environmental educators in making informed decisions when selecting educational resources for environmental sustainability, promoting high-quality environmental education that is critical and consistent with the principles of sustainability."
 			},
-			"TEXT": "This project has the following main objectives:",
+			"TEXT": "This GreenWaScore project has the following main objectives:",
 			"TITLE": "Which are its objectives?"
 		},
 		"RUBRIC_FUNCTION": {
 			"LIST1": {
-				"1": "Engages in greenwashing: 1 point",
-				"2": "Might engage in greenwashing: 2 points",
-				"3": "Does not engage in greenwashing: 3 points"
-			},
-			"LIST2": {
-				"1": "Minimum total score: 43 (all indicators score 1 point)",
-				"2": "Maximum total score: 129 (all indicators score 3 points)"
-			},
-			"LIST3": {
-				"1": "Engages in greenwashing: 43–65",
-				"2": "Might engage in greenwashing: 66–105",
-				"3": "Does not engage in greenwashing: 106–129"
-			},
-			"TEXT1": "The rubric is easy to use and serves to critically analyze environmental education projects and programs (EEPPs). It consists of three qualitative performance levels (engages in greenwashing, might engage in greenwashing, does not engage in greenwashing) and 43 indicators divided into 8 criteria. For each indicator, one must choose the appropriate level based on the indicator descriptors and the characteristics of the project or program being evaluated, as well as the organization offering it.\n\nEach level provides a different score:",
-			"TEXT2": "Therefore:",
-			"TEXT3": "To determine the extent to which the evaluated project or program may be engaging in greenwashing, the values assigned to each indicator are added, and the total score indicates the level:",
-			"TITLE": "How does the rubric work?"
-		},
-		"RUBRIC_USE": {
-			"LIST": {
 				"1": "Which entity has designed/executed/sponsored the EEPP (Environmental Education Project or Program) and its characteristics",
 				"2": "What information, concepts, data, and content the EEPP provides",
 				"3": "What are the characteristics of a good EEPP",
 				"4": "What are the main greenwashing techniques"
 			},
-			"TEXT1": "To use the rubric, the following aspects must be considered:",
-			"TEXT2": "It should be noted that for some of these aspects, analyzing the EEPP itself will not be enough, and therefore other sources of information must be consulted (Refer to the Rubric User Support Guide).",
-			"TITLE": "How to use the rubric?"
+			"LIST2": {
+				"1": "Engages in greenwashing: 1 point",
+				"2": "Might engage in greenwashing: 2 points",
+				"3": "Does not engage in greenwashing: 3 points"
+			},
+			"LIST3": {
+				"1": "Minimum total score: 43 (all indicators score 1 point)",
+				"2": "Maximum total score: 129 (all indicators score 3 points)"
+			},
+			"LIST4": {
+				"1": "Engages in greenwashing: 43–65",
+				"2": "Might engage in greenwashing: 66–105",
+				"3": "Does not engage in greenwashing: 106–129"
+			},
+			"TEXT1": "The rubric is easy to use and serves to critically analyze environmental education projects and programs (EEPPs). It consists of three qualitative performance levels (engages in greenwashing, might engage in greenwashing, does not engage in greenwashing) and 43 indicators divided into 8 criteria. For each indicator, one must choose the appropriate level based on the indicator descriptors and the characteristics of the project or program being evaluated, as well as the organization offering it.\n\nEach level provides a different score:",
+			"TEXT2": "It should be noted that for some of these aspects, it will not be sufficient to analyze the PPEA, and other sources of information will therefore have to be consulted (see Support Guide for Using the Rubric).\n\nWhen analyzing the PPEA, it is necessary to determine, for each criterion and in accordance with the descriptors for each indicator, what level of implementation would correspond to the PPEA. Each level contributes a different score:",
+			"TEXT3": "Therefore:",
+			"TEXT4": "To determine the extent to which the evaluated EEAP may be engaging in greenwashing, the values assigned to each indicator are added, and the total score will determine the level:",
+			"TITLE": "How to use the tool?"
 		}
 	},
 	"LEGAL": {
-		"COPYRIGHT": "This website was developed by Jesús Castillo, a student of the Bachelor's Degree in Computer Engineering at the University of the Balearic Islands.\n\nWith the support of the University of the Balearic Islands – Faculty of Education.\n\nThe rubric for analyzing environmental education programs was designed by Mireia Costa Bisquerra, a researcher in education for sustainability, within the framework of the Projecte de contractació: Personal investigador en educació per a la sostenibilitat of the SOIB Research and Innovation – INVESTIGO program, in collaboration with the UIB.",
+		"COPYRIGHT": "This website was developed by Jesús Castillo, a student of the Bachelor's Degree in Computer Engineering at the University of the Balearic Islands.\n\nWith the support of the University of the Balearic Islands – Faculty of Education.\n\nThe rubric for analyzing environmental education programs was designed by the Environmental Education Research Group for Sustainability at the University of the Balearic Islands within the framework of the SOIB Research and Innovation Program - Investigo.",
 		"LICENSE": {
 			"TEXT": "This rubric may be freely used for educational and non-commercial purposes, provided that the original source is properly cited.\nReproduction, distribution, and adaptation are allowed for educational settings, academic research, or training projects, as long as there is no commercial intent.\nCommercial use or modification intended to obscure authorship is not permitted.\n\nIf you have any questions about how to use these resources, please feel free to contact us.\n\nThe source code of this website is available under the MIT License.\nThis means you are free to use, copy, modify, and distribute the code for any purpose, as long as the original copyright notice is preserved.",
 			"TITLE": "Usage license"
