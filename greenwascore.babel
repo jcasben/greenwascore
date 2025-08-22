@@ -123,7 +123,7 @@
 								</translations>
 							</concept_node>
 							<concept_node>
-								<name>COPYRIGHT</name>
+								<name>LEGAL</name>
 								<description/>
 								<comment/>
 								<translations>
@@ -142,7 +142,7 @@
 								</translations>
 							</concept_node>
 							<concept_node>
-								<name>LEGAL</name>
+								<name>LICENSE</name>
 								<description/>
 								<comment/>
 								<translations>
