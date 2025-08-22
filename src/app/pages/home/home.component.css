@@ -3,7 +3,7 @@
 }
 
 .card {
-  @apply p-4 border-2 border-blue-500 rounded-lg shadow-lg;
+  @apply p-4 border-2 border-blue-500 rounded-lg shadow-lg text-gray-600;
 }
 
 ul {
