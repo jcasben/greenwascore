@@ -6,7 +6,7 @@ import { NgClass } from "@angular/common";
 
 @Component({
   selector: "app-evaluation-detail",
-  imports: [TranslatePipe, NgClass],
+  imports: [TranslatePipe],
   templateUrl: "./evaluation-detail.component.html",
   styleUrl: "./evaluation-detail.component.css",
 })
