@@ -1,7 +1,20 @@
 .navbar-option {
-  @apply block md:inline text-lg text-gray-600 hover:text-blue-500 transition-colors cursor-pointer;
+  @apply relative block md:inline text-lg text-gray-600 transition-colors cursor-pointer;
+}
+
+.navbar-option::after {
+  content: "";
+  @apply absolute left-0 bottom-0 w-0 h-[2px] bg-green-500 transition-all duration-300;
+}
+
+.navbar-option:hover::after {
+  @apply w-full;
 }
 
 .navbar-option-active {
-  @apply text-blue-600 font-bold;
+  @apply text-green-600 font-semibold;
+}
+
+.navbar-option-active::after {
+  @apply w-full;
 }
