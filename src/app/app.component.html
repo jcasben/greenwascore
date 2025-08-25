@@ -1,23 +1,26 @@
 <main class="flex flex-col min-h-screen">
   <app-header />
-  <div class="flex-1 sm:mx-14 md:mx-24 lg:mx-34 xl:mx-44 2xl:mx-72 my-8 px-4">
+
+  <div
+    class="flex-1 sm:px-14 md:px-24 lg:px-34 xl:px-44 2xl:px-72 py-8 px-4"
+    [ngClass]="[router.url === '/' ? 'bg-gradient-to-b from-white to-green-100' : 'bg-gray-50']"
+  >
     <router-outlet />
   </div>
+
   <footer
-    class="flex flex-col items-center justify-center gap-8 bg-gray-800 text-white py-8 px-6"
+    class="flex flex-col items-center justify-center gap-8 bg-gray-900 text-gray-300 py-12 px-6 border-t border-gray-700"
   >
     <div
-      class="max-w-screen-xl mx-auto grid grid-cols-1 justify-items-center md:grid-cols-4 gap-8 items-center"
+      class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 w-full text-center md:text-left items-start"
     >
-      <img src="/assets/logo-uib.webp" alt="Logo UIB" class="w-40" />
+      <img src="/assets/logo-soib.webp" alt="Logo SOIB" class="w-40 mx-auto md:mx-0" />
 
       <nav class="footer-nav">
         <h4>{{ "FOOTER.NAVIGATION" | translate }}</h4>
         <a routerLink="/">{{ "HEADER.NAVBAR.HOME" | translate }}</a>
         <a routerLink="/rubric">{{ "HEADER.NAVBAR.RUBRIC" | translate }}</a>
-        <a routerLink="/evaluations">{{
-          "HEADER.NAVBAR.EVALUATIONS" | translate
-        }}</a>
+        <a routerLink="/evaluations">{{ "HEADER.NAVBAR.EVALUATIONS" | translate }}</a>
       </nav>
 
       <nav class="footer-nav">
@@ -26,9 +29,9 @@
         <a routerLink="/contact">{{ "FOOTER.CONTACT" | translate }}</a>
       </nav>
 
-      <img src="/assets/logo-soib.webp" alt="Logo SOIB" class="w-40" />
+      <img src="/assets/logo-uib.webp" alt="Logo UIB" class="w-40 mx-auto md:mx-0" />
     </div>
 
-    <img src="/assets/logo-cc.png" alt="Logo Creative Commons" class="w-40" />
+    <img src="/assets/logo-cc.png" alt="Logo Creative Commons" class="w-32 opacity-80 hover:opacity-100 transition" />
   </footer>
 </main>

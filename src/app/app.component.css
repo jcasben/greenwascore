@@ -1,11 +1,12 @@
 .footer-nav {
-  @apply flex flex-col gap-2 justify-center text-center md:text-start md:justify-start;
+  @apply flex flex-col gap-2 justify-center text-center md:text-start md:justify-start space-y-2;
 }
 
 .footer-nav a {
-  @apply hover:text-blue-600 transition-colors underline;
+  @apply hover:text-green-400 transition-colors;
 }
 
 .footer-nav h4 {
-  @apply text-lg font-bold;
+  @apply text-sm font-semibold uppercase tracking-wide text-gray-400;
 }
+
