@@ -1,6 +1,6 @@
-<main class="max-w-4xl mx-auto px-6 py-10 space-y-10">
+<main class="max-w-4xl mx-auto px-6 py-10 space-y-10 animate-fadeInUp">
   <h1
-    class="text-4xl md:text-5xl font-extrabold text-green-600"
+    class="text-4xl md:text-5xl font-extrabold text-green-600 text-center"
   >
     {{ "RUBRIC.TITLE" | translate }}
   </h1>
@@ -11,7 +11,7 @@
           "RUBRIC.PROJECT_NAME" | translate
         }}</span>
       <input
-        class="rubric-input w-full border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-2"
+        class="rubric-input w-full border border-gray-300 rounded-md px-3 py-2 mt-1"
         [(ngModel)]="rubric.title"
       />
     </label>
@@ -20,7 +20,7 @@
           "RUBRIC.PROJECT_URL" | translate
         }}</span>
       <input
-        class="rubric-input w-full border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-2"
+        class="rubric-input w-full border border-gray-300 rounded-md px-3 py-2 mt-1"
         [(ngModel)]="rubric.projectURL"
       />
     </label>

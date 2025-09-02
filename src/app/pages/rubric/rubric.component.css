@@ -1,5 +1,5 @@
 .rubric-input {
-  @apply text-2xl border-4 rounded-md p-2 focus:border-green-400;
+  @apply text-2xl border-4 rounded-md p-2 focus:border-green-500 focus:outline-none;
 }
 
 .rubric-label {
