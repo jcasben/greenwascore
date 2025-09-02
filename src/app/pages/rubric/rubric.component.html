@@ -1,67 +1,93 @@
-<main>
-  <h1 class="text-5xl text-blue-500 font-bold">
+<main class="max-w-4xl mx-auto px-6 py-10 space-y-10">
+  <h1
+    class="text-4xl md:text-5xl font-extrabold text-green-600"
+  >
     {{ "RUBRIC.TITLE" | translate }}
   </h1>
 
-  <section class="flex flex-col gap-2 py-6">
-    <label>
-      <span class="rubric-label">{{ "RUBRIC.PROJECT_NAME" | translate }}</span>
-      <input class="rubric-input" [(ngModel)]="rubric.title" />
+  <section class="bg-white shadow-md rounded-lg p-6 space-y-4">
+    <label class="block">
+      <span class="rubric-label block text-sm font-semibold text-gray-700">{{
+          "RUBRIC.PROJECT_NAME" | translate
+        }}</span>
+      <input
+        class="rubric-input w-full border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-2"
+        [(ngModel)]="rubric.title"
+      />
     </label>
-    <label>
-      <span class="rubric-label">{{ "RUBRIC.PROJECT_URL" | translate }}</span>
-      <input class="rubric-input" [(ngModel)]="rubric.projectURL" />
+    <label class="block">
+      <span class="rubric-label block text-sm font-semibold text-gray-700">{{
+          "RUBRIC.PROJECT_URL" | translate
+        }}</span>
+      <input
+        class="rubric-input w-full border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-2"
+        [(ngModel)]="rubric.projectURL"
+      />
     </label>
   </section>
 
   @for (crit of rubric.criteria; track crit.id) {
-    <details class="py-4" open>
-      <summary class="text-3xl font-extrabold cursor-pointer">
-        {{ crit.labelKey | translate }}
+    <details
+      class="group border border-gray-300 rounded-lg shadow-sm overflow-hidden"
+      open
+    >
+      <summary
+        class="cursor-pointer bg-gray-100 px-6 py-4 text-2xl font-bold flex justify-between items-center hover:bg-gray-200 transition"
+      >
+        <span>{{ crit.labelKey | translate }}</span>
+        <span
+          class="text-gray-500 group-open:rotate-180 transform transition-transform"
+        >⌄</span
+        >
       </summary>
-      <h5 class="text-xl text-gray-700">
-        {{ crit.descriptionKey | translate }}
-      </h5>
 
-      @for (indicator of crit.indicators; track indicator.id) {
-        <div class="py-4">
-          <h6 class="text-lg font-bold pb-2">
-            {{ indicator.labelKey | translate }}
-          </h6>
-          <div
-            class="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-8"
-          >
-            @for (option of indicator.options; track option.id) {
-              <div
-                class="flex items-center p-4 rounded-lg border-2 border-gray-500 cursor-pointer h-full transition-colors"
-                [ngClass]="[
-                  option.id === 1 ? 'hover:bg-red-200' : '',
-                  option.id === 2 ? 'hover:bg-yellow-200' : '',
-                  option.id === 3 ? 'hover:bg-green-200' : '',
-                  indicator.selectedOptionId === option.id
-                    ? getOptionColor(option.id)
-                    : '',
-                ]"
-                (click)="indicator.selectedOptionId = option.id"
-              >
-                <p>{{ option.labelKey | translate }}</p>
-              </div>
-            }
+      <div class="p-6 space-y-6">
+        <h5 class="text-lg text-gray-600">
+          {{ crit.descriptionKey | translate }}
+        </h5>
+
+        @for (indicator of crit.indicators; track indicator.id) {
+          <div class="space-y-4">
+            <h6 class="text-base font-semibold text-gray-800">
+              {{ indicator.labelKey | translate }}
+            </h6>
+
+            <div class="grid grid-cols-1 gap-6">
+              @for (option of indicator.options; track option.id) {
+                <div
+                  class="flex items-center justify-center text-center p-6 rounded-lg border-2 cursor-pointer transition transform hover:scale-105"
+                  [ngClass]="[
+                    option.id === 1 ? 'hover:bg-red-100' : '',
+                    option.id === 2 ? 'hover:bg-yellow-100' : '',
+                    option.id === 3 ? 'hover:bg-green-100' : '',
+                    indicator.selectedOptionId === option.id
+                      ? getOptionColor(option.id)
+                      : 'border-gray-300'
+                  ]"
+                  (click)="indicator.selectedOptionId = option.id"
+                >
+                  <p class="font-medium">{{ option.labelKey | translate }}</p>
+                </div>
+              }
+            </div>
           </div>
-        </div>
-      }
+        }
+      </div>
     </details>
   }
-  <button
-    class="p-6 rounded-lg bg-blue-500 text-lg font-semibold text-white cursor-pointer"
-    [ngClass]="
-      isRubricComplete()
-        ? 'opacity-50 cursor-not-allowed pointer-event-none'
-        : ''
-    "
-    [disabled]="isRubricComplete()"
-    (click)="completeRubric()"
-  >
-    {{ "RUBRIC.BUTTON" | translate }}
-  </button>
+
+  <div class="flex justify-center">
+    <button
+      class="px-8 py-4 rounded-lg bg-green-600 hover:bg-green-700 text-lg font-semibold text-white shadow-md transition w-full md:w-auto"
+      [ngClass]="
+        isRubricComplete()
+          ? 'opacity-50 cursor-not-allowed pointer-event-none'
+          : ''
+      "
+      [disabled]="isRubricComplete()"
+      (click)="completeRubric()"
+    >
+      {{ "RUBRIC.BUTTON" | translate }}
+    </button>
+  </div>
 </main>
