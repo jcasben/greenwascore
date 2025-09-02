@@ -1,484 +1,498 @@
 {
-	"EVALUATIONS": {
-		"DETAILS": "Detalles",
-		"EMPTY": "Aún no hay evaluaciones en la base de datos.",
-		"PROJECT_URL": "URL del proyecto:",
-		"TITLE": "Base de datos de evaluaciones"
-	},
-	"FOOTER": {
-		"CONTACT": "Contacto",
-		"LEGAL": "Legal / Contacto",
-		"LICENSE": "Licencia",
-		"NAVIGATION": "Navegación"
-	},
-	"HEADER": {
-		"NAVBAR": {
-			"EVALUATIONS": "Evaluaciones",
-			"HOME": "Inicio",
-			"RUBRIC": "Rúbrica"
-		}
-	},
-	"HOME": {
-		"ABOUT_PROJECT": {
-			"TEXT": "El proyecto GreenWaScore nace con la intención de dar respuesta a una preocupación cada vez más presente: las campañas y programas que se presentan como de educación ambiental (EA), pero que pueden ser de dudosa calidad educativa. A menudo, detrás de una imagen \"verde\", se esconden prácticas empresariales u organizativas poco sostenibles o que carecen de ética ambiental. Práctica que se conoce como greenwashing o “lavado verde”.\n\nEl greenwashing es una técnica de comunicación de información ambiental engañosa, falsa o incompleta por parte de empresas, organizaciones e instituciones, que pretenden transmitir una imagen de sostenibilidad y responsabilidad medioambiental pero que no se corresponde con sus prácticas reales.\n\nCon este proyecto, desde el Grupo de Investigación de Educación Ambiental para la Sostenibilidad (GREAS) de la Universitat de les Illes Balears (UIB), desarrollado parcialmente en el marco del programa SOIB Recerca i Innovació - INVESTIGO , hemos creado una herramienta práctica que ayuda a identificar si un programa, proyecto o actividad de EA promueve valores de sostenibilidad o si simplemente busca mejorar la imagen verde de una entidad.",
-			"TITLE": "¿Qué es este proyecto?"
-		},
-		"PROJECT_OBJECTIVES": {
-			"OBJECTIVE_LIST": {
-				"1": "Dar a conocer las características del greenwashing como práctica educativa engañosa.",
-				"2": "Ofrecer una herramienta práctica, útil y accesible en forma de rúbrica para analizar y evaluar la calidad de proyectos y programas de educación ambiental.",
-				"3": "Ayudar al profesorado (en activo o en formación) y a los educadores/as ambientales en la toma de decisiones informadas al seleccionar recursos educativos para la sostenibilidad ambiental, promoviendo una educación ambiental de calidad, crítica y coherente con los principios de sostenibilidad."
-			},
-			"TEXT": "El proyecto GreenWaScore tiene como objetivos principales:",
-			"TITLE": "¿Cuáles son sus objetivos?"
-		},
-		"RUBRIC_FUNCTION": {
-			"LIST1": {
-				"1": "Qué entidad ha diseñado/ejecutado/patrocinado el PPEA y las características de ésta",
-				"2": "Qué información, conceptos, datos y contenidos ofrece el PPEA",
-				"3": "Cuáles son las características de un buen PPEA",
-				"4": "Cuáles son las principales técnicas de greenwashing"
-			},
-			"LIST2": {
-				"1": "Incurre en greenwashing: 1 punto",
-				"2": "Podría incurrir en greenwashing: 2 puntos",
-				"3": "No incurre en greenwashing: 3 puntos"
-			},
-			"LIST3": {
-				"1": "Mínimo total posible: 43 (todos los indicadores con 1 punto)",
-				"2": "Máximo total posible: 129 (todos con 3 puntos)"
-			},
-			"LIST4": {
-				"1": "Incurre en greenwashing: 43–65",
-				"2": "Podría incurrir en greenwashing: 66–105",
-				"3": "No incurre en greenwashing: 106–129"
-			},
-			"TEXT1": "La herramienta diseñada es una rúbrica con la que se analizan críticamente proyectos y programas de educación ambiental (PPEA). Consta de 8 criterios divididos en 43 indicadores y de tres niveles de ejecución cualitativos (\"Incurre en greenwashing\", \"Podría incurrir en greenwashing\", \"No incurre en greenwashing\"). Para cada uno de los indicadores se debe elegir el nivel al que pertenece teniendo en cuenta los descriptores de los indicadores y las características del proyecto o programa que se está evaluando, así como de la organización que lo ofrece.\n\nPara poder utilizar la rúbrica se deben considerar los siguientes aspectos:",
-			"TEXT2": "Se debe tener en cuenta que para algunos de estos aspectos no será suficiente analizar el PPEA y se tendrán que consultar, por tanto, otras fuentes de información (Consultar\nGuía de Apoyo Uso Rúbrica).\n\nAl analizar el PPEA se debe determinar de cada criterio y de acuerdo con los descriptores de cada indicador, qué nivel de ejecución le correspondería al PPEA. Cada nivel aporta una puntuación distinta:",
-			"TEXT3": "Por tanto:",
-			"TEXT4": "Para identificar en qué grado el PPEA que se está evaluando podría incurrir en greenwashing, se sumaran los valores obtenidos en cada indicador y la puntuación total determinará a qué nivel pertenece, siendo los rangos:",
-			"TITLE": "¿Cómo utilizar la herramienta?"
-		}
-	},
-	"LEGAL": {
-		"COPYRIGHT": "Esta página web fue desarrollada por Jesús Castillo, estudiante del Grado en Ingeniería Informática de la Universidad de las Islas Baleares. \n\nCon el apoyo de la Universidad de las Isla Baleares – Facultad de Educación.\n\nLa rúbrica de análisis de programas de educación ambiental fue diseñada por el Grupo de Investigación de Educación Ambiental para la Sostenibilidad de la Universitat de les Illes Balears en el marco del Programa SOIB Recerca i Innovació - Investigo.",
-		"LICENSE": {
-			"TEXT": "Esta rúbrica puede utilizarse libremente con fines educativos y no comerciales, siempre que se cite adecuadamente la fuente original.\nSe permite su reproducción, distribución y adaptación para contextos educativos, investigaciones académicas o proyectos formativos, siempre que no se haga con fines lucrativos.\nNo se permite su uso con propósitos comerciales ni su modificación con la intención de ocultar la autoría.\n\nSi tienes alguna duda sobre cómo utilizar estos recursos, no dudes en ponerte en contacto con nosotros.\n\nEl código fuente de esta página web está disponible bajo la Licencia MIT.\nEsto significa que puedes utilizar, copiar, modificar y distribuir libremente el código con cualquier propósito, siempre que se mantenga el aviso de copyright original.",
-			"TITLE": "Licencia de uso"
-		}
-	},
-	"RUBRIC": {
-		"BUTTON": "Ver resultados",
-		"CRITERIA": {
-			"1": {
-				"DESCRIPTION": "En ocasiones, entidades y/o empresas que no se dedican a la EA, el medio ambiente o la educación en general (fundaciones, entidades sin ánimo de lucro, bancos o cajas…) patrocinan, diseñan y/o ejecutan programas. Consideramos que las finalidades y objetivos de los PPEA deberían coincidir con la misión y los valores de la entidad o empresa que patrocina, diseña y/o ejecuta el programa. Este criterio podría contribuir a identificar el greenwashing, si no existiera una relación clara entre la misión y los valores de la entidad o empresa y aquello que se trabaja con el programa",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "Se integran los principios de sostenibilidad, aunque estos se alejan o no están vinculados con la actividad económica principal de la empresa",
-							"2": "No se puede identificar de forma clara la integración de los principios de sostenibilidad",
-							"3": "Se integran los principios de sostenibilidad y además son coherentes con la actividad económica principal de la empresa"
-						},
-						"TITLE": "1.1.¿La misión y los valores descritos por la entidad integran los principios de sostenibilidad"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "Se establecen funciones de sensibilización, formación o educación, aunque a través de empresas/entidades secundarias o fundaciones propias, intentándolas alejar de la idea de la actividad principal de la entidad",
-							"2": "No se establecen o no se pueden identificar entre sus funciones la sensibilización, formación o educación en relación con la problemática tratada, ni de manera directa ni indirecta",
-							"3": "Se establece la sensibilización, formación o educación como una de sus funciones principales y ésta es consciente y transparente en su posible contribución a la problemática ambiental que se trata en el PPEA"
-						},
-						"TITLE": "1.2.¿Establece la entidad entre sus funciones la sensibilización, la formación o la educación en relación con la problemática socioambiental del PPEA?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "La entidad muestra en sus comunicaciones corporativas actividades seleccionadas de forma interesada, omitiendo los aspectos negativos o de insostenibilidad de estas; o afirma en su plan de sostenibilidad que sus actividades son coherentes con los principios de sostenibilidad y que está comprometida con ellos, pero esta información carece de pruebas objetivas, no se puede justificar con otra información de fácil acceso o no presenta una aprobación fiable por parte de terceros",
-							"2": "La entidad no muestra en sus comunicaciones corporativas si sus actividades son coherentes con los principios de sostenibilidad; o en su plan de sostenibilidad no realiza afirmaciones relacionadas con la actividad",
-							"3": "La entidad muestra en sus comunicaciones corporativas coherencia entre sus actividades y los principios de sostenibilidad. Los datos están justificados por terceros en su plan de sostenibilidad"
-						},
-						"TITLE": "1.3.¿Las actividades de la entidad son coherentes con los principios de sostenibilidad?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "La entidad afirma su compromiso ambiental con uno o varios problemas ambientales, pero su actividad principal contribuye de forma directa y negativa a estos.",
-							"2": "La entidad no informa sobre su compromiso ambiental con uno o varios problemas ambientales; o sí lo hace, pero su actividad principal contribuye indirectamente a estos",
-							"3": "La entidad se constituyó para abordar problemáticas socioambientales y es coherente en sus actividades, avalando su preocupación por estos temas."
-						},
-						"TITLE": "1.4. ¿Se identifica una clara coherencia interna entre el tema que se aborda con el PPEA y las características de la entidad que lo patrocina, diseña o ejecuta?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "La misión de la entidad se vincula con el problema ambiental que se trata en el PPEA, pero no se hace de forma transparente (no informa de su contribución al problema) o propone soluciones frente al problema a largo plazo",
-							"2": "La misión de la entidad se vincula con el problema ambiental que se trata en el PPEA, pero no comunica su contribución a este a pesar de que es consciente de que su actividad contribuye negativamente al problema, por eso propone soluciones objetivas e intenta disminuir su impacto",
-							"3": "La misión de la entidad se vincula directa o indirectamente con la problemática ambiental que se trata en el PPEA. La entidad se fundó para sensibilizar y abordar las problemáticas socioambientales y es coherente en sus actividades, avalando su preocupación por estos temas y proponiendo soluciones a corto y largo plazo para enfrentarlo."
-						},
-						"TITLE": "1.5. ¿El PPEA da respuesta a una necesidad detectada que está claramente contemplada dentro de la misión de la entidad que lo patrocina, diseña o ejecuta?"
-					}
-				},
-				"TITLE": "1. La coherencia entre la actividad principal de la entidad y los objetivos y contenidos del Plan y/o Programa de Educación Ambiental (PPEA) que se patrocina, diseña y/o ejecuta"
-			},
-			"2": {
-				"DESCRIPTION": "A menudo, los PPEA que se diseñan podrían no suponer una evidencia demostrada sobre los beneficios que la entidad comporta para el tema o problema que se trabaja y son más bien reclamos elaborados para vender una imagen verde. La entidad utiliza términos vacíos de contenido (p.ej. ecofriendly, basuraleza, etc) o información o términos excesivamente científicos que solamente pueden ser entendidos por especialistas en la materia, de modo que pueden llevar a la confusión o al engaño. Este criterio podría contribuir a identificar el greenwashing, en el caso de que el PPEA no mejore o trabaje una situación ambiental, si no que suponga, más bien, un beneficio para la entidad y confunde o engaña a los/as destinatarios/as del PPEA",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "La entidad proporciona información sobre sus actividades, pero esta información carece de pruebas objetivas (no se puede justificar con otra información de fácil acceso o no presenta una aprobación fiable por parte de terceros) o es una información sesgada (se selecciona la información en relación con el tema del programa de forma interesada: omite los aspectos negativos en relación con su actividad principal)",
-							"2": "La entidad no proporciona información sobre sus actividades",
-							"3": "La entidad proporciona información sobre sus actividades y éstas suponen una evidencia demostrada sobre los beneficios que comporta la entidad frente al tema o problema que se trabaja con el PPEA"
-						},
-						"TITLE": "2.1. ¿Proporciona la entidad información sobre sus actividades de forma objetiva y está respaldada por datos medibles que se relacionan con el tema del programa 2 ?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "Utiliza un lenguaje con excesivos tecnicismos, y términos vacíos de contenido (ecofriendly, crecimiento sostenible, ecodiseño, biocombustible…) y/o términos discutibles (ej. huella de carbono individual para evadir la responsabilidad colectiva y proponer soluciones individuales)",
-							"2": "Utiliza un lenguaje comprensible para las personas destinatarias, con algunos tecnicismos, aunque también se distinguen algunos términos vacíos de contenido (ecofriendly, crecimiento sostenible, ecodiseño, biocombustible…) o términos discutibles (huella de carbono individual)",
-							"3": "Utiliza un lenguaje comprensible para las personas destinatarias, con un uso correcto de tecnicismos y sin utilizar términos vacíos de contenido (ecofriendly, crecimiento sostenible, ecodiseño, biocombustible…) o términos discutibles (huella de carbono a título individual)"
-						},
-						"TITLE": "2.2. ¿Presenta la entidad información utilizando un lenguaje técnico en relación con el tema que se trabaja y éste es comprensible por todas las personas 3 ?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "Los valores que la entidad difunde en el PPEA se reflejan en sus memorias anuales o de RSC, pero estos no presentan una concordancia con la actividad principal de la entidad (afirma sucompromiso con algún problema ambiental, pero, por otro lado, está contribuyendo negativamente con sus actividades)",
-							"2": "Los valores que la entidad difunde en el PPEA no se reflejan en sus memorias anuales o de RSC",
-							"3": "Los valores que la entidad difunde en el PPEA son coherentes con la información aportada en sus memorias anuales o de RSC (información completa, clara, aprobada por terceros, etc.)"
-						},
-						"TITLE": "2.3. ¿Presenta la entidad información relativa a los valores que difunde en el PPEA en sus memorias anuales o en sus memorias de Responsabilidad Social Corporativa (RSC)?"
-					}
-				},
-				"TITLE": "2. La veracidad de la información que la entidad o empresa patrocinadora, diseñadora o ejecutora ofrece de sí misma y del PPEA"
-			},
-			"3": {
-				"DESCRIPTION": "Consideramos que los PPEA deberían partir de un estudio previo o de un diagnóstico de una situación o problemática ambiental que además se relacione con las necesidades de las personas destinatarias. Este criterio podría servir para identificar el greenwashing y para valorar la calidad de un PPEA, ya que se diseñaría con una finalidad clara de sensibilizar y educar para cambiar una situación o abordar una problemática.",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "Se aporta algún tipo de información sobre las causas del problema que se está tratando, pero no se justifica la elección del tema y por qué es importante o urgente y/o las consecuencias reales de no actuar (afirma que existe un problema, pero dando a entender que hay mucho margen de actuación y que las consecuencias aún no se están experimentando)",
-							"2": "No se aportan o se aportan muy pocos datos sobre la situación del problema (causas y consecuencias) para justificar la elección del tema (trata algunos de los principales problemas ambientales- cambio climático, residuos, energía, etc.- de forma superficial, sin indagar en su urgencia)",
-							"3": "Se justifica la elección del problema a tratar aportando información de forma clara y detallada sobre las causas y consecuencias del problema y las implicaciones de no actuar."
-						},
-						"TITLE": "3.1. ¿Se dispone de información y/o de datos en el PPEA sobre la situación que hace que se considere necesario realizarlo?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "El PPEA aporta información ambigua (de carácter global y sin datos numéricos específicos; no se contextualiza adecuadamente el origen del problema ni su situación actual; o los datos disponibles son incompletos o provienen de fuentes no fiables 4 ) u omite información para no contextualizar el origen del problema que se está tratando, así como su situación actual. Este hecho dificulta la valoración realista del impacto del programa",
-							"2": "El PPEA carece de datos que contextualicen el origen del problema o su situación actual o, si los hay, estos están incompletos o no se mencionan las fuentes, lo cual dificulta la valoración del impacto del programa",
-							"3": "El PPEA aporta datos tanto cualitativos como cuantitativos que sirven para contextualizar el origen del problema que se está tratando, así como su situación actual, de modo que pueden utilizarse para realizar una valoración realista del impacto del programa"
-						},
-						"TITLE": "3.2. ¿Se dispone en el PPEA de datos cualitativos y cuantitativos que lo sitúan (punto de partida) y lo contextualizan (local y global), y que son utilizados más adelante para realizar una valoración del impacto del PPEA?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "El PPEA está diseñado exclusivamente para alumnado de diferentes niveles educativos (educación formal) pero no se analizan ni consideran sus características de partida (particularidades locales, socioculturales, diferentes capacidades de aprendizaje, etc.)",
-							"2": "El PPEA está diseñado para un determinado público destinatario (alumnado de diferentes niveles educativos, colectivos, familias, etc.), pero no se analizan ni consideran sus características de partida (particularidades individuales, culturales y locales de los destinatarios, así como sus capacidades) y por tanto no está adaptado a éstos",
-							"3": "El PPEA está diseñado para un determinado público destinatario (alumnado de diferentes niveles educativos, colectivos, familias, etc.), y además se analizan y consideran sus características de partida (particularidades individuales, culturales y locales)"
-						},
-						"TITLE": "3.3. ¿Se identifica a las personas destinatarias del PPEA y, en el caso de estar destinado a un sector amplio de la población, se identifican ciertos subgrupos diana sobre los cuales se centra prioritariamente el PPEA?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "El programa reconoce ciertas características de los participantes (nivel de alfabetización ambiental, contexto sociocultural, nivel educativo…) y toma ventaja de ello adaptando parcialmente sus actividades o enfoques para sus propios intereses",
-							"2": "El programa reconoce ciertas características de los participantes (nivel de alfabetización ambiental) y adapta parcialmente sus actividades o enfoques para la resolución de la problemática que se trabaja en el programa",
-							"3": "El programa reconoce todas las características de los participantes (nivel de alfabetización ambiental) y adapta sus actividades o enfoques para la resolución de la problemática que se trabaja en el programa"
-						},
-						"TITLE": "3.4.¿Se definen las características propias de las personas destinatarias, respecto a la apropiación de la necesidad del programa: participación, obstáculos, retos y/o desconocimiento?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "El contenido del programa se presenta considerando el nivel de conocimientos o las ideas previas de las personas participantes, de modo que se puede aprovechar esta falta de conocimiento (de ideas, de creencias, errores, ...) para introducir ideas que pueden ser imprecisas o sesgadas, no verificadas o alejadas de la realidad",
-							"2": "El contenido del programa se presenta sin tener en cuenta los conocimientos o ideas previas de las personas participantes, de modo que el programa introduce algunas ideas sin verificar, pero existe al menos un intento de generar reflexión crítica, aunque este sea limitado.",
-							"3": "El contenido del programa se presenta teniendo en cuenta los conocimientos o ideas previas de las personas participantes, para tratar de generar una reflexión crítica"
-						},
-						"TITLE": "3.5.¿Se parte de los conocimientos o ideas previas de quienes participan?"
-					}
-				},
-				"TITLE": "3. Un diagnóstico sobre la necesidad del PPEA de resolver problemáticas socioambientales relacionadas con las personas destinatarias"
-			},
-			"4": {
-				"DESCRIPTION": "Los PPEA deberían describir sus objetivos y contenidos y establecer una coherencia entre sí. Además, deberían responder a los objetivos y características de la EA y, por tanto, promover una educación a favor del medio. Este criterio delimitaría la calidad de un PPEA y ayudaría a la identificación del greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "Los objetivos no están claramente formulados y no presentan una intencionalidad clara para la resolución de la problemática que se trabaja. Además, no son fácilmente alcanzables y su secuenciación presenta algunas irregularidades que podrían dificultar la implementación efectiva.",
-							"2": "Los objetivos no están claramente formulados y no presentan una intencionalidad clara para la resolución de la problemática que se trabaja. Pueden ser alcanzables, pero su secuenciación presenta algunas irregularidades que podrían dificultar la implementación efectiva",
-							"3": "Los objetivos están claramente formulados y presentan una intencionalidad clara para la resolución de la problemática que se trabaja. Además, son fácilmente alcanzables y su secuenciación facilita una implementación efectiva."
-						},
-						"TITLE": "4.1.¿Se presenta una buena formulación de objetivos, así como su intencionalidad y secuenciación 5 ?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "Los contenidos (o las competencias) se abordan fundamentalmente desde el área conceptual, aunque de forma sesgada (la selección de la información en relación con el tema del programa se hace de forma interesada), y éstos no se vinculan directamente con la resolución del problema que se aborda en el PPEA, o si se hace, la capacitación práctica para la acción se basa en la responsabilidad individual y no en la colectiva",
-							"2": "Los contenidos (o las competencias) no abordan de forma clara las áreas conceptuales, procedimentales y actitudinales. No se presenta una clara conexión entre los contenidos conceptuales, procedimentales y actitudinales o éstos no se vinculan directamente con la resolución del problema que se aborda en el PPEA. En caso de una capacitación práctica para la acción, ésta se basa en la responsabilidad individual y no en la colectiva",
-							"3": "Los contenidos (o las competencias) se abordan desde el área conceptual, procedimental y actitudinal y estos se vinculan directamente con la resolución del problema que se aborda en el PPEA. Se realiza una capacitación práctica para la acción basada en la responsabilidad colectiva"
-						},
-						"TITLE": "4.2. ¿Se dispone de una buena concreción y formulación de contenidos conceptuales, procedimentales y actitudinales y/o competencias en relación con los objetivos?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "Los objetivos no están formulados de manera clara, son demasiado generales, lo que impide su verificación o evaluación efectiva. No se han diseñado indicadores de evaluación claros ni medibles, o los que se han propuesto no son adecuados para medir de manera objetiva los avances hacia los objetivos",
-							"2": "Los objetivos no están formulados de manera clara y la estrategia de evaluación es inexistente o inadecuada (no se han diseñado indicadores de evaluación), lo que impide realizar una evaluación efectiva.",
-							"3": "Los objetivos están formulados de manera clara, específica y comprensible, lo que facilita su verificación y evaluación. Se ha diseñado una estrategia de evaluación adecuada, con indicadores precisos, medibles y cuantificables, que están alineados con los objetivos y permiten medir su progreso o logro de forma objetiva."
-						},
-						"TITLE": "4.3. ¿Son los objetivos fácilmente verificables y evaluables 6 ?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "Los objetivos no están claramente relacionados con la actividad de la entidad y la relación con los problemas ambientales abordados en el programa es mínima, vaga o incluso contradictoria. La conexión entre la labor de la entidad y los desafíos ambientales no fomenta una reflexión crítica sobre el impacto de esa actividad en el medio ambiente.",
-							"2": "Los objetivos están relacionados con la actividad de la entidad de manera general, pero la relación con los problemas ambientales abordados en el programa no es completamente clara. La conexión entre la labor de la entidad y los desafíos ambientales no fomenta una reflexión crítica sobre el impacto de esa actividad en el medio ambiente.",
-							"3": "Los objetivos están claramente relacionados con la actividad de la entidad. La conexión entre la labor de la entidad y los desafíos ambientales que trata es transparente con sus acciones. Se fomenta la reflexión crítica sobre la propia actividad de la entidad, invitando a los participantes a evaluar y cuestionar sus acciones"
-						},
-						"TITLE": "4.4. ¿Se describen objetivos orientados a la reflexión crítica de la actividad de la entidad que patrocina, diseña o ejecuta el PPEA?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "Los objetivos del programa no están alineados con los objetivos propios de la EA. Los contenidos proporcionan información sesgada (omite datos, no se mencionan los impactos negativos, etc.) y carecen de fuentes claras. Está enfocado a un nivel educativo determinado, pero no se tienen en cuenta las realidades socioeconómicas y culturales de los participantes",
-							"2": "Los objetivos del programa no están completamente alineados con los objetivos propios de la EA. Los contenidos proporcionan información veraz (aunque no la suficiente), pero sin mencionar las fuentes. Está enfocado a un determinado público destinatario, pero no se tienen en cuenta las realidades socioeconómicas y culturales de éste",
-							"3": "Los objetivos del programa están completamente alineados con los objetivos propios de la EA. Los contenidos proporcionan información veraz, contrastada y con fuentes fiables. Está enfocado a un determinado público destinatario y se tiene en cuenta las realidades socioeconómicas y culturales de éste"
-						},
-						"TITLE": "4.5. ¿Se incorporan objetivos 7 y contenidos propios de la EA y relevantes en el contexto donde se desarrolla el programa?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "Los objetivos se relacionan fundamentalmente con el aprender a saber (cognitivos) y la selección del tema que se trabaja en el PPEA se hace de forma interesada. Además, no incluye objetivos procedimentales ni emocionales",
-							"2": "No se incluyen adecuadamente objetivos que aborden las tres dimensiones del aprendizaje. La falta de atención a una o más áreas limita la efectividad del programa y su capacidad para promover un aprendizaje integral.",
-							"3": "Los objetivos abordan las tres dimensiones del aprendizaje (cognitiva, procedimental y emocional) de manera equilibrada y significativa. Se favorece tanto la adquisición de conocimientos como el desarrollo de habilidades y actitudes o emociones, vinculados con la realidad de los participantes, garantizando un aprendizaje integral y transferible para la resolución de las problemáticas que se trabajan."
-						},
-						"TITLE": "4.6. ¿Se incluyen objetivos relacionados con el aprender a saber (cognitivos: hechos y conceptos), aprender a saber hacer (procedimentales: habilidades) y aprender a saber ser y saber convivir (emocionales: actitudes)?"
-					},
-					"7": {
-						"OPTIONS": {
-							"1": "Los contenidos no abordan adecuadamente el aprendizaje activo ni proporcionan suficientes herramientas para que las personas participantes puedan actuar frente a los problemas ambientales. Los contenidos son teóricos, descontextualizados o demasiado generales, sin una clara conexión con las necesidades ambientales locales, lo que limita la aplicabilidad del aprendizaje.",
-							"2": "Los contenidos abordan algunos aspectos relacionados con el aprendizaje activo y la resolución de problemas, pero su conexión con la realidad local no es completamente clara o está parcialmente desarrollada. Se presentan conceptos y herramientas para afrontar los problemas ambientales, pero las personas participantes pueden no alcanzar suficiente capacitación para aplicar esas soluciones de manera efectiva.",
-							"3": "Los contenidos abordan aspectos relacionados con el aprendizaje activo y la resolución de problemas, y se conectan de forma clara con la realidad local. Se presentan conceptos y herramientas para afrontar los problemas ambientales y las personas participantes pueden contar con la suficiente capacitación para aplicar esas soluciones de manera efectiva."
-						},
-						"TITLE": "4.7. ¿Se incluyen contenidos relacionados con el aprender a actuar, fomentando la capacitación para afrontar problemas y responder a las necesidades reales del contexto en el cual se trabaja?"
-					}
-				},
-				"TITLE": "4. Unos objetivos y unos contenidos definidos claramente en el PPEA"
-			},
-			"5": {
-				"DESCRIPTION": "Un PPEA debería disponer de un cronograma de actividades en el cual se trabajen y secuencien los objetivos y contenidos que se promueven con el programa o proyecto y que se adecúe a las características de las personas destinatarias del PPEA. Este criterio delimitaría la calidad de un PPEA y ayudaría a la identificación del greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "El programa presenta una temporalización clara; pero no se observa una secuenciación lógica de las actividades.",
-							"2": "El programa no presenta una temporalización clara y no se observa una secuencia completamente lógica de las actividades",
-							"3": "El programa presenta una temporalización clara y se observa una secuencia completamente lógica de las actividades"
-						},
-						"TITLE": "5.1. ¿Se dispone de un método de trabajo con una secuencia de actividades bien planificadas y temporalizadas?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "La metodología es parcialmente coherente con los objetivos del programa, pero hay indicios de falta de profundidad o sesgo en la información proporcionada. Aunque las actividades están relacionadas con los objetivos, algunos contenidos no se abordan de manera completa o equilibrada, y existe cierta falta de transparencia en la presentación de la información. Las actividades pueden fomentar la reflexión, pero esta es superficial o limitada, y no siempre se relacionan con una acción real",
-							"2": "La metodología muestra una coherencia general con los objetivos del programa, pero existen áreas donde la profundidad o el enfoque de la información son limitados. Aunque las actividades están relacionadas con los objetivos, algunos contenidos no se desarrollan con suficiente detalle o equilibrio, y la presentación de la información podría carecer de claridad o ser parcial. Las actividades pueden fomentar la reflexión, pero ésta es en algunos casos superficial o no completamente vinculada a acciones concretas, lo que limita la efectividad del programa para generar un cambio real",
-							"3": "La metodología es totalmente coherente con los objetivos del programa. Se profundiza en la información que se aporta, la cual es veraz y proviene de fuentes fiables. Las actividades están relacionadas con los objetivos y todos los contenidos se abordan de manera completa y equilibrada, con total transparencia en la presentación de la información. Las actividades fomentan una reflexión crítica"
-						},
-						"TITLE": "5.2. ¿La metodología de trabajo utilizada es coherente con los objetivos planteados?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "Se dispone de un plan de actividades desarrollado exclusivamente para alumnado (educación formal), pero sin distinguir específicamente entre niveles educativos, por tanto, hay algunas actividades que no se adecúan a las características de éste y no se ofrecen otras alternativas para adaptar esas actividades a la diversidad de los participantes",
-							"2": "Se dispone de un plan de actividades desarrollado para un público objetivo genérico, por tanto, hay algunas actividades que no se adecúan a las características de éste y no se ofrecen otras alternativas para adaptar esas actividades a la diversidad de los participantes",
-							"3": "Se dispone de un plan de actividades desarrollado para un determinado público objetivo y las actividades se adecúan a las características de éste, ya que se ofrecen alternativas para adaptarse a la diversidad de los participantes"
-						},
-						"TITLE": "5.3. ¿Se dispone de un plan de actividades que presenta un formato bien adaptado y adecuado a las características del público objetivo destinatario?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "La metodología se focaliza en la transmisión de información sobre la problemática socioambiental, pero con limitaciones en cuanto a la reflexión crítica o a la participación activa. Si bien hay un enfoque en la mejora de las relaciones sociales con el entorno, no siempre se logran establecer vínculos significativos entre los participantes y la problemática socioambiental.",
-							"2": "La metodología se focaliza en la transmisión de información sobre la problemática ambiental e intenta promover la reflexión crítica, la comunicación social y la participación activa; pero no siempre se logran establecer vínculos significativos entre los participantes y la problemática socioambiental.",
-							"3": "La metodología no solo se focaliza en la comprensión de información sobre la problemática ambiental, sino que también promueve la reflexión crítica, la comunicación social y la participación activa. Además, se logra establecer vínculos significativos entre los participantes y la problemática socioambiental."
-						},
-						"TITLE": "5.4. ¿La metodología utilizada (en las actividades) se orienta a la comprensión, la reflexión, la comunicación social y la acción, en la mejora de las relaciones sociales que establecemos con nuestro entorno local y global?"
-					}
-				},
-				"TITLE": "5. Un plan de actividades coherente con los objetivos y contenidos del PPEA"
-			},
-			"6": {
-				"DESCRIPTION": "La metodología de los programas o proyectos de EA debería fomentar el análisis de la complejidad y las visiones ambientales y sociales de los problemas o temas ambientales, desarrollar habilidades de acción basadas en el pensamiento crítico y no basarse solamente en la transmisión de conocimientos. Este criterio delimitaría la calidad de un PPEA y ayudaría a la identificación del greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "El PPEA y sus actividades integran únicamente las visiones ambientales, sin integrar la calidad de vida y los límites planetarios con estas visiones. Los problemas ambientales no se presentan como consecuencia directa de las actividades del ser humano y su resolución se enfoca únicamente desde la responsabilidad individual. El programa no presenta un enfoque integral ni ofrece herramientas para reflexionar sobre los efectos de las decisiones políticas, económicas y sociales en el medio ambiente.",
-							"2": "El PPEA y sus actividades integran las visiones ambientales y sociales de forma limitada, integrando de forma parcial la calidad de vida y los limites planetarios. Los problemas ambientales se presentan como consecuencia directa de las actividades del ser humano, pero su resolución se enfoca únicamente desde la responsabilidad individual. El programa presenta un enfoque incompleto y no ofrece herramientas para reflexionar sobre los efectos de las decisiones políticas, económicas y sociales en el medio ambiente",
-							"3": "El PPEA y sus actividades integran las visiones ambientales y sociales de forma holística, integrando la relación de estas con la calidad de vida y los límites planetarios. Los problemas ambientales se presentan como consecuencia directa de las actividades del ser humano, subrayándose la responsabilidad individual y colectiva en su resolución. El programa presenta un enfoque integral y ofrece herramientas para reflexionar sobre los efectos de las decisiones políticas, económicas y sociales en el medio ambiente."
-						},
-						"TITLE": "6.1. ¿Se incorporan análisis de la complejidad, las visiones ambientales y sociales y su relación entre la calidad de vida y los límites planetarios?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "Los contenidos del PPEA tienen en cuenta las características de las personas participantes (conocimientos previos, nivel educativo, currículum), y aunque la información está adaptada a éstas, puede ser sesgada o utilizar términos vacíos de contenido (ecofriendly, crecimiento sostenible, ecodiseño, biocombustible…) o discutibles (ej, huella de carbono individual para evadir la responsabilidad colectiva y proponer soluciones individuales)",
-							"2": "Los contenidos del PPEA tienen en cuenta ciertas características de las personas participantes (conocimientos previos, nivel educativo) y, aunque la información puede estar parcialmente adaptada a estas características, ésta presenta demasiados tecnicismos que dificultan su comprensión",
-							"3": "Los contenidos del PPEA tienen en cuenta las características de las personas participantes (conocimientos previos, nivel educativo, currículum, ámbito socioeconómico y cultural, etc.), ofreciendo información veraz, verificada y fácilmente comprensible."
-						},
-						"TITLE": "6.2. ¿Se identifican contenidos adecuados a las características de las personas destinatarias?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "El programa describe métodos específicos para cada nivel educativo y/o los diferentes actores y actrices destinatarias y, aunque se incluyen ejemplos prácticos o actividades que se puedan implementar en los diferentes contextos educativos, éstas tienen por finalidad algunas acciones proambientales de carácter individual",
-							"2": "El programa describe métodos específicos para cada nivel educativo y/o los diferentes actores y actrices destinatarias que incluyen ejemplos prácticos o actividades que se puedan implementar en los diferentes contextos educativos, pero éstas no tienen por finalidad promover acciones proambientales",
-							"3": "El programa describe métodos específicos para cada nivel educativo y/o los diferentes actores y actrices destinatarias que incluyen ejemplos prácticos o actividades que se puedan implementar en los diferentes contextos educativos con la finalidad de llevar a cabo acciones proambientales individuales o colectivas"
-						},
-						"TITLE": "6.3. ¿Se refleja la aplicabilidad para cada nivel educativo y/o para los diferentes actores y actrices destinatarias?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "El PPEA estudia las temáticas fundamentalmente ambientales, dejando de lado la dimensión social, y aunque el análisis se realiza a diferentes escalas, pone el foco en el contexto global y su problemática como base del aprendizaje.",
-							"2": "El PPEA parte del estudio de las temáticas socioambientales en diferentes escalas, poniendo el foco en el contexto global y su problemática como base del aprendizaje",
-							"3": "El PPEA parte del estudio de temáticas socioambientales en diferentes escalas, poniendo el foco en el contexto cercano y su problemática como base para el aprendizaje"
-						},
-						"TITLE": "6.4. ¿Se parte del estudio de temáticas socioambientales propias y/o cercanas?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "El PPEA puede utilizar una metodología de trabajo colaborativo en la que las personas participantes interactúan y comparten ideas para la resolución de problemas fundamentalmente ambientales, pero sin utilizar la reflexión crítica ni la búsqueda de soluciones conjuntas innovadoras",
-							"2": "El PPEA puede utilizar una metodología de trabajo colaborativo en la que las personas participantes interactúan y comparten ideas para la resolución de problemas socioambientales mediante la reflexión crítica, pero carece de una búsqueda de soluciones",
-							"3": "El PPEA utiliza una metodología de trabajo colaborativo en la que las personas participantes interactúan y comparten ideas para la resolución de problemas socioambientales mediante la reflexión crítica y la búsqueda de soluciones conjuntas innovadoras"
-						},
-						"TITLE": "6.5. ¿La metodología utilizada ayuda a desarrollar habilidades de acción basadas en el pensamiento crítico y creativo y en la construcción colectiva del conocimiento?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "En el PPEA se reflejan de forma sesgada o ambigua las actividades desarrolladas por la entidad, dificultando establecer la relación de éstas en su papel para la contribución o mitigación de las problemáticas, fundamentalmente ambientales, que se trabajan con el programa",
-							"2": "En el PPEA no se reflejan las actividades desarrolladas por la entidad, dificultando establecer la relación de éstas en su papel para la contribución o mitigación de las problemáticas socioambientales que se trabajan con el programa",
-							"3": "En el PPEA se reflejan las actividades desarrolladas por la entidad y cómo ésta contribuye o mitiga las problemáticas socioambientales que se trabajan con el programa"
-						},
-						"TITLE": "6.6. ¿La metodología invita al análisis crítico de las actividades desarrolladas por la entidad que diseña, promociona o ejecuta el PPEA?"
-					},
-					"7": {
-						"OPTIONS": {
-							"1": "La metodología utilizada en el PPEA evita la reflexión y, aunque se propone un compromiso para la resolución de la problemática ambiental trabajada, éste se enfoca únicamente en la responsabilidad individual del público destinatario.",
-							"2": "La metodología utilizada en el PPEA invita a la reflexión y al compromiso, considerando prioritariamente la responsabilidad individual del público destinatario (cambio de hábitos)",
-							"3": "La metodología utilizada en el PPEA invita a la reflexión y al compromiso, considerando tanto la responsabilidad individual del público destinatario (cambio de hábitos) como la responsabilidad colectiva (gubernamental) para la resolución de la problemática socioambiental trabajada"
-						},
-						"TITLE": "6.7. ¿La metodología utilizada supone comprometerse y ejecutar acciones para mejorar la problemática socioambiental trabajada?"
-					}
-				},
-				"TITLE": "6. Unos métodos coherentes con los fines de la EA"
-			},
-			"7": {
-				"DESCRIPTION": "Un buen programa o proyecto de EA debe contar con los recursos humanos, materiales y económicos suficientes y de calidad para su ejecución y que deben ser coherentes con los principios de sostenibilidad ambiental y justicia social. Este criterio delimitaría la calidad de un PPEA y ayudaría a la identificación del greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "En el PPEA se describe de forma incompleta o vaga quién integra el equipo educativo y sus competencias profesionales relacionadas con la educación ambiental",
-							"2": "En el PPEA no se describe quién integra el equipo educativo ni sus competencias profesionales relacionadas con la educación ambiental",
-							"3": "En el PPEA se describe y se puede verificar que el equipo educativo es interdisciplinario y cuenta con las competencias profesionales necesarias para la educación ambiental."
-						},
-						"TITLE": "7.1. ¿Se describen los recursos humanos y éstos son suficientes y tienen la capacidad adecuada para la planificación y el desarrollo del programa 8 ?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "El equipo educativo es estable, pero no dispone de oportunidades ni facilidades para su formación continua y reciclaje profesional",
-							"2": "El equipo educativo es inestable y no dispone de oportunidades ni facilidades para su formación continua y reciclaje profesional",
-							"3": "El equipo educativo es estable y sus condiciones laborales y profesionales son adecuadas al trabajo que desarrollan. Además, disponen de oportunidades y facilidades para su formación continua y reciclaje profesional"
-						},
-						"TITLE": "7.2. ¿Las condiciones laborales de quienes forman parte de los recursos humanos son dignas 9 ?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "En el PPEA se describe los recursos materiales de soporte, pero estos no son variados, suficientes ni adecuados a las actividades que se plantean en el programa.",
-							"2": "Los recursos materiales de soporte son didácticos, utilizan herramientas analógicas y digitales, pero no se adecúan a las características del público destinatario",
-							"3": "En el PPEA se describen los recursos materiales de soporte y éstos utilizan herramientas analógicas y digitales y se adecúan a las características del público destinatario, reduciendo las desigualdades"
-						},
-						"TITLE": "7.3. ¿Se describen los recursos materiales de soporte y éstos son variados, suficientes y adecuados para cada actividad l 10 ?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "Los materiales no siguen criterios de sostenibilidad ambiental y social",
-							"2": "Los materiales de soporte no siguen criterios de sostenibilidad ambiental y social",
-							"3": "Los materiales de soporte siguen criterios de sostenibilidad ambiental y social"
-						},
-						"TITLE": "7.4. ¿Los recursos materiales de soporte siguen principios de sostenibilidad ambiental y social 10 ?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "En el PPEA se describen las infraestructuras y se afirma que siguen los principios de sostenibilidad ambiental (), aunque se utilizan como reclamo",
-							"2": "En el PPEA no se describen las infraestructuras, aunque éstas podrían seguir los principios de sostenibilidad ambiental. Además, no son utilizadas como recurso educativo en el programa",
-							"3": "En el PPEA se describen las infraestructuras y éstas siguen los principios de sostenibilidad ambiental ( y éstas se utilizan como recurso educativo en el programa"
-						},
-						"TITLE": "7.5. ¿Se describen las infraestructuras utilizadas y éstas siguen criterios de sostenibilidad ambiental 11 en cuanto a tipología de materiales y consumo de recursos (energía, agua, etc)?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "La entidad publica informes de cuentas anuales, pero no especifica el origen de los recursos financieros de forma clara o transparente",
-							"2": "La entidad no publica informes de cuentas anuales o la información que proporciona carece de evidencias demostradas sobre, el origen de los recursos financieros",
-							"3": "La entidad publica informes de cuentas anuales en los que se especifica de forma detallada el origen de los recursos financieros"
-						},
-						"TITLE": "7.6. ¿Se explicita de dónde provienen los recursos financieros que permiten la relación anterior de recursos humanos y materiales?"
-					}
-				},
-				"TITLE": "7. Unos recursos coherentes con las finalidades del PPEA y los principios de sostenibilidad ambiental y justicia social"
-			},
-			"8": {
-				"DESCRIPTION": "Para medir y valorar el impacto de un PPEA es imprescindible determinar las herramientas y métodos con los cuales se recogerá la información con la que evaluar el alcance de los objetivos y la finalidad del PPEA. Este criterio delimitaría la calidad de un PPEA y ayudaría a la identificación del greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "Se describen en el programa los instrumentos y estrategias que se utilizarían para valorar si se han alcanzado los objetivos propuestos para el público destinatario, pero se hace de forma vaga o poco demostrable. No se disponen de instrumentos o estrategias para medir la contribución de este programa a la resolución de la problemática socioambiental que se trabaja. Carece de una estrategia general de medición de impacto.",
-							"2": "No se describen en el programa los instrumentos y estrategias que se utilizarían para valorar si se han alcanzado los objetivos propuestos para el público destinatario, ni para medir la contribución de este programa a la resolución de la problemática socioambiental que se trabaja. Carece de una estrategia general de medición de impacto.",
-							"3": "Se describen en el programa los instrumentos y estrategias que se utilizarán para valorar si se han alcanzado los objetivos propuestos para el público destinatario en el programa, así como la contribución de éste a la resolución de la problemática socioambiental que se trabaja. Se integran en una estrategia general de medición de impacto."
-						},
-						"TITLE": "8.1. ¿Se dispone de instrumentos y estrategias de valoración para medir en qué grado se han alcanzado los objetivos y finalidades del programa?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "El PPEA incluye actividades finales que se plantean como una síntesis del trabajo realizado; pero no se plantea como un ejercicio de reflexión de lo aprendido entre las personas destinatarias para que tomen conciencia de su proceso de aprendizaje.",
-							"2": "El PPEA no incluye actividades finales",
-							"3": "El PPEA incluye actividades finales que se plantean como un ejercicio de reflexión de lo aprendido entre las personas destinatarias para que tomen conciencia de su proceso de aprendizaje."
-						},
-						"TITLE": "8.2. ¿Se incluyen actividades de síntesis y de autoevaluación para las personas destinatarias?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "Se describe que a lo largo del proceso se producirá una recogida de información de forma sistemática y continúa para valorar el grado de adecuación de las actividades con los objetivos y finalidades del programa, con el fin de poder revisarlas para la mejora de este; pero no se ejecuta.",
-							"2": "No se describe que a lo largo del proceso se producirá una recogida de información de forma sistemática y continúa para valorar el grado de adecuación de las actividades con los objetivos y finalidades del programa con el fin de poder revisarlas para la mejora de éste",
-							"3": "Se describe y se ejecuta, a lo largo del proceso, la recogida de información de forma sistemática y continúa para valorar el grado de adecuación de las actividades con los objetivos y finalidades del programa con el fin de poder revisarlas para la mejora de éste"
-						},
-						"TITLE": "8.3. ¿Se prevé un sistema de evaluación continua por parte de quien ejecuta el programa para cambiar o adaptar la realización de las actividades previstas con los resultados de esta evaluación?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "La entidad no puede utilizar los resultados de la evaluación para determinar el grado de cumplimiento de los objetivos ni establecer los elementos del programa que necesitan mejoras dado que no se ha ejecutado el sistema de evaluación continua.",
-							"2": "La entidad no utiliza los resultados de la evaluación para determinar el grado de cumplimiento de los objetivos y establecer los elementos del programa que necesitan mejoras para analizar que está funcionando y que no y cómo cambiarlo.",
-							"3": "La entidad utiliza los resultados de la evaluación para determinar el grado de cumplimiento de los objetivos y establecer los elementos del programa que necesitan mejoras para analizar que está funcionando y que no y cómo cambiarlo."
-						},
-						"TITLE": "8.4. ¿Los resultados de la evaluación son utilizados para mejorar en el logro de los objetivos de mejora socioambiental?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "La entidad presenta en sus memorias u otros informes evidencias vagas sobre el alcance de los objetivos determinados en el PPEA (se mencionan objetivos generales sin resultados verificables de mejora de la problemática socioambiental o las afirmaciones no se respaldan con datos cualitativos o cuantitativos sobre el impacto ambiental o social alcanzado por el proyecto.",
-							"2": "La entidad no presenta en sus memorias u otros informes evidencias claras sobre el alcance de los objetivos determinados en el PPEA (se mencionan objetivos generales sin resultados verificables de mejora de la problemática socioambiental)",
-							"3": "La entidad presenta en sus memorias u otros informes el alcance de los objetivos determinados para el PPEA, permitiéndose identificar una mejora o aportación positiva en relación con el problema socioambiental que se trabaja (bien porque éste se mejora directamente, bien porque indirectamente se observa un mayor nivel de concienciación al respecto), respaldados por datos verificables y vinculados con los objetivos iniciales del proyecto."
-						},
-						"TITLE": "8.5. ¿Se presenta qué impacto ambiental y/o social se ha conseguido con los resultados del proyecto?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "La entidad no pone a disposición pública la memoria sobre los resultados del desarrollo del PPEA o, si se comunican, se hace con un enfoque claramente publicitario, sin reflejar un impacto real en la problemática socioambiental o utilizando datos poco verificables.",
-							"2": "La entidad pone a disposición pública la memoria sobre los resultados del desarrollo del PPEA, pero con limitaciones en cuanto a la claridad, accesibilidad o impacto real en relación con la mejora de la problemática socioambiental.",
-							"3": "La entidad pone a disposición pública la memoria sobre los resultados del desarrollo del PPEA con la finalidad de compartir la mejora que supone a la problemática socioambiental e invitar a la replicabilidad del programa."
-						},
-						"TITLE": "8.6. ¿Los resultados de la evaluación se difunden para reflejar la mejora de la problemática socioambiental (y no con fines publicitarios de la entidad)?"
-					}
-				},
-				"TITLE": "8. Una previsión de estrategias de evaluación del PEEA y la posterior publicación de resultados"
-			}
-		},
-		"PROJECT_NAME": "Nombre del proyecto/empresa",
-		"PROJECT_URL": "URL del proyecto/empresa",
-		"SCORE": {
-			"1": {
-				"DESCRIPTION": "No es un buen programa de educación ambiental, esté incurriendo o no en greenwashing, ya que carece de alguna, o varias, de las dimensiones propias de los programas de educación ambiental(no se define correctamente a las personas destinatarias, los objetivos; no se aporta una visión sistémica e interdisciplinaria de la problemática ambiental que se trata, la estrategia educativa no es la adecuada, no dispone de sistema de evaluación de los resultados y/o del programa",
-				"TITLE": "Incurre en greenwashing"
-			},
-			"2": {
-				"DESCRIPTION": "Se podría considerar un buen programa de educación (objetivos bien definidos, una buena metodología, se define correctamente a las personas destinatarias, etc.) pero no ambiental, ya que no aporta una visión sistémica e interdisciplinaria de la problemática ambiental que se trata y además incurre en prácticas de greenwashing (verdades a medias, se afirma un compromiso con algún problema ambiental pero a la vez se contribuye negativamente a este, se centra en la responsabilidad individual, etc.)",
-				"TITLE": "Podría incurrir en greenwashing"
-			},
-			"3": {
-				"DESCRIPTION": "Es un buen programa de educación ambiental, ya que presenta todas las dimensiones propias de un PPEA y además expone los problemas ambientales de una forma que invitan a la reflexión, explicando las causas y las consecuencias reales y aportando una visión sistémica e interdisciplinaria de la problemática ambiental que se trata",
-				"TITLE": "No incurre en greenwashing"
-			}
-		},
-		"TITLE": "Nueva evaluación"
-	}
+  "EVALUATIONS": {
+    "DETAILS": "Detalles",
+    "EMPTY": "Aún no hay evaluaciones en la base de datos.",
+    "PROJECT_URL": "URL del proyecto:",
+    "TITLE": "Base de datos de evaluaciones"
+  },
+  "FOOTER": {
+    "CONTACT": "Contacto",
+    "LEGAL": "Legal / Contacto",
+    "LICENSE": "Licencia",
+    "NAVIGATION": "Navegación"
+  },
+  "HEADER": {
+    "NAVBAR": {
+      "EVALUATIONS": "Evaluaciones",
+      "HOME": "Inicio",
+      "RUBRIC": "Rúbrica"
+    }
+  },
+  "HOME": {
+    "ABOUT_PROJECT": {
+      "TEXT": "El proyecto GreenWaScore nace con la intención de dar respuesta a una preocupación cada vez más presente: las campañas y programas que se presentan como de educación ambiental (EA), pero que pueden ser de dudosa calidad educativa. A menudo, detrás de una imagen \"verde\", se esconden prácticas empresariales u organizativas poco sostenibles o que carecen de ética ambiental. Práctica que se conoce como greenwashing o “lavado verde”.\n\nEl greenwashing es una técnica de comunicación de información ambiental engañosa, falsa o incompleta por parte de empresas, organizaciones e instituciones, que pretenden transmitir una imagen de sostenibilidad y responsabilidad medioambiental pero que no se corresponde con sus prácticas reales.\n\nCon este proyecto, desde el Grupo de Investigación de Educación Ambiental para la Sostenibilidad (GREAS) de la Universitat de les Illes Balears (UIB), desarrollado parcialmente en el marco del programa SOIB Recerca i Innovació - INVESTIGO , hemos creado una herramienta práctica que ayuda a identificar si un programa, proyecto o actividad de EA promueve valores de sostenibilidad o si simplemente busca mejorar la imagen verde de una entidad.",
+      "TITLE": "¿Qué es este proyecto?"
+    },
+    "PROJECT_OBJECTIVES": {
+      "OBJECTIVE_LIST": {
+        "1": "Dar a conocer las características del greenwashing como práctica educativa engañosa.",
+        "2": "Ofrecer una herramienta práctica, útil y accesible en forma de rúbrica para analizar y evaluar la calidad de proyectos y programas de educación ambiental.",
+        "3": "Ayudar al profesorado (en activo o en formación) y a los educadores/as ambientales en la toma de decisiones informadas al seleccionar recursos educativos para la sostenibilidad ambiental, promoviendo una educación ambiental de calidad, crítica y coherente con los principios de sostenibilidad."
+      },
+      "TEXT": "El proyecto GreenWaScore tiene como objetivos principales:",
+      "TITLE": "¿Cuáles son sus objetivos?"
+    },
+    "RUBRIC_FUNCTION": {
+      "LIST1": {
+        "1": "Qué entidad ha diseñado/ejecutado/patrocinado el PPEA y las características de ésta",
+        "2": "Qué información, conceptos, datos y contenidos ofrece el PPEA",
+        "3": "Cuáles son las características de un buen PPEA",
+        "4": "Cuáles son las principales técnicas de greenwashing"
+      },
+      "LIST2": {
+        "1": "Incurre en greenwashing: 1 punto",
+        "2": "Podría incurrir en greenwashing: 2 puntos",
+        "3": "No incurre en greenwashing: 3 puntos"
+      },
+      "LIST3": {
+        "1": "Mínimo total posible: 43 (todos los indicadores con 1 punto)",
+        "2": "Máximo total posible: 129 (todos con 3 puntos)"
+      },
+      "LIST4": {
+        "1": "Incurre en greenwashing: 43–65",
+        "2": "Podría incurrir en greenwashing: 66–105",
+        "3": "No incurre en greenwashing: 106–129"
+      },
+      "TEXT1": "La herramienta diseñada es una rúbrica con la que se analizan críticamente proyectos y programas de educación ambiental (PPEA). Consta de 8 criterios divididos en 43 indicadores y de tres niveles de ejecución cualitativos (\"Incurre en greenwashing\", \"Podría incurrir en greenwashing\", \"No incurre en greenwashing\"). Para cada uno de los indicadores se debe elegir el nivel al que pertenece teniendo en cuenta los descriptores de los indicadores y las características del proyecto o programa que se está evaluando, así como de la organización que lo ofrece.\n\nPara poder utilizar la rúbrica se deben considerar los siguientes aspectos:",
+      "TEXT2": "Se debe tener en cuenta que para algunos de estos aspectos no será suficiente analizar el PPEA y se tendrán que consultar, por tanto, otras fuentes de información (Consultar\nGuía de Apoyo Uso Rúbrica).\n\nAl analizar el PPEA se debe determinar de cada criterio y de acuerdo con los descriptores de cada indicador, qué nivel de ejecución le correspondería al PPEA. Cada nivel aporta una puntuación distinta:",
+      "TEXT3": "Por tanto:",
+      "TEXT4": "Para identificar en qué grado el PPEA que se está evaluando podría incurrir en greenwashing, se sumaran los valores obtenidos en cada indicador y la puntuación total determinará a qué nivel pertenece, siendo los rangos:",
+      "TITLE": "¿Cómo utilizar la herramienta?"
+    }
+  },
+  "LEGAL": {
+    "COPYRIGHT": "Esta página web fue desarrollada por Jesús Castillo, estudiante del Grado en Ingeniería Informática de la Universidad de las Islas Baleares. \n\nCon el apoyo de la Universidad de las Isla Baleares – Facultad de Educación.\n\nLa rúbrica de análisis de programas de educación ambiental fue diseñada por el Grupo de Investigación de Educación Ambiental para la Sostenibilidad de la Universitat de les Illes Balears en el marco del Programa SOIB Recerca i Innovació - Investigo.",
+    "LICENSE": {
+      "LIST1": {
+        "1": "Compartir — copiar y redistribuir el material en cualquier medio o formato.",
+        "2": "Adaptar — remezclar, transformar y construir a partir del material.",
+        "TITLE": "Está permitido:"
+      },
+      "LIST2": {
+        "1": "Atribución — debe otorgar el crédito correspondiente, proporcionar un enlace a la licencia e indicar si se han realizado cambios.",
+        "2": "No Comercial — no puede utilizar el material con fines comerciales.",
+        "3": "Compartir Igual — si remezcla, transforma o crea a partir del material, debe distribuir su contribución bajo la misma licencia que el original.",
+        "TITLE": "Bajo las siguientes condiciones:"
+      },
+      "SOURCE": "El código fuente de esta página web está disponible bajo la Licencia MIT. Esto significa que puedes utilizar, copiar, modificar y distribuir libremente el código con cualquier propósito, siempre que se mantenga el aviso de licencia original.",
+      "SUBTITLE1": "Rúbrica y contenidos textuales",
+      "SUBTITLE2": "Código fuente",
+      "TEXT": "La herramienta y los contenidos textuales están bajo la licencia Creative Commons BY-NC-SA 4.0 (Atribución - No Comercial - Compartir Igual).",
+      "TITLE": "Licencia de uso"
+    }
+  },
+  "RUBRIC": {
+    "BUTTON": "Ver resultados",
+    "CRITERIA": {
+      "1": {
+        "DESCRIPTION": "En ocasiones, entidades y/o empresas que no se dedican a la EA, el medio ambiente o la educación en general (fundaciones, entidades sin ánimo de lucro, bancos o cajas…) patrocinan, diseñan y/o ejecutan programas. Consideramos que las finalidades y objetivos de los PPEA deberían coincidir con la misión y los valores de la entidad o empresa que patrocina, diseña y/o ejecuta el programa. Este criterio podría contribuir a identificar el greenwashing, si no existiera una relación clara entre la misión y los valores de la entidad o empresa y aquello que se trabaja con el programa",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "Se integran los principios de sostenibilidad, aunque estos se alejan o no están vinculados con la actividad económica principal de la empresa",
+              "2": "No se puede identificar de forma clara la integración de los principios de sostenibilidad",
+              "3": "Se integran los principios de sostenibilidad y además son coherentes con la actividad económica principal de la empresa"
+            },
+            "TITLE": "1.1.¿La misión y los valores descritos por la entidad integran los principios de sostenibilidad"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "Se establecen funciones de sensibilización, formación o educación, aunque a través de empresas/entidades secundarias o fundaciones propias, intentándolas alejar de la idea de la actividad principal de la entidad",
+              "2": "No se establecen o no se pueden identificar entre sus funciones la sensibilización, formación o educación en relación con la problemática tratada, ni de manera directa ni indirecta",
+              "3": "Se establece la sensibilización, formación o educación como una de sus funciones principales y ésta es consciente y transparente en su posible contribución a la problemática ambiental que se trata en el PPEA"
+            },
+            "TITLE": "1.2.¿Establece la entidad entre sus funciones la sensibilización, la formación o la educación en relación con la problemática socioambiental del PPEA?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "La entidad muestra en sus comunicaciones corporativas actividades seleccionadas de forma interesada, omitiendo los aspectos negativos o de insostenibilidad de estas; o afirma en su plan de sostenibilidad que sus actividades son coherentes con los principios de sostenibilidad y que está comprometida con ellos, pero esta información carece de pruebas objetivas, no se puede justificar con otra información de fácil acceso o no presenta una aprobación fiable por parte de terceros",
+              "2": "La entidad no muestra en sus comunicaciones corporativas si sus actividades son coherentes con los principios de sostenibilidad; o en su plan de sostenibilidad no realiza afirmaciones relacionadas con la actividad",
+              "3": "La entidad muestra en sus comunicaciones corporativas coherencia entre sus actividades y los principios de sostenibilidad. Los datos están justificados por terceros en su plan de sostenibilidad"
+            },
+            "TITLE": "1.3.¿Las actividades de la entidad son coherentes con los principios de sostenibilidad?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "La entidad afirma su compromiso ambiental con uno o varios problemas ambientales, pero su actividad principal contribuye de forma directa y negativa a estos.",
+              "2": "La entidad no informa sobre su compromiso ambiental con uno o varios problemas ambientales; o sí lo hace, pero su actividad principal contribuye indirectamente a estos",
+              "3": "La entidad se constituyó para abordar problemáticas socioambientales y es coherente en sus actividades, avalando su preocupación por estos temas."
+            },
+            "TITLE": "1.4. ¿Se identifica una clara coherencia interna entre el tema que se aborda con el PPEA y las características de la entidad que lo patrocina, diseña o ejecuta?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "La misión de la entidad se vincula con el problema ambiental que se trata en el PPEA, pero no se hace de forma transparente (no informa de su contribución al problema) o propone soluciones frente al problema a largo plazo",
+              "2": "La misión de la entidad se vincula con el problema ambiental que se trata en el PPEA, pero no comunica su contribución a este a pesar de que es consciente de que su actividad contribuye negativamente al problema, por eso propone soluciones objetivas e intenta disminuir su impacto",
+              "3": "La misión de la entidad se vincula directa o indirectamente con la problemática ambiental que se trata en el PPEA. La entidad se fundó para sensibilizar y abordar las problemáticas socioambientales y es coherente en sus actividades, avalando su preocupación por estos temas y proponiendo soluciones a corto y largo plazo para enfrentarlo."
+            },
+            "TITLE": "1.5. ¿El PPEA da respuesta a una necesidad detectada que está claramente contemplada dentro de la misión de la entidad que lo patrocina, diseña o ejecuta?"
+          }
+        },
+        "TITLE": "1. La coherencia entre la actividad principal de la entidad y los objetivos y contenidos del Plan y/o Programa de Educación Ambiental (PPEA) que se patrocina, diseña y/o ejecuta"
+      },
+      "2": {
+        "DESCRIPTION": "A menudo, los PPEA que se diseñan podrían no suponer una evidencia demostrada sobre los beneficios que la entidad comporta para el tema o problema que se trabaja y son más bien reclamos elaborados para vender una imagen verde. La entidad utiliza términos vacíos de contenido (p.ej. ecofriendly, basuraleza, etc) o información o términos excesivamente científicos que solamente pueden ser entendidos por especialistas en la materia, de modo que pueden llevar a la confusión o al engaño. Este criterio podría contribuir a identificar el greenwashing, en el caso de que el PPEA no mejore o trabaje una situación ambiental, si no que suponga, más bien, un beneficio para la entidad y confunde o engaña a los/as destinatarios/as del PPEA",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "La entidad proporciona información sobre sus actividades, pero esta información carece de pruebas objetivas (no se puede justificar con otra información de fácil acceso o no presenta una aprobación fiable por parte de terceros) o es una información sesgada (se selecciona la información en relación con el tema del programa de forma interesada: omite los aspectos negativos en relación con su actividad principal)",
+              "2": "La entidad no proporciona información sobre sus actividades",
+              "3": "La entidad proporciona información sobre sus actividades y éstas suponen una evidencia demostrada sobre los beneficios que comporta la entidad frente al tema o problema que se trabaja con el PPEA"
+            },
+            "TITLE": "2.1. ¿Proporciona la entidad información sobre sus actividades de forma objetiva y está respaldada por datos medibles que se relacionan con el tema del programa 2 ?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "Utiliza un lenguaje con excesivos tecnicismos, y términos vacíos de contenido (ecofriendly, crecimiento sostenible, ecodiseño, biocombustible…) y/o términos discutibles (ej. huella de carbono individual para evadir la responsabilidad colectiva y proponer soluciones individuales)",
+              "2": "Utiliza un lenguaje comprensible para las personas destinatarias, con algunos tecnicismos, aunque también se distinguen algunos términos vacíos de contenido (ecofriendly, crecimiento sostenible, ecodiseño, biocombustible…) o términos discutibles (huella de carbono individual)",
+              "3": "Utiliza un lenguaje comprensible para las personas destinatarias, con un uso correcto de tecnicismos y sin utilizar términos vacíos de contenido (ecofriendly, crecimiento sostenible, ecodiseño, biocombustible…) o términos discutibles (huella de carbono a título individual)"
+            },
+            "TITLE": "2.2. ¿Presenta la entidad información utilizando un lenguaje técnico en relación con el tema que se trabaja y éste es comprensible por todas las personas 3 ?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "Los valores que la entidad difunde en el PPEA se reflejan en sus memorias anuales o de RSC, pero estos no presentan una concordancia con la actividad principal de la entidad (afirma sucompromiso con algún problema ambiental, pero, por otro lado, está contribuyendo negativamente con sus actividades)",
+              "2": "Los valores que la entidad difunde en el PPEA no se reflejan en sus memorias anuales o de RSC",
+              "3": "Los valores que la entidad difunde en el PPEA son coherentes con la información aportada en sus memorias anuales o de RSC (información completa, clara, aprobada por terceros, etc.)"
+            },
+            "TITLE": "2.3. ¿Presenta la entidad información relativa a los valores que difunde en el PPEA en sus memorias anuales o en sus memorias de Responsabilidad Social Corporativa (RSC)?"
+          }
+        },
+        "TITLE": "2. La veracidad de la información que la entidad o empresa patrocinadora, diseñadora o ejecutora ofrece de sí misma y del PPEA"
+      },
+      "3": {
+        "DESCRIPTION": "Consideramos que los PPEA deberían partir de un estudio previo o de un diagnóstico de una situación o problemática ambiental que además se relacione con las necesidades de las personas destinatarias. Este criterio podría servir para identificar el greenwashing y para valorar la calidad de un PPEA, ya que se diseñaría con una finalidad clara de sensibilizar y educar para cambiar una situación o abordar una problemática.",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "Se aporta algún tipo de información sobre las causas del problema que se está tratando, pero no se justifica la elección del tema y por qué es importante o urgente y/o las consecuencias reales de no actuar (afirma que existe un problema, pero dando a entender que hay mucho margen de actuación y que las consecuencias aún no se están experimentando)",
+              "2": "No se aportan o se aportan muy pocos datos sobre la situación del problema (causas y consecuencias) para justificar la elección del tema (trata algunos de los principales problemas ambientales- cambio climático, residuos, energía, etc.- de forma superficial, sin indagar en su urgencia)",
+              "3": "Se justifica la elección del problema a tratar aportando información de forma clara y detallada sobre las causas y consecuencias del problema y las implicaciones de no actuar."
+            },
+            "TITLE": "3.1. ¿Se dispone de información y/o de datos en el PPEA sobre la situación que hace que se considere necesario realizarlo?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "El PPEA aporta información ambigua (de carácter global y sin datos numéricos específicos; no se contextualiza adecuadamente el origen del problema ni su situación actual; o los datos disponibles son incompletos o provienen de fuentes no fiables 4 ) u omite información para no contextualizar el origen del problema que se está tratando, así como su situación actual. Este hecho dificulta la valoración realista del impacto del programa",
+              "2": "El PPEA carece de datos que contextualicen el origen del problema o su situación actual o, si los hay, estos están incompletos o no se mencionan las fuentes, lo cual dificulta la valoración del impacto del programa",
+              "3": "El PPEA aporta datos tanto cualitativos como cuantitativos que sirven para contextualizar el origen del problema que se está tratando, así como su situación actual, de modo que pueden utilizarse para realizar una valoración realista del impacto del programa"
+            },
+            "TITLE": "3.2. ¿Se dispone en el PPEA de datos cualitativos y cuantitativos que lo sitúan (punto de partida) y lo contextualizan (local y global), y que son utilizados más adelante para realizar una valoración del impacto del PPEA?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "El PPEA está diseñado exclusivamente para alumnado de diferentes niveles educativos (educación formal) pero no se analizan ni consideran sus características de partida (particularidades locales, socioculturales, diferentes capacidades de aprendizaje, etc.)",
+              "2": "El PPEA está diseñado para un determinado público destinatario (alumnado de diferentes niveles educativos, colectivos, familias, etc.), pero no se analizan ni consideran sus características de partida (particularidades individuales, culturales y locales de los destinatarios, así como sus capacidades) y por tanto no está adaptado a éstos",
+              "3": "El PPEA está diseñado para un determinado público destinatario (alumnado de diferentes niveles educativos, colectivos, familias, etc.), y además se analizan y consideran sus características de partida (particularidades individuales, culturales y locales)"
+            },
+            "TITLE": "3.3. ¿Se identifica a las personas destinatarias del PPEA y, en el caso de estar destinado a un sector amplio de la población, se identifican ciertos subgrupos diana sobre los cuales se centra prioritariamente el PPEA?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "El programa reconoce ciertas características de los participantes (nivel de alfabetización ambiental, contexto sociocultural, nivel educativo…) y toma ventaja de ello adaptando parcialmente sus actividades o enfoques para sus propios intereses",
+              "2": "El programa reconoce ciertas características de los participantes (nivel de alfabetización ambiental) y adapta parcialmente sus actividades o enfoques para la resolución de la problemática que se trabaja en el programa",
+              "3": "El programa reconoce todas las características de los participantes (nivel de alfabetización ambiental) y adapta sus actividades o enfoques para la resolución de la problemática que se trabaja en el programa"
+            },
+            "TITLE": "3.4.¿Se definen las características propias de las personas destinatarias, respecto a la apropiación de la necesidad del programa: participación, obstáculos, retos y/o desconocimiento?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "El contenido del programa se presenta considerando el nivel de conocimientos o las ideas previas de las personas participantes, de modo que se puede aprovechar esta falta de conocimiento (de ideas, de creencias, errores, ...) para introducir ideas que pueden ser imprecisas o sesgadas, no verificadas o alejadas de la realidad",
+              "2": "El contenido del programa se presenta sin tener en cuenta los conocimientos o ideas previas de las personas participantes, de modo que el programa introduce algunas ideas sin verificar, pero existe al menos un intento de generar reflexión crítica, aunque este sea limitado.",
+              "3": "El contenido del programa se presenta teniendo en cuenta los conocimientos o ideas previas de las personas participantes, para tratar de generar una reflexión crítica"
+            },
+            "TITLE": "3.5.¿Se parte de los conocimientos o ideas previas de quienes participan?"
+          }
+        },
+        "TITLE": "3. Un diagnóstico sobre la necesidad del PPEA de resolver problemáticas socioambientales relacionadas con las personas destinatarias"
+      },
+      "4": {
+        "DESCRIPTION": "Los PPEA deberían describir sus objetivos y contenidos y establecer una coherencia entre sí. Además, deberían responder a los objetivos y características de la EA y, por tanto, promover una educación a favor del medio. Este criterio delimitaría la calidad de un PPEA y ayudaría a la identificación del greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "Los objetivos no están claramente formulados y no presentan una intencionalidad clara para la resolución de la problemática que se trabaja. Además, no son fácilmente alcanzables y su secuenciación presenta algunas irregularidades que podrían dificultar la implementación efectiva.",
+              "2": "Los objetivos no están claramente formulados y no presentan una intencionalidad clara para la resolución de la problemática que se trabaja. Pueden ser alcanzables, pero su secuenciación presenta algunas irregularidades que podrían dificultar la implementación efectiva",
+              "3": "Los objetivos están claramente formulados y presentan una intencionalidad clara para la resolución de la problemática que se trabaja. Además, son fácilmente alcanzables y su secuenciación facilita una implementación efectiva."
+            },
+            "TITLE": "4.1.¿Se presenta una buena formulación de objetivos, así como su intencionalidad y secuenciación 5 ?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "Los contenidos (o las competencias) se abordan fundamentalmente desde el área conceptual, aunque de forma sesgada (la selección de la información en relación con el tema del programa se hace de forma interesada), y éstos no se vinculan directamente con la resolución del problema que se aborda en el PPEA, o si se hace, la capacitación práctica para la acción se basa en la responsabilidad individual y no en la colectiva",
+              "2": "Los contenidos (o las competencias) no abordan de forma clara las áreas conceptuales, procedimentales y actitudinales. No se presenta una clara conexión entre los contenidos conceptuales, procedimentales y actitudinales o éstos no se vinculan directamente con la resolución del problema que se aborda en el PPEA. En caso de una capacitación práctica para la acción, ésta se basa en la responsabilidad individual y no en la colectiva",
+              "3": "Los contenidos (o las competencias) se abordan desde el área conceptual, procedimental y actitudinal y estos se vinculan directamente con la resolución del problema que se aborda en el PPEA. Se realiza una capacitación práctica para la acción basada en la responsabilidad colectiva"
+            },
+            "TITLE": "4.2. ¿Se dispone de una buena concreción y formulación de contenidos conceptuales, procedimentales y actitudinales y/o competencias en relación con los objetivos?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "Los objetivos no están formulados de manera clara, son demasiado generales, lo que impide su verificación o evaluación efectiva. No se han diseñado indicadores de evaluación claros ni medibles, o los que se han propuesto no son adecuados para medir de manera objetiva los avances hacia los objetivos",
+              "2": "Los objetivos no están formulados de manera clara y la estrategia de evaluación es inexistente o inadecuada (no se han diseñado indicadores de evaluación), lo que impide realizar una evaluación efectiva.",
+              "3": "Los objetivos están formulados de manera clara, específica y comprensible, lo que facilita su verificación y evaluación. Se ha diseñado una estrategia de evaluación adecuada, con indicadores precisos, medibles y cuantificables, que están alineados con los objetivos y permiten medir su progreso o logro de forma objetiva."
+            },
+            "TITLE": "4.3. ¿Son los objetivos fácilmente verificables y evaluables 6 ?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "Los objetivos no están claramente relacionados con la actividad de la entidad y la relación con los problemas ambientales abordados en el programa es mínima, vaga o incluso contradictoria. La conexión entre la labor de la entidad y los desafíos ambientales no fomenta una reflexión crítica sobre el impacto de esa actividad en el medio ambiente.",
+              "2": "Los objetivos están relacionados con la actividad de la entidad de manera general, pero la relación con los problemas ambientales abordados en el programa no es completamente clara. La conexión entre la labor de la entidad y los desafíos ambientales no fomenta una reflexión crítica sobre el impacto de esa actividad en el medio ambiente.",
+              "3": "Los objetivos están claramente relacionados con la actividad de la entidad. La conexión entre la labor de la entidad y los desafíos ambientales que trata es transparente con sus acciones. Se fomenta la reflexión crítica sobre la propia actividad de la entidad, invitando a los participantes a evaluar y cuestionar sus acciones"
+            },
+            "TITLE": "4.4. ¿Se describen objetivos orientados a la reflexión crítica de la actividad de la entidad que patrocina, diseña o ejecuta el PPEA?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "Los objetivos del programa no están alineados con los objetivos propios de la EA. Los contenidos proporcionan información sesgada (omite datos, no se mencionan los impactos negativos, etc.) y carecen de fuentes claras. Está enfocado a un nivel educativo determinado, pero no se tienen en cuenta las realidades socioeconómicas y culturales de los participantes",
+              "2": "Los objetivos del programa no están completamente alineados con los objetivos propios de la EA. Los contenidos proporcionan información veraz (aunque no la suficiente), pero sin mencionar las fuentes. Está enfocado a un determinado público destinatario, pero no se tienen en cuenta las realidades socioeconómicas y culturales de éste",
+              "3": "Los objetivos del programa están completamente alineados con los objetivos propios de la EA. Los contenidos proporcionan información veraz, contrastada y con fuentes fiables. Está enfocado a un determinado público destinatario y se tiene en cuenta las realidades socioeconómicas y culturales de éste"
+            },
+            "TITLE": "4.5. ¿Se incorporan objetivos 7 y contenidos propios de la EA y relevantes en el contexto donde se desarrolla el programa?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "Los objetivos se relacionan fundamentalmente con el aprender a saber (cognitivos) y la selección del tema que se trabaja en el PPEA se hace de forma interesada. Además, no incluye objetivos procedimentales ni emocionales",
+              "2": "No se incluyen adecuadamente objetivos que aborden las tres dimensiones del aprendizaje. La falta de atención a una o más áreas limita la efectividad del programa y su capacidad para promover un aprendizaje integral.",
+              "3": "Los objetivos abordan las tres dimensiones del aprendizaje (cognitiva, procedimental y emocional) de manera equilibrada y significativa. Se favorece tanto la adquisición de conocimientos como el desarrollo de habilidades y actitudes o emociones, vinculados con la realidad de los participantes, garantizando un aprendizaje integral y transferible para la resolución de las problemáticas que se trabajan."
+            },
+            "TITLE": "4.6. ¿Se incluyen objetivos relacionados con el aprender a saber (cognitivos: hechos y conceptos), aprender a saber hacer (procedimentales: habilidades) y aprender a saber ser y saber convivir (emocionales: actitudes)?"
+          },
+          "7": {
+            "OPTIONS": {
+              "1": "Los contenidos no abordan adecuadamente el aprendizaje activo ni proporcionan suficientes herramientas para que las personas participantes puedan actuar frente a los problemas ambientales. Los contenidos son teóricos, descontextualizados o demasiado generales, sin una clara conexión con las necesidades ambientales locales, lo que limita la aplicabilidad del aprendizaje.",
+              "2": "Los contenidos abordan algunos aspectos relacionados con el aprendizaje activo y la resolución de problemas, pero su conexión con la realidad local no es completamente clara o está parcialmente desarrollada. Se presentan conceptos y herramientas para afrontar los problemas ambientales, pero las personas participantes pueden no alcanzar suficiente capacitación para aplicar esas soluciones de manera efectiva.",
+              "3": "Los contenidos abordan aspectos relacionados con el aprendizaje activo y la resolución de problemas, y se conectan de forma clara con la realidad local. Se presentan conceptos y herramientas para afrontar los problemas ambientales y las personas participantes pueden contar con la suficiente capacitación para aplicar esas soluciones de manera efectiva."
+            },
+            "TITLE": "4.7. ¿Se incluyen contenidos relacionados con el aprender a actuar, fomentando la capacitación para afrontar problemas y responder a las necesidades reales del contexto en el cual se trabaja?"
+          }
+        },
+        "TITLE": "4. Unos objetivos y unos contenidos definidos claramente en el PPEA"
+      },
+      "5": {
+        "DESCRIPTION": "Un PPEA debería disponer de un cronograma de actividades en el cual se trabajen y secuencien los objetivos y contenidos que se promueven con el programa o proyecto y que se adecúe a las características de las personas destinatarias del PPEA. Este criterio delimitaría la calidad de un PPEA y ayudaría a la identificación del greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "El programa presenta una temporalización clara; pero no se observa una secuenciación lógica de las actividades.",
+              "2": "El programa no presenta una temporalización clara y no se observa una secuencia completamente lógica de las actividades",
+              "3": "El programa presenta una temporalización clara y se observa una secuencia completamente lógica de las actividades"
+            },
+            "TITLE": "5.1. ¿Se dispone de un método de trabajo con una secuencia de actividades bien planificadas y temporalizadas?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "La metodología es parcialmente coherente con los objetivos del programa, pero hay indicios de falta de profundidad o sesgo en la información proporcionada. Aunque las actividades están relacionadas con los objetivos, algunos contenidos no se abordan de manera completa o equilibrada, y existe cierta falta de transparencia en la presentación de la información. Las actividades pueden fomentar la reflexión, pero esta es superficial o limitada, y no siempre se relacionan con una acción real",
+              "2": "La metodología muestra una coherencia general con los objetivos del programa, pero existen áreas donde la profundidad o el enfoque de la información son limitados. Aunque las actividades están relacionadas con los objetivos, algunos contenidos no se desarrollan con suficiente detalle o equilibrio, y la presentación de la información podría carecer de claridad o ser parcial. Las actividades pueden fomentar la reflexión, pero ésta es en algunos casos superficial o no completamente vinculada a acciones concretas, lo que limita la efectividad del programa para generar un cambio real",
+              "3": "La metodología es totalmente coherente con los objetivos del programa. Se profundiza en la información que se aporta, la cual es veraz y proviene de fuentes fiables. Las actividades están relacionadas con los objetivos y todos los contenidos se abordan de manera completa y equilibrada, con total transparencia en la presentación de la información. Las actividades fomentan una reflexión crítica"
+            },
+            "TITLE": "5.2. ¿La metodología de trabajo utilizada es coherente con los objetivos planteados?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "Se dispone de un plan de actividades desarrollado exclusivamente para alumnado (educación formal), pero sin distinguir específicamente entre niveles educativos, por tanto, hay algunas actividades que no se adecúan a las características de éste y no se ofrecen otras alternativas para adaptar esas actividades a la diversidad de los participantes",
+              "2": "Se dispone de un plan de actividades desarrollado para un público objetivo genérico, por tanto, hay algunas actividades que no se adecúan a las características de éste y no se ofrecen otras alternativas para adaptar esas actividades a la diversidad de los participantes",
+              "3": "Se dispone de un plan de actividades desarrollado para un determinado público objetivo y las actividades se adecúan a las características de éste, ya que se ofrecen alternativas para adaptarse a la diversidad de los participantes"
+            },
+            "TITLE": "5.3. ¿Se dispone de un plan de actividades que presenta un formato bien adaptado y adecuado a las características del público objetivo destinatario?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "La metodología se focaliza en la transmisión de información sobre la problemática socioambiental, pero con limitaciones en cuanto a la reflexión crítica o a la participación activa. Si bien hay un enfoque en la mejora de las relaciones sociales con el entorno, no siempre se logran establecer vínculos significativos entre los participantes y la problemática socioambiental.",
+              "2": "La metodología se focaliza en la transmisión de información sobre la problemática ambiental e intenta promover la reflexión crítica, la comunicación social y la participación activa; pero no siempre se logran establecer vínculos significativos entre los participantes y la problemática socioambiental.",
+              "3": "La metodología no solo se focaliza en la comprensión de información sobre la problemática ambiental, sino que también promueve la reflexión crítica, la comunicación social y la participación activa. Además, se logra establecer vínculos significativos entre los participantes y la problemática socioambiental."
+            },
+            "TITLE": "5.4. ¿La metodología utilizada (en las actividades) se orienta a la comprensión, la reflexión, la comunicación social y la acción, en la mejora de las relaciones sociales que establecemos con nuestro entorno local y global?"
+          }
+        },
+        "TITLE": "5. Un plan de actividades coherente con los objetivos y contenidos del PPEA"
+      },
+      "6": {
+        "DESCRIPTION": "La metodología de los programas o proyectos de EA debería fomentar el análisis de la complejidad y las visiones ambientales y sociales de los problemas o temas ambientales, desarrollar habilidades de acción basadas en el pensamiento crítico y no basarse solamente en la transmisión de conocimientos. Este criterio delimitaría la calidad de un PPEA y ayudaría a la identificación del greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "El PPEA y sus actividades integran únicamente las visiones ambientales, sin integrar la calidad de vida y los límites planetarios con estas visiones. Los problemas ambientales no se presentan como consecuencia directa de las actividades del ser humano y su resolución se enfoca únicamente desde la responsabilidad individual. El programa no presenta un enfoque integral ni ofrece herramientas para reflexionar sobre los efectos de las decisiones políticas, económicas y sociales en el medio ambiente.",
+              "2": "El PPEA y sus actividades integran las visiones ambientales y sociales de forma limitada, integrando de forma parcial la calidad de vida y los limites planetarios. Los problemas ambientales se presentan como consecuencia directa de las actividades del ser humano, pero su resolución se enfoca únicamente desde la responsabilidad individual. El programa presenta un enfoque incompleto y no ofrece herramientas para reflexionar sobre los efectos de las decisiones políticas, económicas y sociales en el medio ambiente",
+              "3": "El PPEA y sus actividades integran las visiones ambientales y sociales de forma holística, integrando la relación de estas con la calidad de vida y los límites planetarios. Los problemas ambientales se presentan como consecuencia directa de las actividades del ser humano, subrayándose la responsabilidad individual y colectiva en su resolución. El programa presenta un enfoque integral y ofrece herramientas para reflexionar sobre los efectos de las decisiones políticas, económicas y sociales en el medio ambiente."
+            },
+            "TITLE": "6.1. ¿Se incorporan análisis de la complejidad, las visiones ambientales y sociales y su relación entre la calidad de vida y los límites planetarios?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "Los contenidos del PPEA tienen en cuenta las características de las personas participantes (conocimientos previos, nivel educativo, currículum), y aunque la información está adaptada a éstas, puede ser sesgada o utilizar términos vacíos de contenido (ecofriendly, crecimiento sostenible, ecodiseño, biocombustible…) o discutibles (ej, huella de carbono individual para evadir la responsabilidad colectiva y proponer soluciones individuales)",
+              "2": "Los contenidos del PPEA tienen en cuenta ciertas características de las personas participantes (conocimientos previos, nivel educativo) y, aunque la información puede estar parcialmente adaptada a estas características, ésta presenta demasiados tecnicismos que dificultan su comprensión",
+              "3": "Los contenidos del PPEA tienen en cuenta las características de las personas participantes (conocimientos previos, nivel educativo, currículum, ámbito socioeconómico y cultural, etc.), ofreciendo información veraz, verificada y fácilmente comprensible."
+            },
+            "TITLE": "6.2. ¿Se identifican contenidos adecuados a las características de las personas destinatarias?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "El programa describe métodos específicos para cada nivel educativo y/o los diferentes actores y actrices destinatarias y, aunque se incluyen ejemplos prácticos o actividades que se puedan implementar en los diferentes contextos educativos, éstas tienen por finalidad algunas acciones proambientales de carácter individual",
+              "2": "El programa describe métodos específicos para cada nivel educativo y/o los diferentes actores y actrices destinatarias que incluyen ejemplos prácticos o actividades que se puedan implementar en los diferentes contextos educativos, pero éstas no tienen por finalidad promover acciones proambientales",
+              "3": "El programa describe métodos específicos para cada nivel educativo y/o los diferentes actores y actrices destinatarias que incluyen ejemplos prácticos o actividades que se puedan implementar en los diferentes contextos educativos con la finalidad de llevar a cabo acciones proambientales individuales o colectivas"
+            },
+            "TITLE": "6.3. ¿Se refleja la aplicabilidad para cada nivel educativo y/o para los diferentes actores y actrices destinatarias?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "El PPEA estudia las temáticas fundamentalmente ambientales, dejando de lado la dimensión social, y aunque el análisis se realiza a diferentes escalas, pone el foco en el contexto global y su problemática como base del aprendizaje.",
+              "2": "El PPEA parte del estudio de las temáticas socioambientales en diferentes escalas, poniendo el foco en el contexto global y su problemática como base del aprendizaje",
+              "3": "El PPEA parte del estudio de temáticas socioambientales en diferentes escalas, poniendo el foco en el contexto cercano y su problemática como base para el aprendizaje"
+            },
+            "TITLE": "6.4. ¿Se parte del estudio de temáticas socioambientales propias y/o cercanas?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "El PPEA puede utilizar una metodología de trabajo colaborativo en la que las personas participantes interactúan y comparten ideas para la resolución de problemas fundamentalmente ambientales, pero sin utilizar la reflexión crítica ni la búsqueda de soluciones conjuntas innovadoras",
+              "2": "El PPEA puede utilizar una metodología de trabajo colaborativo en la que las personas participantes interactúan y comparten ideas para la resolución de problemas socioambientales mediante la reflexión crítica, pero carece de una búsqueda de soluciones",
+              "3": "El PPEA utiliza una metodología de trabajo colaborativo en la que las personas participantes interactúan y comparten ideas para la resolución de problemas socioambientales mediante la reflexión crítica y la búsqueda de soluciones conjuntas innovadoras"
+            },
+            "TITLE": "6.5. ¿La metodología utilizada ayuda a desarrollar habilidades de acción basadas en el pensamiento crítico y creativo y en la construcción colectiva del conocimiento?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "En el PPEA se reflejan de forma sesgada o ambigua las actividades desarrolladas por la entidad, dificultando establecer la relación de éstas en su papel para la contribución o mitigación de las problemáticas, fundamentalmente ambientales, que se trabajan con el programa",
+              "2": "En el PPEA no se reflejan las actividades desarrolladas por la entidad, dificultando establecer la relación de éstas en su papel para la contribución o mitigación de las problemáticas socioambientales que se trabajan con el programa",
+              "3": "En el PPEA se reflejan las actividades desarrolladas por la entidad y cómo ésta contribuye o mitiga las problemáticas socioambientales que se trabajan con el programa"
+            },
+            "TITLE": "6.6. ¿La metodología invita al análisis crítico de las actividades desarrolladas por la entidad que diseña, promociona o ejecuta el PPEA?"
+          },
+          "7": {
+            "OPTIONS": {
+              "1": "La metodología utilizada en el PPEA evita la reflexión y, aunque se propone un compromiso para la resolución de la problemática ambiental trabajada, éste se enfoca únicamente en la responsabilidad individual del público destinatario.",
+              "2": "La metodología utilizada en el PPEA invita a la reflexión y al compromiso, considerando prioritariamente la responsabilidad individual del público destinatario (cambio de hábitos)",
+              "3": "La metodología utilizada en el PPEA invita a la reflexión y al compromiso, considerando tanto la responsabilidad individual del público destinatario (cambio de hábitos) como la responsabilidad colectiva (gubernamental) para la resolución de la problemática socioambiental trabajada"
+            },
+            "TITLE": "6.7. ¿La metodología utilizada supone comprometerse y ejecutar acciones para mejorar la problemática socioambiental trabajada?"
+          }
+        },
+        "TITLE": "6. Unos métodos coherentes con los fines de la EA"
+      },
+      "7": {
+        "DESCRIPTION": "Un buen programa o proyecto de EA debe contar con los recursos humanos, materiales y económicos suficientes y de calidad para su ejecución y que deben ser coherentes con los principios de sostenibilidad ambiental y justicia social. Este criterio delimitaría la calidad de un PPEA y ayudaría a la identificación del greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "En el PPEA se describe de forma incompleta o vaga quién integra el equipo educativo y sus competencias profesionales relacionadas con la educación ambiental",
+              "2": "En el PPEA no se describe quién integra el equipo educativo ni sus competencias profesionales relacionadas con la educación ambiental",
+              "3": "En el PPEA se describe y se puede verificar que el equipo educativo es interdisciplinario y cuenta con las competencias profesionales necesarias para la educación ambiental."
+            },
+            "TITLE": "7.1. ¿Se describen los recursos humanos y éstos son suficientes y tienen la capacidad adecuada para la planificación y el desarrollo del programa 8 ?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "El equipo educativo es estable, pero no dispone de oportunidades ni facilidades para su formación continua y reciclaje profesional",
+              "2": "El equipo educativo es inestable y no dispone de oportunidades ni facilidades para su formación continua y reciclaje profesional",
+              "3": "El equipo educativo es estable y sus condiciones laborales y profesionales son adecuadas al trabajo que desarrollan. Además, disponen de oportunidades y facilidades para su formación continua y reciclaje profesional"
+            },
+            "TITLE": "7.2. ¿Las condiciones laborales de quienes forman parte de los recursos humanos son dignas 9 ?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "En el PPEA se describe los recursos materiales de soporte, pero estos no son variados, suficientes ni adecuados a las actividades que se plantean en el programa.",
+              "2": "Los recursos materiales de soporte son didácticos, utilizan herramientas analógicas y digitales, pero no se adecúan a las características del público destinatario",
+              "3": "En el PPEA se describen los recursos materiales de soporte y éstos utilizan herramientas analógicas y digitales y se adecúan a las características del público destinatario, reduciendo las desigualdades"
+            },
+            "TITLE": "7.3. ¿Se describen los recursos materiales de soporte y éstos son variados, suficientes y adecuados para cada actividad l 10 ?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "Los materiales no siguen criterios de sostenibilidad ambiental y social",
+              "2": "Los materiales de soporte no siguen criterios de sostenibilidad ambiental y social",
+              "3": "Los materiales de soporte siguen criterios de sostenibilidad ambiental y social"
+            },
+            "TITLE": "7.4. ¿Los recursos materiales de soporte siguen principios de sostenibilidad ambiental y social 10 ?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "En el PPEA se describen las infraestructuras y se afirma que siguen los principios de sostenibilidad ambiental (), aunque se utilizan como reclamo",
+              "2": "En el PPEA no se describen las infraestructuras, aunque éstas podrían seguir los principios de sostenibilidad ambiental. Además, no son utilizadas como recurso educativo en el programa",
+              "3": "En el PPEA se describen las infraestructuras y éstas siguen los principios de sostenibilidad ambiental ( y éstas se utilizan como recurso educativo en el programa"
+            },
+            "TITLE": "7.5. ¿Se describen las infraestructuras utilizadas y éstas siguen criterios de sostenibilidad ambiental 11 en cuanto a tipología de materiales y consumo de recursos (energía, agua, etc)?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "La entidad publica informes de cuentas anuales, pero no especifica el origen de los recursos financieros de forma clara o transparente",
+              "2": "La entidad no publica informes de cuentas anuales o la información que proporciona carece de evidencias demostradas sobre, el origen de los recursos financieros",
+              "3": "La entidad publica informes de cuentas anuales en los que se especifica de forma detallada el origen de los recursos financieros"
+            },
+            "TITLE": "7.6. ¿Se explicita de dónde provienen los recursos financieros que permiten la relación anterior de recursos humanos y materiales?"
+          }
+        },
+        "TITLE": "7. Unos recursos coherentes con las finalidades del PPEA y los principios de sostenibilidad ambiental y justicia social"
+      },
+      "8": {
+        "DESCRIPTION": "Para medir y valorar el impacto de un PPEA es imprescindible determinar las herramientas y métodos con los cuales se recogerá la información con la que evaluar el alcance de los objetivos y la finalidad del PPEA. Este criterio delimitaría la calidad de un PPEA y ayudaría a la identificación del greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "Se describen en el programa los instrumentos y estrategias que se utilizarían para valorar si se han alcanzado los objetivos propuestos para el público destinatario, pero se hace de forma vaga o poco demostrable. No se disponen de instrumentos o estrategias para medir la contribución de este programa a la resolución de la problemática socioambiental que se trabaja. Carece de una estrategia general de medición de impacto.",
+              "2": "No se describen en el programa los instrumentos y estrategias que se utilizarían para valorar si se han alcanzado los objetivos propuestos para el público destinatario, ni para medir la contribución de este programa a la resolución de la problemática socioambiental que se trabaja. Carece de una estrategia general de medición de impacto.",
+              "3": "Se describen en el programa los instrumentos y estrategias que se utilizarán para valorar si se han alcanzado los objetivos propuestos para el público destinatario en el programa, así como la contribución de éste a la resolución de la problemática socioambiental que se trabaja. Se integran en una estrategia general de medición de impacto."
+            },
+            "TITLE": "8.1. ¿Se dispone de instrumentos y estrategias de valoración para medir en qué grado se han alcanzado los objetivos y finalidades del programa?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "El PPEA incluye actividades finales que se plantean como una síntesis del trabajo realizado; pero no se plantea como un ejercicio de reflexión de lo aprendido entre las personas destinatarias para que tomen conciencia de su proceso de aprendizaje.",
+              "2": "El PPEA no incluye actividades finales",
+              "3": "El PPEA incluye actividades finales que se plantean como un ejercicio de reflexión de lo aprendido entre las personas destinatarias para que tomen conciencia de su proceso de aprendizaje."
+            },
+            "TITLE": "8.2. ¿Se incluyen actividades de síntesis y de autoevaluación para las personas destinatarias?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "Se describe que a lo largo del proceso se producirá una recogida de información de forma sistemática y continúa para valorar el grado de adecuación de las actividades con los objetivos y finalidades del programa, con el fin de poder revisarlas para la mejora de este; pero no se ejecuta.",
+              "2": "No se describe que a lo largo del proceso se producirá una recogida de información de forma sistemática y continúa para valorar el grado de adecuación de las actividades con los objetivos y finalidades del programa con el fin de poder revisarlas para la mejora de éste",
+              "3": "Se describe y se ejecuta, a lo largo del proceso, la recogida de información de forma sistemática y continúa para valorar el grado de adecuación de las actividades con los objetivos y finalidades del programa con el fin de poder revisarlas para la mejora de éste"
+            },
+            "TITLE": "8.3. ¿Se prevé un sistema de evaluación continua por parte de quien ejecuta el programa para cambiar o adaptar la realización de las actividades previstas con los resultados de esta evaluación?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "La entidad no puede utilizar los resultados de la evaluación para determinar el grado de cumplimiento de los objetivos ni establecer los elementos del programa que necesitan mejoras dado que no se ha ejecutado el sistema de evaluación continua.",
+              "2": "La entidad no utiliza los resultados de la evaluación para determinar el grado de cumplimiento de los objetivos y establecer los elementos del programa que necesitan mejoras para analizar que está funcionando y que no y cómo cambiarlo.",
+              "3": "La entidad utiliza los resultados de la evaluación para determinar el grado de cumplimiento de los objetivos y establecer los elementos del programa que necesitan mejoras para analizar que está funcionando y que no y cómo cambiarlo."
+            },
+            "TITLE": "8.4. ¿Los resultados de la evaluación son utilizados para mejorar en el logro de los objetivos de mejora socioambiental?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "La entidad presenta en sus memorias u otros informes evidencias vagas sobre el alcance de los objetivos determinados en el PPEA (se mencionan objetivos generales sin resultados verificables de mejora de la problemática socioambiental o las afirmaciones no se respaldan con datos cualitativos o cuantitativos sobre el impacto ambiental o social alcanzado por el proyecto.",
+              "2": "La entidad no presenta en sus memorias u otros informes evidencias claras sobre el alcance de los objetivos determinados en el PPEA (se mencionan objetivos generales sin resultados verificables de mejora de la problemática socioambiental)",
+              "3": "La entidad presenta en sus memorias u otros informes el alcance de los objetivos determinados para el PPEA, permitiéndose identificar una mejora o aportación positiva en relación con el problema socioambiental que se trabaja (bien porque éste se mejora directamente, bien porque indirectamente se observa un mayor nivel de concienciación al respecto), respaldados por datos verificables y vinculados con los objetivos iniciales del proyecto."
+            },
+            "TITLE": "8.5. ¿Se presenta qué impacto ambiental y/o social se ha conseguido con los resultados del proyecto?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "La entidad no pone a disposición pública la memoria sobre los resultados del desarrollo del PPEA o, si se comunican, se hace con un enfoque claramente publicitario, sin reflejar un impacto real en la problemática socioambiental o utilizando datos poco verificables.",
+              "2": "La entidad pone a disposición pública la memoria sobre los resultados del desarrollo del PPEA, pero con limitaciones en cuanto a la claridad, accesibilidad o impacto real en relación con la mejora de la problemática socioambiental.",
+              "3": "La entidad pone a disposición pública la memoria sobre los resultados del desarrollo del PPEA con la finalidad de compartir la mejora que supone a la problemática socioambiental e invitar a la replicabilidad del programa."
+            },
+            "TITLE": "8.6. ¿Los resultados de la evaluación se difunden para reflejar la mejora de la problemática socioambiental (y no con fines publicitarios de la entidad)?"
+          }
+        },
+        "TITLE": "8. Una previsión de estrategias de evaluación del PEEA y la posterior publicación de resultados"
+      }
+    },
+    "PROJECT_NAME": "Nombre del proyecto/empresa",
+    "PROJECT_URL": "URL del proyecto/empresa",
+    "SCORE": {
+      "1": {
+        "DESCRIPTION": "No es un buen programa de educación ambiental, esté incurriendo o no en greenwashing, ya que carece de alguna, o varias, de las dimensiones propias de los programas de educación ambiental(no se define correctamente a las personas destinatarias, los objetivos; no se aporta una visión sistémica e interdisciplinaria de la problemática ambiental que se trata, la estrategia educativa no es la adecuada, no dispone de sistema de evaluación de los resultados y/o del programa",
+        "TITLE": "Incurre en greenwashing"
+      },
+      "2": {
+        "DESCRIPTION": "Se podría considerar un buen programa de educación (objetivos bien definidos, una buena metodología, se define correctamente a las personas destinatarias, etc.) pero no ambiental, ya que no aporta una visión sistémica e interdisciplinaria de la problemática ambiental que se trata y además incurre en prácticas de greenwashing (verdades a medias, se afirma un compromiso con algún problema ambiental pero a la vez se contribuye negativamente a este, se centra en la responsabilidad individual, etc.)",
+        "TITLE": "Podría incurrir en greenwashing"
+      },
+      "3": {
+        "DESCRIPTION": "Es un buen programa de educación ambiental, ya que presenta todas las dimensiones propias de un PPEA y además expone los problemas ambientales de una forma que invitan a la reflexión, explicando las causas y las consecuencias reales y aportando una visión sistémica e interdisciplinaria de la problemática ambiental que se trata",
+        "TITLE": "No incurre en greenwashing"
+      }
+    },
+    "TITLE": "Nueva evaluación"
+  }
 }

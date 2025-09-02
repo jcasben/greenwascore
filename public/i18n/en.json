@@ -1,484 +1,498 @@
 {
-	"EVALUATIONS": {
-		"DETAILS": "Details",
-		"EMPTY": "There aren't evaluations in the database yet.",
-		"PROJECT_URL": "Project URL:",
-		"TITLE": "Evaluations database"
-	},
-	"FOOTER": {
-		"CONTACT": "Contact",
-		"LEGAL": "Legal / Contact",
-		"LICENSE": "License",
-		"NAVIGATION": "Navigation"
-	},
-	"HEADER": {
-		"NAVBAR": {
-			"EVALUATIONS": "Evaluations",
-			"HOME": "Home",
-			"RUBRIC": "Rubric"
-		}
-	},
-	"HOME": {
-		"ABOUT_PROJECT": {
-			"TEXT": "The GreenWaScore project was created with the intention of responding to a growing concern: campaigns and programs that are presented as environmental education (EE) but may be of dubious educational quality. Often, behind a “green” image, there are business or organizational practices that are unsustainable or lack environmental ethics. This practice is known as greenwashing.\n\nGreenwashing is a technique used by companies, organizations, and institutions to communicate misleading, false, or incomplete environmental information in order to convey an image of sustainability and environmental responsibility that does not correspond to their actual practices.\n\nWith this project, the Environmental Education for Sustainability Research Group (GREAS) at the University of the Balearic Islands (UIB), developed in part within the framework of the SOIB Research and Innovation - INVESTIGO program, has created a practical tool that helps identify whether an EE program, project, or activity promotes sustainability values or simply seeks to improve an entity's green image.",
-			"TITLE": "What is this project?"
-		},
-		"PROJECT_OBJECTIVES": {
-			"OBJECTIVE_LIST": {
-				"1": "Raise awareness of greenwashing characteristics as a misleading educational practice.",
-				"2": "Provide a practical, useful, and accessible tool in the form of a rubric to analyze and evaluate the quality of environmental education projects and programs.",
-				"3": "To assist teachers (active or in training) and environmental educators in making informed decisions when selecting educational resources for environmental sustainability, promoting high-quality environmental education that is critical and consistent with the principles of sustainability."
-			},
-			"TEXT": "This GreenWaScore project has the following main objectives:",
-			"TITLE": "Which are its objectives?"
-		},
-		"RUBRIC_FUNCTION": {
-			"LIST1": {
-				"1": "Which entity has designed/executed/sponsored the EEPP (Environmental Education Project or Program) and its characteristics",
-				"2": "What information, concepts, data, and content the EEPP provides",
-				"3": "What are the characteristics of a good EEPP",
-				"4": "What are the main greenwashing techniques"
-			},
-			"LIST2": {
-				"1": "Engages in greenwashing: 1 point",
-				"2": "Might engage in greenwashing: 2 points",
-				"3": "Does not engage in greenwashing: 3 points"
-			},
-			"LIST3": {
-				"1": "Minimum total score: 43 (all indicators score 1 point)",
-				"2": "Maximum total score: 129 (all indicators score 3 points)"
-			},
-			"LIST4": {
-				"1": "Engages in greenwashing: 43–65",
-				"2": "Might engage in greenwashing: 66–105",
-				"3": "Does not engage in greenwashing: 106–129"
-			},
-			"TEXT1": "The rubric is easy to use and serves to critically analyze environmental education projects and programs (EEPPs). It consists of three qualitative performance levels (engages in greenwashing, might engage in greenwashing, does not engage in greenwashing) and 43 indicators divided into 8 criteria. For each indicator, one must choose the appropriate level based on the indicator descriptors and the characteristics of the project or program being evaluated, as well as the organization offering it.\n\nEach level provides a different score:",
-			"TEXT2": "It should be noted that for some of these aspects, it will not be sufficient to analyze the PPEA, and other sources of information will therefore have to be consulted (see Support Guide for Using the Rubric).\n\nWhen analyzing the PPEA, it is necessary to determine, for each criterion and in accordance with the descriptors for each indicator, what level of implementation would correspond to the PPEA. Each level contributes a different score:",
-			"TEXT3": "Therefore:",
-			"TEXT4": "To determine the extent to which the evaluated EEAP may be engaging in greenwashing, the values assigned to each indicator are added, and the total score will determine the level:",
-			"TITLE": "How to use the tool?"
-		}
-	},
-	"LEGAL": {
-		"COPYRIGHT": "This website was developed by Jesús Castillo, a student of the Bachelor's Degree in Computer Engineering at the University of the Balearic Islands.\n\nWith the support of the University of the Balearic Islands – Faculty of Education.\n\nThe rubric for analyzing environmental education programs was designed by the Environmental Education Research Group for Sustainability at the University of the Balearic Islands within the framework of the SOIB Research and Innovation Program - Investigo.",
-		"LICENSE": {
-			"TEXT": "This rubric may be freely used for educational and non-commercial purposes, provided that the original source is properly cited.\nReproduction, distribution, and adaptation are allowed for educational settings, academic research, or training projects, as long as there is no commercial intent.\nCommercial use or modification intended to obscure authorship is not permitted.\n\nIf you have any questions about how to use these resources, please feel free to contact us.\n\nThe source code of this website is available under the MIT License.\nThis means you are free to use, copy, modify, and distribute the code for any purpose, as long as the original copyright notice is preserved.",
-			"TITLE": "Usage license"
-		}
-	},
-	"RUBRIC": {
-		"BUTTON": "View results",
-		"CRITERIA": {
-			"1": {
-				"DESCRIPTION": "Sometimes, entities and/or companies that are not dedicated to EA, the environment or education in general (foundations, non-profit organizations, banks or savings banks...) sponsor, design and/or execute programs. We consider that the aims and objectives of the EEPP should coincide with the mission and values of the entity or company sponsoring, designing and/or executing the program. This criterion could contribute to identify greenwashing, if there is no clear relationship between the mission and values of the entity or company and what is being worked with the program.",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "Sustainability principles are integrated, although they are not related to the company's main economic activity.",
-							"2": "The integration of sustainability principles cannot be clearly identified.",
-							"3": "The principles of sustainability are integrated and are also consistent with the company's core business activity"
-						},
-						"TITLE": "1.1.Do the mission and values described by the entity integrate the principles of sustainability?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "Awareness-raising, training or education functions are established, although through companies/secondary entities or their own foundations, trying to move them away from the idea of the main activity of the entity",
-							"2": "Awareness-raising, training or education in relation to the problem dealt with is not established or cannot be identified among its functions, either directly or indirectly",
-							"3": "Awareness-raising, training or education is established as one of its main functions and this is aware and transparent in its possible contribution to the environmental problems dealt with in the EEPP"
-						},
-						"TITLE": "1.2. Does the entity establish among its functions awareness-raising, training or education in relation to the socio-environmental problems of the EEPP?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "The entity shows in its corporate communications activities selected in an interested manner, omitting the negative or unsustainable aspects of these; or states in its sustainability plan that its activities are consistent with and committed to sustainability principles, but this information lacks objective evidence, cannot be substantiated by other easily accessible information, or does not have reliable third-party approval",
-							"2": "The entity does not show in its corporate communications whether its activities are consistent with the principles of sustainability; o In its sustainability plan it does not make statements related to the activity",
-							"3": "In its corporate communications, the bank shows consistency between its activities and the principles of sustainability. Data is third-party justified in your sustainability plan"
-						},
-						"TITLE": "1.3.Are the entity's activities consistent with the principles of sustainability?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "The entity affirms its environmental commitment to one or more environmental problems, but its main activity contributes directly and negatively to these.",
-							"2": "The entity does not report on its environmental commitment to one or more environmental problems; or it does, but its main activity contributes indirectly to these",
-							"3": "The entity was established to address socio-environmental problems and is coherent in its activities, endorsing its concern for these issues."
-						},
-						"TITLE": "1.4. Is there a clear internal coherence between the topic addressed with the EEPP and the characteristics of the entity that sponsors, designs or executes it?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "The mission of the entity is linked to the environmental problem that is dealt with in the EEPP, but it is not done in a transparent way (it does not inform of its contribution to the problem) or proposes solutions to the problem in the long term",
-							"2": "The entity's mission is linked to the environmental problem addressed in the EEPP, but it does not communicate its contribution to it even though it is aware that its activity contributes negatively to the problem, so it proposes objective solutions and tries to reduce its impact.",
-							"3": "The entity's mission is directly or indirectly linked to the environmental issues addressed in the EEPP. The entity was founded to raise awareness and address socio-environmental issues and is consistent in its activities, endorsing its concern for these issues and proposing short- and long-term solutions to address them."
-						},
-						"TITLE": "1.5. Does the EEPP respond to an identified need that is clearly contemplated within the mission of the entity sponsoring, designing or implementing it?"
-					}
-				},
-				"TITLE": "1. The coherence between the main activity of the entity and the objectives and contents of the Environmental Education Plan and/or Program (EEP) that is sponsored, designed and/or implemented."
-			},
-			"2": {
-				"DESCRIPTION": "Often, the SEAPs that are designed may not provide demonstrated evidence of the benefits that the entity brings to the issue or problem being addressed and are rather elaborate claims to sell a green image. The entity uses empty terms (e.g. ecofriendly, wastefulness, etc.) or excessively scientific information or terms that can only be understood by specialists in the field, so that they can lead to confusion or deception. This criterion could contribute to identify greenwashing, in the case that the EEPP does not improve or work on an environmental situation, but rather represents a benefit for the entity and confuses or misleads the EEPP recipients.",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "The entity provides information on its activities, but this information lacks objective evidence (it cannot be substantiated by other readily available information or does not present reliable third-party approval) or is biased information (information is selected in relation to the agenda item in a self-serving manner: it omits negative aspects in relation to its core business).",
-							"2": "The entity does not provide information on its activities",
-							"3": "The entity provides information on its activities and these activities provide demonstrated evidence of the benefits that the entity brings to the issue or problem being addressed by the EEPP."
-						},
-						"TITLE": "2.1. Does the entity provide information on its activities in an objective manner and is it supported by measurable data that relates to the subject matter of program 2?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "It uses language with excessive technical jargon and empty terms (ecofriendly, sustainable growth, eco-design, biofuel...) and/or questionable terms (e.g. individual carbon footprint to avoid collective responsibility and propose individual solutions).",
-							"2": "It uses a language that is understandable for the target audience, with some technical terms, although some empty terms (ecofriendly, sustainable growth, eco-design, biofuel...) or debatable terms (individual carbon footprint) can also be distinguished.",
-							"3": "Use language that is understandable to the target audience, with a correct use of technical terms and without using empty terms (ecofriendly, sustainable growth, eco-design, biofuel...) or questionable terms (carbon footprint on an individual basis)."
-						},
-						"TITLE": "2.2. Does the entity present information using technical language related to the subject matter and is it understandable to all persons 3 ?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "The values that the entity disseminates in the EEPP are reflected in its annual or CSR reports, but these are not in line with the entity's core business (it states its commitment to an environmental issue, but on the other hand, it is contributing negatively with its activities).",
-							"2": "The values that the entity disseminates in the EEPP are not reflected in its annual or CSR reports.",
-							"3": "The values that the entity disseminates in the EEPP are consistent with the information provided in its annual or CSR reports (complete, clear information, approved by third parties, etc.)."
-						},
-						"TITLE": "2.3. Does the entity present information related to the values it disseminates in the EEPP in its annual reports or in its Corporate Social Responsibility (CSR) reports?"
-					}
-				},
-				"TITLE": "2. The truthfulness of the information that the sponsoring, designing or executing entity or company provides about itself and the EEPP."
-			},
-			"3": {
-				"DESCRIPTION": "We believe that EEPPs should be based on a previous study or diagnosis of an environmental situation or problem that is also related to the needs of the target audience. This criterion could be used to identify greenwashing and to assess the quality of a EEPP, since it would be designed with a clear purpose of raising awareness and educating to change a situation or address a problem.",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "Some information is provided about the causes of the problem being addressed, but there is no justification for the choice of topic and why it is important or urgent and/or the actual consequences of not acting (states that there is a problem, but implies that there is plenty of room for action and that the consequences are not yet being experienced).",
-							"2": "No or very little data is provided on the situation of the problem (causes and consequences) to justify the choice of the topic (it deals with some of the main environmental problems - climate change, waste, energy, etc. - in a superficial way, without investigating their urgency).",
-							"3": "The choice of the problem to be addressed is justified by providing clear and detailed information on the causes and consequences of the problem and the implications of not acting."
-						},
-						"TITLE": "3.1. Is there information and/or data available in the EEPP on the situation that makes it necessary to carry it out?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "The EEPP provides ambiguous information (of a global nature and without specific numerical data; the origin of the problem and its current situation are not adequately contextualized; or the available data are incomplete or come from unreliable sources4 ) or omit information so as not to contextualize the origin of the problem being addressed, as well as its current situation. This fact makes it difficult to realistically assess the impact of the program.",
-							"2": "The EEPP lacks data that contextualizes the origin of the problem or its current situation or, if available, these are incomplete or the sources are not mentioned, which makes it difficult to assess the program's impact.",
-							"3": "The EEPP provides both qualitative and quantitative data that serve to contextualize the origin of the problem being addressed, as well as its current situation, so that they can be used to make a realistic assessment of the program's impact."
-						},
-						"TITLE": "3.2. Are qualitative and quantitative data available in the EEPP that situate it (starting point) and contextualize it (local and global), and that are later used to make an assessment of the EEPP's impact?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "The EEPP is designed exclusively for students of different educational levels (formal education) but does not analyze or consider their starting characteristics (local, socio-cultural particularities, different learning abilities, etc.).",
-							"2": "The EEPP is designed for a specific target audience (students of different educational levels, groups, families, etc.), but its initial characteristics (individual, cultural and local particularities of the target audience, as well as their capacities) are not analyzed or considered, and therefore it is not adapted to them.",
-							"3": "The EEPP is designed for a specific target audience (students of different educational levels, groups, families, etc.), and its initial characteristics (individual, cultural and local particularities) are analyzed and considered."
-						},
-						"TITLE": "3.3. Are the people targeted by the EEPP identified and, in the case of being aimed at a broad sector of the population, are certain target subgroups on which the EEPP is focused as a priority?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "The program recognizes certain characteristics of the participants (level of environmental literacy, socio-cultural context, educational level...) and takes advantage of this by partially adapting its activities or approaches to their own interests.",
-							"2": "The program recognizes certain characteristics of the participants (level of environmental literacy) and partially adapts its activities or approaches to solve the problems addressed in the program.",
-							"3": "The programme recognizes all characteristics of participants (level of environmental literacy) and adapts their activities or approaches to solving the problem being worked on in the programme"
-						},
-						"TITLE": "3.4.Are the characteristics of the target group defined in relation to the appropriation of the need for the programme: participation, obstacles, challenges and/or lack of knowledge?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "The content of the programme is presented taking into account the level of knowledge or previous ideas of the participants, so that this lack of knowledge (of ideas, beliefs, mistakes,...) can be used to introduce ideas which may be inaccurate or biased; unverified or out of touch",
-							"2": "The content of the programme is presented without taking into account previous knowledge or ideas of the participants, so that the programme introduces some unverified ideas, but there is at least one attempt to generate critical reflection, although this is limited.",
-							"3": "The content of the program is presented taking into account the previous knowledge or ideas of the participants, in order to try to generate critical reflection "
-						},
-						"TITLE": "3.5. Is it based on the previous knowledge or ideas of those who participate? "
-					}
-				},
-				"TITLE": "3. A diagnosis of the need for the EEPP to solve socio-environmental problems related to the target population."
-			},
-			"4": {
-				"DESCRIPTION": "The EEPP should describe their objectives and contents and be coherent with each other. In addition, they should respond to the objectives and characteristics of EA and thus promote environmental education. This criterion would delimit the quality of a EEPP and assist in the identification of greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "The objectives are not clearly formulated and do not present a clear intention for solving the problem being worked on. In addition, they are not easily achievable and their sequencing has some irregularities that could hinder effective implementation.",
-							"2": "The objectives are not clearly formulated and do not present a clear intention for solving the problem being worked on. They may be achievable, but their sequencing has some irregularities that could hinder effective implementation",
-							"3": "The objectives are clearly formulated and show a clear intention for solving the problem being worked on. In addition, they are easily achievable and their sequencing facilitates effective implementation."
-						},
-						"TITLE": "4.1.Is there a good formulation of objectives, as well as their intentionality and sequencing 5?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "Contents (or competencies) are mainly addressed from the conceptual area, but in a biased way (selection of information in relation to the agenda item is done in an interested manner), and these are not directly linked to the resolution of the problem addressed in the EEPP, or if done, practical training for action is based on individual responsibility rather than collective",
-							"2": "The contents (or competences) do not clearly address conceptual, procedural and behavioural areas. There is no clear connection between the conceptual, procedural and actitudinal contents or these are not directly linked to the resolution of the problem addressed in the EEPP. In the case of practical training for action, it is based on individual responsibility and not collective",
-							"3": "The contents (or competences) are addressed from the conceptual, procedural and actitudinal area and these are directly linked to the resolution of the problem that is addressed in the EEPP. Practical training for collective responsibility-based action"
-						},
-						"TITLE": "4.2. Is there a good definition and formulation of conceptual, procedural and behavioural contents and/or competences in relation to the objectives?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "The objectives are not clearly formulated, they are too general, which prevents their effective verification or evaluation. No clear and measurable evaluation indicators have been designed, or those proposed are not adequate to objectively measure progress towards the objectives",
-							"2": "The objectives are not clearly formulated and the evaluation strategy is non-existent or inadequate (no evaluation indicators have been designed), which prevents effective evaluation.",
-							"3": "The objectives are formulated in a clear, specific and comprehensible way, which facilitates their verification and evaluation. An appropriate evaluation strategy has been designed, with precise, measurable and quantifiable indicators that are aligned with the objectives and allow for objective measurement of progress or achievement."
-						},
-						"TITLE": "4.3. Are objectives easily verifiable and evaluable 6 ?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "The objectives are not clearly related to the entity’s activity and the relationship with the environmental problems addressed in the programme is minimal, vague or even contradictory. The connection between the entity’s work and environmental challenges does not encourage a critical reflection on the impact of that activity on the environment.",
-							"2": "The objectives are related to the activity of the entity in general, but the relationship with the environmental problems addressed in the programme is not completely clear. The connection between the entity’s work and environmental challenges does not encourage a critical reflection on the impact of that activity on the environment.",
-							"3": "The objectives are clearly related to the activity of the entity. The connection between the entity’s work and the environmental challenges it addresses is transparent with its actions. Critical reflection on the entity’s own activity is encouraged, inviting participants to evaluate and question its actions"
-						},
-						"TITLE": "4.4. Are objectives described to reflect critically on the activity of the entity that sponsors, designs or implements the EEPP?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "The objectives of the programme are not aligned with EA’s own objectives. The content provides biased information (omits data, does not mention negative impacts etc.) and lacks clear sources. It focuses on a particular educational level, but does not take into account the socio-economic and cultural realities of the participants",
-							"2": "The programme objectives are not fully aligned with EA’s own objectives. The contents provide truthful information (though not sufficient), but without mentioning the sources. It is aimed at a specific target audience, but does not take into account the socio-economic and cultural realities of that audience",
-							"3": "The objectives of the programme are fully aligned with EA’s own objectives. The contents provide truthful, reliable and well-tested information. It is targeted to a specific target audience and takes into account the socio-economic and cultural realities of that audience"
-						},
-						"TITLE": "4.5. Are objectives 7 and EA-specific content relevant to the context in which the programme is developed incorporated?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "The objectives relate primarily to learning to know (cognitive) and the selection of the subject to be worked on in EEPP is made in an interested manner. In addition, it does not include procedural or emotional objectives",
-							"2": "Objectives addressing the three dimensions of learning are not adequately included. Lack of attention to one or more areas limits the effectiveness of the programme and its ability to promote integral learning.",
-							"3": "The objectives address the three dimensions of learning (cognitive, procedural and emotional) in a balanced and meaningful way. The acquisition of knowledge and the development of skills, attitudes or emotions linked to the reality of the participants are promoted, guaranteeing integral and transferable learning for solving the problems being worked on."
-						},
-						"TITLE": "4.6. Are objectives related to learning to know (cognitive: facts and concepts), learning to do (procedural: skills) and learning to be and to live together (emotional: attitudes) included?"
-					},
-					"7": {
-						"OPTIONS": {
-							"1": "The content does not adequately address active learning or provide sufficient tools for the people involved to act on environmental issues. The content is theoretical, de-contextualised or too general, with no clear link to local environmental needs, limiting the applicability of learning.",
-							"2": "The content addresses some aspects of active learning and problem solving, but its connection to local reality is not completely clear or partially developed. Concepts and tools to tackle environmental problems are presented, but the people involved may not be sufficiently trained to apply these solutions effectively.",
-							"3": "The content addresses aspects of active learning and problem solving, and is clearly connected to local reality. Concepts and tools for dealing with environmental problems are presented, and the people involved can expect sufficient training to apply these solutions effectively."
-						},
-						"TITLE": "4.7. Does it include content related to learning how to act, encouraging people to face problems and respond to the real needs of the context in which they work?"
-					}
-				},
-				"TITLE": "4. Clearly defined objectives and content in the EAP"
-			},
-			"5": {
-				"DESCRIPTION": "A EEPP should have a schedule of activities in which the objectives and contents promoted by the programme or project are worked on and sequenced, and which is suited to the characteristics of the persons targeted by the EEPP. This criterion would delimit the quality of a EEPP and help identify greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "The programme has a clear timing; but there is no logical sequencing of activities.",
-							"2": "The programme does not have a clear timing and no fully logical sequence of activities is observed",
-							"3": "The programme has a clear timing and a completely logical sequence of activities is observed"
-						},
-						"TITLE": "5.1. Is there a working method with a well planned and timed sequence of activities?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "The methodology is partially consistent with programme objectives, but there are indications of lack of depth or bias in the information provided. Although activities are related to objectives, some content is not addressed in a comprehensive or balanced manner and there is a lack of transparency in the presentation of information. Activities may encourage reflection, but it is superficial or limited and not always related to real action",
-							"2": "The methodology shows general consistency with programme objectives, but there are areas where the depth or focus of information is limited. Although activities are related to objectives, some content is not developed in sufficient detail or balance and the presentation of information may be unclear or partial. Activities can encourage reflection, but in some cases it is superficial or not fully linked to concrete actions, which limits the effectiveness of the programme to bring about real change",
-							"3": "The methodology is fully consistent with the objectives of the programme. The information provided is in-depth, truthful and comes from reliable sources. The activities are related to the objectives and all contents are addressed in a complete and balanced way, with total transparency in the presentation of the information. Activities encourage critical reflection"
-						},
-						"TITLE": "5.2. Is the working methodology used consistent with the objectives set?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "There is an activity plan developed exclusively for pupils (formal education), but no specific distinction between educational levels; therefore, some activities are not suited to the characteristics of this programme and no other alternatives are offered to adapt these activities to the diversity of participants",
-							"2": "An activity plan developed for a generic target audience is available; therefore, some activities are not suited to the characteristics of the target audience and no alternatives are offered to adapt these activities to the diversity of participants",
-							"3": "An activity plan developed for a specific target audience is available and the activities are adapted to the characteristics of that audience, as alternatives are offered to adapt to the diversity of participants"
-						},
-						"TITLE": "5.3. Is there a plan of activities in a format that is well adapted and appropriate to the characteristics of the target audience?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "The methodology focuses on the transmission of information on socio-environmental problems, but with limitations in terms of critical reflection or active participation. While there is a focus on improving social relationships with the environment, meaningful linkages between participants and socio-environmental issues are not always achieved.",
-							"2": "The methodology focuses on the transmission of information on environmental issues and seeks to promote critical reflection, social communication and active participation; but it is not always possible to establish meaningful links between the participants and the socio-environmental problem.",
-							"3": "The methodology not only focuses on understanding information about environmental issues, but also promotes critical reflection, social communication and active participation. In addition, significant links are established between the participants and the socio-environmental problem."
-						},
-						"TITLE": "5.4. Is the methodology used (in the activities) oriented towards understanding, reflection, social communication and action to improve the social relations we establish with our local and global environment?"
-					}
-				},
-				"TITLE": "5. A plan of activities consistent with the objectives and contents of the EEPP"
-			},
-			"6": {
-				"DESCRIPTION": "The methodology of EA programmes or projects should promote analysis of environmental and social complexities and views of environmental issues or issues, develop action skills based on critical thinking and not only based on knowledge transfer. This criterion would delimit the quality of a EEPP and assist in the identification of greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "The EEPP and its activities integrate only environmental visions, without integrating quality of life and planetary boundaries with these visions. Environmental problems do not arise as a direct consequence of human activities, and their resolution is approached solely from the standpoint of individual responsibility. The programme does not present a comprehensive approach or provide tools for reflection on the effects of political, economic and social decisions on the environment.",
-							"2": "The EEPP and its activities integrate environmental and social visions in a limited way, partially integrating the quality of life and planetary boundaries. Environmental problems arise as a direct consequence of human activities, but their resolution is approached solely from the point of view of individual responsibility. The programme presents an incomplete approach and does not provide tools to reflect on the effects of political, economic and social decisions on the environment",
-							"3": "The EEPP and its activities integrate environmental and social visions in a holistic way, integrating their relationship with quality of life and planetary boundaries. Environmental problems arise as a direct consequence of human activities, with emphasis on individual and collective responsibility in their resolution. The programme presents a comprehensive approach and provides tools for reflecting on the effects of political, economic and social decisions on the environment."
-						},
-						"TITLE": "6.1. Are complexity analyses, environmental and social visions and their relationship between quality of life and planetary boundaries incorporated?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "The contents of the EEPP take into account the characteristics of the people involved (background knowledge, educational level, curriculum), and although the information is adapted to them, it can be biased or use empty terms of content (ecofriendly, sustainable growth, eco-design, biofuel...) or questionable (e.g., individual carbon footprint to evade collective responsibility and propose individual solutions)",
-							"2": "The contents of the EEPP take into account certain characteristics of the people involved (background knowledge, educational level) and although the information may be partially adapted to these characteristics, it has too many technicalities that make it difficult to understand",
-							"3": "The contents of the EEPP take into account the characteristics of the people involved (previous knowledge, level of education, curriculum, socio-economic and cultural area, etc.), offering truthful, verified and easily understandable information."
-						},
-						"TITLE": "6.2. Is content identified appropriate to the characteristics of the target persons?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "The programme describes specific methods for each level of education and/or the different target actors and, although it includes practical examples or activities that can be implemented in different educational contexts, these are aimed at some individual pro-environmental actions",
-							"2": "The programme describes specific methods for each educational level and/or target actors, including practical examples or activities that can be implemented in different educational contexts, but they are not intended to promote pro-environmental actions",
-							"3": "The programme describes specific methods for each level of education and/or the different target actors, including practical examples or activities that can be implemented in the different educational contexts with a view to carrying out actions individual or collective environmental"
-						},
-						"TITLE": "6.3. Is the applicability reflected for each educational level and/or for the different target actors?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "The EEPP studies mainly environmental issues, leaving aside the social dimension, and although the analysis is carried out at different scales, it focuses on the global context and its problems as a basis for learning.",
-							"2": "The EEPP is based on the study of socio-environmental issues at different scales, focusing on the global context and its problems as a basis for learning",
-							"3": "The EEPP is based on the study of socio-environmental issues at different scales, focusing on the close context and its problems as a basis for learning"
-						},
-						"TITLE": "6.4. Is the study based on own and/or related socio-environmental issues?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "The EEPP can use a collaborative work methodology in which the people involved interact and share ideas for solving primarily environmental problems, but without using critical thinking or seeking joint innovative solutions",
-							"2": "The EEPP can use a collaborative work methodology in which participants interact and share ideas for solving socio-environmental problems through critical reflection, but lacks a search for solutions",
-							"3": "The EEPP uses a collaborative work methodology in which the people involved interact and share ideas for solving socio-environmental problems through critical reflection and finding innovative joint solutions"
-						},
-						"TITLE": "6.5. Does the methodology used help to develop action skills based on critical and creative thinking and the collective construction of knowledge?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "The EEPP reflects in a biased or ambiguous way the activities developed by the entity, making it difficult to establish the relationship of these in their role for the contribution or mitigation of the problems, mainly environmental, that are worked with the program",
-							"2": "The EEPP does not reflect the activities carried out by the entity, making it difficult to establish the relationship of these in its role for the contribution or mitigation of socio-environmental problems that are worked with the program",
-							"3": "The EEPP reflects the activities carried out by the entity and how it contributes or mitigates the socio-environmental problems that are worked with the program"
-						},
-						"TITLE": "6.6. Does the methodology invite a critical analysis of the activities carried out by the entity that designs, promotes or implements the EEPP?"
-					},
-					"7": {
-						"OPTIONS": {
-							"1": "The methodology used in the EEPP avoids reflection and, although a commitment is proposed for the resolution of the environmental problem worked, it focuses only on the individual responsibility of the target audience.",
-							"2": "The methodology used in the EEPP invites reflection and commitment, considering primarily the individual responsibility of the target audience (change of habits)",
-							"3": "The methodology used in the EEPP invites reflection and commitment, considering both the individual responsibility of the target audience (change of habits) and the collective responsibility (government) for the resolution of the socio-environmental problem worked"
-						},
-						"TITLE": "6.7. Does the methodology used involve commitment and implementation of actions to improve the socio-environmental problems addressed?"
-					}
-				},
-				"TITLE": "6. Consistent approaches to EA"
-			},
-			"7": {
-				"DESCRIPTION": "A good TE programme or project must have sufficient and quality human, material and financial resources for its implementation and must be consistent with the principles of environmental sustainability and social justice. This criterion would delimit the quality of a EEPP and help identify greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "The EEPP describes in a incomplete or vague who is part of the educational team and its Professional Competencies Education-related environmental",
-							"2": "The EEPP does not describe who member of the educational team or their Professional Competencies Education-related environmental",
-							"3": "In the EEPP it is described and You can verify that the equipment educational is interdisciplinary and has the competencies professionals necessary for the environmental education."
-						},
-						"TITLE": "7.1. Are the human resources and these are sufficient and have the adequate capacity for the Planning and Development of program 8 ?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "The educational team is stable, but he has no opportunities nor facilities for their training Continuous and professional retraining",
-							"2": "The educational team is unstable and has no opportunities or Facilities for your training Continuous and professional retraining",
-							"3": "The educational team is stable and their working conditions, and are suitable for the work they develop. In addition have opportunities and Facilities for your training Continuous and professional retraining"
-						},
-						"TITLE": "7.2. The conditions of those who are part of the resources Are humans worthy 9  "
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "The EEPP describes the material resources of support, but these are not varied, sufficient or appropriate to the activities that are raised in the program.",
-							"2": "The material resources of support are didactic, use tools analogue and digital, but are not adapted to the Characteristics of the public addressee",
-							"3": "The EEPP describes the material resources of support and these use analog tools and digital and adapt to the Characteristics of the public recipient, reducing the Inequalities"
-						},
-						"TITLE": "7.3. Are the material resources of support and these are varied, sufficient and adequate to each activity l 10 ?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "The materials do not follow environmental and social sustainability criteria",
-							"2": "Support materials do not follow sustainability criteria Environmental and Social",
-							"3": "Support materials follow sustainability criteria Environmental and Social"
-						},
-						"TITLE": "7.4. Do the supporting material resources follow principles of environmental and social sustainability 10 ?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "The EEPP describes the infrastructure and states that it follows the principles of environmental sustainability (), although they are used as a",
-							"2": "Infrastructure is not described in the EAP, although it could follow principles of environmental sustainability. In addition, they are not used as an educational resource in the programme",
-							"3": "Infrastructure is described in the EEPP and follows environmental sustainability principles ( and is used as an educational resource in the programme"
-						},
-						"TITLE": "7.5. Are the infrastructures used described and do they follow environmental sustainability criteria 11 in terms of material typology and resource consumption (energy, water, etc.)?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "The institution publishes annual financial statements, but does not specify the source of financial resources in a clear or transparent manner",
-							"2": "The institution does not publish annual financial statements or the information it provides lacks proven evidence about, the origin of the financial resources",
-							"3": "The institution publishes annual financial statements detailing the origin of the financial resources"
-						},
-						"TITLE": "7.6. Is it made clear where the financial resources that make up the above ratio of human and material resources come from?"
-					}
-				},
-				"TITLE": "7. Resources consistent with the aims of the EEPP and the principles of environmental sustainability and social justice"
-			},
-			"8": {
-				"DESCRIPTION": "In order to measure and assess the impact of a EEPP, it is essential to determine the tools and methods by which information will be collected to evaluate the scope of the objectives and purpose of the EEPP. This criterion would delimit the quality of a EEPP and help identify greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "The programme describes the tools and strategies that would be used to assess whether the targets proposed for the target audience have been achieved, but is vague or not demonstrable. There are no tools or strategies to measure the contribution of this programme to the resolution of the socio-environmental problems being addressed. Lacks a comprehensive impact measurement strategy.",
-							"2": "The programme does not describe the tools and strategies that would be used to assess whether the objectives proposed for the target audience have been achieved, nor to measure the contribution of this programme to the resolution of the socio-environmental problems being addressed. Lacks a comprehensive impact measurement strategy.",
-							"3": "The programme describes the tools and strategies that will be used to assess whether the objectives proposed for the target group in the programme have been achieved, as well as their contribution to solving the socio-environmental problems being addressed. They are integrated into an overall impact measurement strategy."
-						},
-						"TITLE": "8.1. Are evaluation tools and strategies available to measure the extent to which programme objectives and targets have been achieved?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "The EEPP includes final activities that are presented as a synthesis of the work done; but it is not presented as an exercise in reflecting on what has been learned by the people to whom it is addressed, so that they become aware of their learning process.",
-							"2": "The EEPP does not include final activities",
-							"3": "The EEPP includes final activities that are intended as an exercise in reflecting on what has been learned by the target group so that they become aware of their learning process."
-						},
-						"TITLE": "8.2. Are synthesis and self-assessment activities included for the recipients?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "It is described that throughout the process there will be a systematic and ongoing collection of information to assess the extent to which activities are in line with the objectives and aims of the programme, so that they can be reviewed for improvement; but not running.",
-							"2": "There is no description of the fact that information will be collected in a systematic way throughout the process and continues to assess the extent to which activities are in line with the objectives and aims of the programme so that they can be reviewed for improvement",
-							"3": "The collection of information is described and carried out in a systematic way throughout the process, and continues to assess the degree of adequacy of activities with the objectives and aims of the programme so that they can be reviewed for improvement"
-						},
-						"TITLE": "8.3. Is there a system of continuous evaluation by the programme implementer to change or adapt the implementation of planned activities with the results of this evaluation?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "The entity cannot use the results of the assessment to determine the extent to which targets have been met or identify elements of the programme that need improvement since the continuous assessment system has not been implemented.",
-							"2": "The entity does not use the results of the assessment to determine the extent to which targets have been met and to identify elements of the programme that need improvement in order to analyse what is working and what is not, and how to change it.",
-							"3": "The entity uses the results of the assessment to determine the extent to which targets are met and to identify those elements of the programme that need improvement in order to analyse what is working and what is not, and how to change it."
-						},
-						"TITLE": "8.4. Are evaluation results used to improve the achievement of socio-environmental improvement objectives?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "The entity presents in its memos or other reports vague evidence on the scope of the objectives identified in the EEPP (general objectives are mentioned without verifiable results of improvement of the socio-environmental problem or the statements are not supported with qualitative or quantitative data on the environmental or social impact achieved by the project.",
-							"2": "The entity does not present in its reports or other reports clear evidence on the scope of the objectives determined in the EEPP (general objectives are mentioned without verifiable results for improving social and environmental problems)",
-							"3": "The entity presents in its reports or other reports the scope of the objectives determined for the EEPP, allowing an improvement or positive contribution to be identified in relation to the socio-environmental problem being worked on  (either because it is directly improved or indirectly because there is a higher level of awareness), supported by verifiable data and linked to the initial objectives of the project."
-						},
-						"TITLE": "8.5. What environmental and/or social impact has been achieved with the project results?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "The entity does not make publicly available the report on the results of the development of the EEPP or, if they are communicated, it is done with a clearly advertising approach, without reflecting a real impact on the socio-environmental problem or using data that can hardly be verified.",
-							"2": "The entity makes publicly available the report on the results of the development of the EEPP, but with limitations in terms of clarity, accessibility or real impact in relation to the improvement of social and environmental issues.",
-							"3": "The entity makes publicly available the report on the results of the development of the EEPP in order to share the improvement that it brings to the socio-environmental problem and invite the replicability of the program."
-						},
-						"TITLE": "8.6. Are the results of the evaluation disseminated to reflect the improvement in the socio-environmental problem (and not for the entity’s advertising purposes)?"
-					}
-				},
-				"TITLE": "8. A forecast of evaluation strategies for the PEEA and subsequent publication of results"
-			}
-		},
-		"PROJECT_NAME": "Project/Business name",
-		"PROJECT_URL": "Project/Business URL",
-		"SCORE": {
-			"1": {
-				"DESCRIPTION": "Not a good environmental education program, whether or not it is greenwashing, as it lacks some, or several, dimensions of environmental education programs(target groups, objectives are not correctly defined; there is no systemic and interdisciplinary view of the environmental problem at stake, the educational strategy is not adequate, there is no system for evaluating results and/or programme",
-				"TITLE": "Incurs greenwashing"
-			},
-			"2": {
-				"DESCRIPTION": "A good education programme could be considered (well-defined objectives, good methodology, correctly defined target groups, etc.) but not environmental, since it does not provide a systemic and interdisciplinary vision of the environmental problem that is being addressed and also involves greenwashing practices (half-truths, a commitment to some environmental problem is stated but at the same time contributes negatively to it, focuses on individual responsibility, etc.)",
-				"TITLE": "Could incur greenwashing"
-			},
-			"3": {
-				"DESCRIPTION": "It is a good environmental education programme, as it presents all the dimensions of a EEPP and also exposes environmental problems in a way that invites reflection, explaining the real causes and consequences and providing a systemic and interdisciplinary view of the environmental problems being addressed",
-				"TITLE": "Does not engage in greenwashing"
-			}
-		},
-		"TITLE": "New evaluation"
-	}
+  "EVALUATIONS": {
+    "DETAILS": "Details",
+    "EMPTY": "There aren't evaluations in the database yet.",
+    "PROJECT_URL": "Project URL:",
+    "TITLE": "Evaluations database"
+  },
+  "FOOTER": {
+    "CONTACT": "Contact",
+    "LEGAL": "Legal / Contact",
+    "LICENSE": "License",
+    "NAVIGATION": "Navigation"
+  },
+  "HEADER": {
+    "NAVBAR": {
+      "EVALUATIONS": "Evaluations",
+      "HOME": "Home",
+      "RUBRIC": "Rubric"
+    }
+  },
+  "HOME": {
+    "ABOUT_PROJECT": {
+      "TEXT": "The GreenWaScore project was created with the intention of responding to a growing concern: campaigns and programs that are presented as environmental education (EE) but may be of dubious educational quality. Often, behind a “green” image, there are business or organizational practices that are unsustainable or lack environmental ethics. This practice is known as greenwashing.\n\nGreenwashing is a technique used by companies, organizations, and institutions to communicate misleading, false, or incomplete environmental information in order to convey an image of sustainability and environmental responsibility that does not correspond to their actual practices.\n\nWith this project, the Environmental Education for Sustainability Research Group (GREAS) at the University of the Balearic Islands (UIB), developed in part within the framework of the SOIB Research and Innovation - INVESTIGO program, has created a practical tool that helps identify whether an EE program, project, or activity promotes sustainability values or simply seeks to improve an entity's green image.",
+      "TITLE": "What is this project?"
+    },
+    "PROJECT_OBJECTIVES": {
+      "OBJECTIVE_LIST": {
+        "1": "Raise awareness of greenwashing characteristics as a misleading educational practice.",
+        "2": "Provide a practical, useful, and accessible tool in the form of a rubric to analyze and evaluate the quality of environmental education projects and programs.",
+        "3": "To assist teachers (active or in training) and environmental educators in making informed decisions when selecting educational resources for environmental sustainability, promoting high-quality environmental education that is critical and consistent with the principles of sustainability."
+      },
+      "TEXT": "This GreenWaScore project has the following main objectives:",
+      "TITLE": "Which are its objectives?"
+    },
+    "RUBRIC_FUNCTION": {
+      "LIST1": {
+        "1": "Which entity has designed/executed/sponsored the EEPP (Environmental Education Project or Program) and its characteristics",
+        "2": "What information, concepts, data, and content the EEPP provides",
+        "3": "What are the characteristics of a good EEPP",
+        "4": "What are the main greenwashing techniques"
+      },
+      "LIST2": {
+        "1": "Engages in greenwashing: 1 point",
+        "2": "Might engage in greenwashing: 2 points",
+        "3": "Does not engage in greenwashing: 3 points"
+      },
+      "LIST3": {
+        "1": "Minimum total score: 43 (all indicators score 1 point)",
+        "2": "Maximum total score: 129 (all indicators score 3 points)"
+      },
+      "LIST4": {
+        "1": "Engages in greenwashing: 43–65",
+        "2": "Might engage in greenwashing: 66–105",
+        "3": "Does not engage in greenwashing: 106–129"
+      },
+      "TEXT1": "The rubric is easy to use and serves to critically analyze environmental education projects and programs (EEPPs). It consists of three qualitative performance levels (engages in greenwashing, might engage in greenwashing, does not engage in greenwashing) and 43 indicators divided into 8 criteria. For each indicator, one must choose the appropriate level based on the indicator descriptors and the characteristics of the project or program being evaluated, as well as the organization offering it.\n\nEach level provides a different score:",
+      "TEXT2": "It should be noted that for some of these aspects, it will not be sufficient to analyze the PPEA, and other sources of information will therefore have to be consulted (see Support Guide for Using the Rubric).\n\nWhen analyzing the PPEA, it is necessary to determine, for each criterion and in accordance with the descriptors for each indicator, what level of implementation would correspond to the PPEA. Each level contributes a different score:",
+      "TEXT3": "Therefore:",
+      "TEXT4": "To determine the extent to which the evaluated EEAP may be engaging in greenwashing, the values assigned to each indicator are added, and the total score will determine the level:",
+      "TITLE": "How to use the tool?"
+    }
+  },
+  "LEGAL": {
+    "COPYRIGHT": "This website was developed by Jesús Castillo, a student of the Bachelor's Degree in Computer Engineering at the University of the Balearic Islands.\n\nWith the support of the University of the Balearic Islands – Faculty of Education.\n\nThe rubric for analyzing environmental education programs was designed by the Environmental Education Research Group for Sustainability at the University of the Balearic Islands within the framework of the SOIB Research and Innovation Program - Investigo.",
+    "LICENSE": {
+      "LIST1": {
+        "1": "Share — copy and redistribute the material in any medium or format.",
+        "2": "Adapt — remix, transform, and build upon the material.",
+        "TITLE": "You are allowed to:"
+      },
+      "LIST2": {
+        "1": "Attribution — you must give appropriate credit, provide a link to the license, and indicate if changes were made.",
+        "2": "NonCommercial — you may not use the material for commercial purposes.",
+        "3": "ShareAlike — if you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.",
+        "TITLE": "Under the following terms:"
+      },
+      "SOURCE": "The source code of this website is available under the MIT License. This means you are free to use, copy, modify, and distribute the code for any purpose, provided that the original license notice is preserved.",
+      "SUBTITLE1": "Rubric and textual contents",
+      "SUBTITLE2": "Source code",
+      "TEXT": "The tool and textual contents are licensed under: Creative Commons BY-NC-SA 4.0 (Attribution - NonCommercial - ShareAlike).",
+      "TITLE": "Usage license"
+    }
+  },
+  "RUBRIC": {
+    "BUTTON": "View results",
+    "CRITERIA": {
+      "1": {
+        "DESCRIPTION": "Sometimes, entities and/or companies that are not dedicated to EA, the environment or education in general (foundations, non-profit organizations, banks or savings banks...) sponsor, design and/or execute programs. We consider that the aims and objectives of the EEPP should coincide with the mission and values of the entity or company sponsoring, designing and/or executing the program. This criterion could contribute to identify greenwashing, if there is no clear relationship between the mission and values of the entity or company and what is being worked with the program.",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "Sustainability principles are integrated, although they are not related to the company's main economic activity.",
+              "2": "The integration of sustainability principles cannot be clearly identified.",
+              "3": "The principles of sustainability are integrated and are also consistent with the company's core business activity"
+            },
+            "TITLE": "1.1.Do the mission and values described by the entity integrate the principles of sustainability?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "Awareness-raising, training or education functions are established, although through companies/secondary entities or their own foundations, trying to move them away from the idea of the main activity of the entity",
+              "2": "Awareness-raising, training or education in relation to the problem dealt with is not established or cannot be identified among its functions, either directly or indirectly",
+              "3": "Awareness-raising, training or education is established as one of its main functions and this is aware and transparent in its possible contribution to the environmental problems dealt with in the EEPP"
+            },
+            "TITLE": "1.2. Does the entity establish among its functions awareness-raising, training or education in relation to the socio-environmental problems of the EEPP?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "The entity shows in its corporate communications activities selected in an interested manner, omitting the negative or unsustainable aspects of these; or states in its sustainability plan that its activities are consistent with and committed to sustainability principles, but this information lacks objective evidence, cannot be substantiated by other easily accessible information, or does not have reliable third-party approval",
+              "2": "The entity does not show in its corporate communications whether its activities are consistent with the principles of sustainability; o In its sustainability plan it does not make statements related to the activity",
+              "3": "In its corporate communications, the bank shows consistency between its activities and the principles of sustainability. Data is third-party justified in your sustainability plan"
+            },
+            "TITLE": "1.3.Are the entity's activities consistent with the principles of sustainability?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "The entity affirms its environmental commitment to one or more environmental problems, but its main activity contributes directly and negatively to these.",
+              "2": "The entity does not report on its environmental commitment to one or more environmental problems; or it does, but its main activity contributes indirectly to these",
+              "3": "The entity was established to address socio-environmental problems and is coherent in its activities, endorsing its concern for these issues."
+            },
+            "TITLE": "1.4. Is there a clear internal coherence between the topic addressed with the EEPP and the characteristics of the entity that sponsors, designs or executes it?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "The mission of the entity is linked to the environmental problem that is dealt with in the EEPP, but it is not done in a transparent way (it does not inform of its contribution to the problem) or proposes solutions to the problem in the long term",
+              "2": "The entity's mission is linked to the environmental problem addressed in the EEPP, but it does not communicate its contribution to it even though it is aware that its activity contributes negatively to the problem, so it proposes objective solutions and tries to reduce its impact.",
+              "3": "The entity's mission is directly or indirectly linked to the environmental issues addressed in the EEPP. The entity was founded to raise awareness and address socio-environmental issues and is consistent in its activities, endorsing its concern for these issues and proposing short- and long-term solutions to address them."
+            },
+            "TITLE": "1.5. Does the EEPP respond to an identified need that is clearly contemplated within the mission of the entity sponsoring, designing or implementing it?"
+          }
+        },
+        "TITLE": "1. The coherence between the main activity of the entity and the objectives and contents of the Environmental Education Plan and/or Program (EEP) that is sponsored, designed and/or implemented."
+      },
+      "2": {
+        "DESCRIPTION": "Often, the SEAPs that are designed may not provide demonstrated evidence of the benefits that the entity brings to the issue or problem being addressed and are rather elaborate claims to sell a green image. The entity uses empty terms (e.g. ecofriendly, wastefulness, etc.) or excessively scientific information or terms that can only be understood by specialists in the field, so that they can lead to confusion or deception. This criterion could contribute to identify greenwashing, in the case that the EEPP does not improve or work on an environmental situation, but rather represents a benefit for the entity and confuses or misleads the EEPP recipients.",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "The entity provides information on its activities, but this information lacks objective evidence (it cannot be substantiated by other readily available information or does not present reliable third-party approval) or is biased information (information is selected in relation to the agenda item in a self-serving manner: it omits negative aspects in relation to its core business).",
+              "2": "The entity does not provide information on its activities",
+              "3": "The entity provides information on its activities and these activities provide demonstrated evidence of the benefits that the entity brings to the issue or problem being addressed by the EEPP."
+            },
+            "TITLE": "2.1. Does the entity provide information on its activities in an objective manner and is it supported by measurable data that relates to the subject matter of program 2?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "It uses language with excessive technical jargon and empty terms (ecofriendly, sustainable growth, eco-design, biofuel...) and/or questionable terms (e.g. individual carbon footprint to avoid collective responsibility and propose individual solutions).",
+              "2": "It uses a language that is understandable for the target audience, with some technical terms, although some empty terms (ecofriendly, sustainable growth, eco-design, biofuel...) or debatable terms (individual carbon footprint) can also be distinguished.",
+              "3": "Use language that is understandable to the target audience, with a correct use of technical terms and without using empty terms (ecofriendly, sustainable growth, eco-design, biofuel...) or questionable terms (carbon footprint on an individual basis)."
+            },
+            "TITLE": "2.2. Does the entity present information using technical language related to the subject matter and is it understandable to all persons 3 ?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "The values that the entity disseminates in the EEPP are reflected in its annual or CSR reports, but these are not in line with the entity's core business (it states its commitment to an environmental issue, but on the other hand, it is contributing negatively with its activities).",
+              "2": "The values that the entity disseminates in the EEPP are not reflected in its annual or CSR reports.",
+              "3": "The values that the entity disseminates in the EEPP are consistent with the information provided in its annual or CSR reports (complete, clear information, approved by third parties, etc.)."
+            },
+            "TITLE": "2.3. Does the entity present information related to the values it disseminates in the EEPP in its annual reports or in its Corporate Social Responsibility (CSR) reports?"
+          }
+        },
+        "TITLE": "2. The truthfulness of the information that the sponsoring, designing or executing entity or company provides about itself and the EEPP."
+      },
+      "3": {
+        "DESCRIPTION": "We believe that EEPPs should be based on a previous study or diagnosis of an environmental situation or problem that is also related to the needs of the target audience. This criterion could be used to identify greenwashing and to assess the quality of a EEPP, since it would be designed with a clear purpose of raising awareness and educating to change a situation or address a problem.",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "Some information is provided about the causes of the problem being addressed, but there is no justification for the choice of topic and why it is important or urgent and/or the actual consequences of not acting (states that there is a problem, but implies that there is plenty of room for action and that the consequences are not yet being experienced).",
+              "2": "No or very little data is provided on the situation of the problem (causes and consequences) to justify the choice of the topic (it deals with some of the main environmental problems - climate change, waste, energy, etc. - in a superficial way, without investigating their urgency).",
+              "3": "The choice of the problem to be addressed is justified by providing clear and detailed information on the causes and consequences of the problem and the implications of not acting."
+            },
+            "TITLE": "3.1. Is there information and/or data available in the EEPP on the situation that makes it necessary to carry it out?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "The EEPP provides ambiguous information (of a global nature and without specific numerical data; the origin of the problem and its current situation are not adequately contextualized; or the available data are incomplete or come from unreliable sources4 ) or omit information so as not to contextualize the origin of the problem being addressed, as well as its current situation. This fact makes it difficult to realistically assess the impact of the program.",
+              "2": "The EEPP lacks data that contextualizes the origin of the problem or its current situation or, if available, these are incomplete or the sources are not mentioned, which makes it difficult to assess the program's impact.",
+              "3": "The EEPP provides both qualitative and quantitative data that serve to contextualize the origin of the problem being addressed, as well as its current situation, so that they can be used to make a realistic assessment of the program's impact."
+            },
+            "TITLE": "3.2. Are qualitative and quantitative data available in the EEPP that situate it (starting point) and contextualize it (local and global), and that are later used to make an assessment of the EEPP's impact?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "The EEPP is designed exclusively for students of different educational levels (formal education) but does not analyze or consider their starting characteristics (local, socio-cultural particularities, different learning abilities, etc.).",
+              "2": "The EEPP is designed for a specific target audience (students of different educational levels, groups, families, etc.), but its initial characteristics (individual, cultural and local particularities of the target audience, as well as their capacities) are not analyzed or considered, and therefore it is not adapted to them.",
+              "3": "The EEPP is designed for a specific target audience (students of different educational levels, groups, families, etc.), and its initial characteristics (individual, cultural and local particularities) are analyzed and considered."
+            },
+            "TITLE": "3.3. Are the people targeted by the EEPP identified and, in the case of being aimed at a broad sector of the population, are certain target subgroups on which the EEPP is focused as a priority?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "The program recognizes certain characteristics of the participants (level of environmental literacy, socio-cultural context, educational level...) and takes advantage of this by partially adapting its activities or approaches to their own interests.",
+              "2": "The program recognizes certain characteristics of the participants (level of environmental literacy) and partially adapts its activities or approaches to solve the problems addressed in the program.",
+              "3": "The programme recognizes all characteristics of participants (level of environmental literacy) and adapts their activities or approaches to solving the problem being worked on in the programme"
+            },
+            "TITLE": "3.4.Are the characteristics of the target group defined in relation to the appropriation of the need for the programme: participation, obstacles, challenges and/or lack of knowledge?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "The content of the programme is presented taking into account the level of knowledge or previous ideas of the participants, so that this lack of knowledge (of ideas, beliefs, mistakes,...) can be used to introduce ideas which may be inaccurate or biased; unverified or out of touch",
+              "2": "The content of the programme is presented without taking into account previous knowledge or ideas of the participants, so that the programme introduces some unverified ideas, but there is at least one attempt to generate critical reflection, although this is limited.",
+              "3": "The content of the program is presented taking into account the previous knowledge or ideas of the participants, in order to try to generate critical reflection "
+            },
+            "TITLE": "3.5. Is it based on the previous knowledge or ideas of those who participate? "
+          }
+        },
+        "TITLE": "3. A diagnosis of the need for the EEPP to solve socio-environmental problems related to the target population."
+      },
+      "4": {
+        "DESCRIPTION": "The EEPP should describe their objectives and contents and be coherent with each other. In addition, they should respond to the objectives and characteristics of EA and thus promote environmental education. This criterion would delimit the quality of a EEPP and assist in the identification of greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "The objectives are not clearly formulated and do not present a clear intention for solving the problem being worked on. In addition, they are not easily achievable and their sequencing has some irregularities that could hinder effective implementation.",
+              "2": "The objectives are not clearly formulated and do not present a clear intention for solving the problem being worked on. They may be achievable, but their sequencing has some irregularities that could hinder effective implementation",
+              "3": "The objectives are clearly formulated and show a clear intention for solving the problem being worked on. In addition, they are easily achievable and their sequencing facilitates effective implementation."
+            },
+            "TITLE": "4.1.Is there a good formulation of objectives, as well as their intentionality and sequencing 5?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "Contents (or competencies) are mainly addressed from the conceptual area, but in a biased way (selection of information in relation to the agenda item is done in an interested manner), and these are not directly linked to the resolution of the problem addressed in the EEPP, or if done, practical training for action is based on individual responsibility rather than collective",
+              "2": "The contents (or competences) do not clearly address conceptual, procedural and behavioural areas. There is no clear connection between the conceptual, procedural and actitudinal contents or these are not directly linked to the resolution of the problem addressed in the EEPP. In the case of practical training for action, it is based on individual responsibility and not collective",
+              "3": "The contents (or competences) are addressed from the conceptual, procedural and actitudinal area and these are directly linked to the resolution of the problem that is addressed in the EEPP. Practical training for collective responsibility-based action"
+            },
+            "TITLE": "4.2. Is there a good definition and formulation of conceptual, procedural and behavioural contents and/or competences in relation to the objectives?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "The objectives are not clearly formulated, they are too general, which prevents their effective verification or evaluation. No clear and measurable evaluation indicators have been designed, or those proposed are not adequate to objectively measure progress towards the objectives",
+              "2": "The objectives are not clearly formulated and the evaluation strategy is non-existent or inadequate (no evaluation indicators have been designed), which prevents effective evaluation.",
+              "3": "The objectives are formulated in a clear, specific and comprehensible way, which facilitates their verification and evaluation. An appropriate evaluation strategy has been designed, with precise, measurable and quantifiable indicators that are aligned with the objectives and allow for objective measurement of progress or achievement."
+            },
+            "TITLE": "4.3. Are objectives easily verifiable and evaluable 6 ?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "The objectives are not clearly related to the entity’s activity and the relationship with the environmental problems addressed in the programme is minimal, vague or even contradictory. The connection between the entity’s work and environmental challenges does not encourage a critical reflection on the impact of that activity on the environment.",
+              "2": "The objectives are related to the activity of the entity in general, but the relationship with the environmental problems addressed in the programme is not completely clear. The connection between the entity’s work and environmental challenges does not encourage a critical reflection on the impact of that activity on the environment.",
+              "3": "The objectives are clearly related to the activity of the entity. The connection between the entity’s work and the environmental challenges it addresses is transparent with its actions. Critical reflection on the entity’s own activity is encouraged, inviting participants to evaluate and question its actions"
+            },
+            "TITLE": "4.4. Are objectives described to reflect critically on the activity of the entity that sponsors, designs or implements the EEPP?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "The objectives of the programme are not aligned with EA’s own objectives. The content provides biased information (omits data, does not mention negative impacts etc.) and lacks clear sources. It focuses on a particular educational level, but does not take into account the socio-economic and cultural realities of the participants",
+              "2": "The programme objectives are not fully aligned with EA’s own objectives. The contents provide truthful information (though not sufficient), but without mentioning the sources. It is aimed at a specific target audience, but does not take into account the socio-economic and cultural realities of that audience",
+              "3": "The objectives of the programme are fully aligned with EA’s own objectives. The contents provide truthful, reliable and well-tested information. It is targeted to a specific target audience and takes into account the socio-economic and cultural realities of that audience"
+            },
+            "TITLE": "4.5. Are objectives 7 and EA-specific content relevant to the context in which the programme is developed incorporated?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "The objectives relate primarily to learning to know (cognitive) and the selection of the subject to be worked on in EEPP is made in an interested manner. In addition, it does not include procedural or emotional objectives",
+              "2": "Objectives addressing the three dimensions of learning are not adequately included. Lack of attention to one or more areas limits the effectiveness of the programme and its ability to promote integral learning.",
+              "3": "The objectives address the three dimensions of learning (cognitive, procedural and emotional) in a balanced and meaningful way. The acquisition of knowledge and the development of skills, attitudes or emotions linked to the reality of the participants are promoted, guaranteeing integral and transferable learning for solving the problems being worked on."
+            },
+            "TITLE": "4.6. Are objectives related to learning to know (cognitive: facts and concepts), learning to do (procedural: skills) and learning to be and to live together (emotional: attitudes) included?"
+          },
+          "7": {
+            "OPTIONS": {
+              "1": "The content does not adequately address active learning or provide sufficient tools for the people involved to act on environmental issues. The content is theoretical, de-contextualised or too general, with no clear link to local environmental needs, limiting the applicability of learning.",
+              "2": "The content addresses some aspects of active learning and problem solving, but its connection to local reality is not completely clear or partially developed. Concepts and tools to tackle environmental problems are presented, but the people involved may not be sufficiently trained to apply these solutions effectively.",
+              "3": "The content addresses aspects of active learning and problem solving, and is clearly connected to local reality. Concepts and tools for dealing with environmental problems are presented, and the people involved can expect sufficient training to apply these solutions effectively."
+            },
+            "TITLE": "4.7. Does it include content related to learning how to act, encouraging people to face problems and respond to the real needs of the context in which they work?"
+          }
+        },
+        "TITLE": "4. Clearly defined objectives and content in the EAP"
+      },
+      "5": {
+        "DESCRIPTION": "A EEPP should have a schedule of activities in which the objectives and contents promoted by the programme or project are worked on and sequenced, and which is suited to the characteristics of the persons targeted by the EEPP. This criterion would delimit the quality of a EEPP and help identify greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "The programme has a clear timing; but there is no logical sequencing of activities.",
+              "2": "The programme does not have a clear timing and no fully logical sequence of activities is observed",
+              "3": "The programme has a clear timing and a completely logical sequence of activities is observed"
+            },
+            "TITLE": "5.1. Is there a working method with a well planned and timed sequence of activities?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "The methodology is partially consistent with programme objectives, but there are indications of lack of depth or bias in the information provided. Although activities are related to objectives, some content is not addressed in a comprehensive or balanced manner and there is a lack of transparency in the presentation of information. Activities may encourage reflection, but it is superficial or limited and not always related to real action",
+              "2": "The methodology shows general consistency with programme objectives, but there are areas where the depth or focus of information is limited. Although activities are related to objectives, some content is not developed in sufficient detail or balance and the presentation of information may be unclear or partial. Activities can encourage reflection, but in some cases it is superficial or not fully linked to concrete actions, which limits the effectiveness of the programme to bring about real change",
+              "3": "The methodology is fully consistent with the objectives of the programme. The information provided is in-depth, truthful and comes from reliable sources. The activities are related to the objectives and all contents are addressed in a complete and balanced way, with total transparency in the presentation of the information. Activities encourage critical reflection"
+            },
+            "TITLE": "5.2. Is the working methodology used consistent with the objectives set?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "There is an activity plan developed exclusively for pupils (formal education), but no specific distinction between educational levels; therefore, some activities are not suited to the characteristics of this programme and no other alternatives are offered to adapt these activities to the diversity of participants",
+              "2": "An activity plan developed for a generic target audience is available; therefore, some activities are not suited to the characteristics of the target audience and no alternatives are offered to adapt these activities to the diversity of participants",
+              "3": "An activity plan developed for a specific target audience is available and the activities are adapted to the characteristics of that audience, as alternatives are offered to adapt to the diversity of participants"
+            },
+            "TITLE": "5.3. Is there a plan of activities in a format that is well adapted and appropriate to the characteristics of the target audience?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "The methodology focuses on the transmission of information on socio-environmental problems, but with limitations in terms of critical reflection or active participation. While there is a focus on improving social relationships with the environment, meaningful linkages between participants and socio-environmental issues are not always achieved.",
+              "2": "The methodology focuses on the transmission of information on environmental issues and seeks to promote critical reflection, social communication and active participation; but it is not always possible to establish meaningful links between the participants and the socio-environmental problem.",
+              "3": "The methodology not only focuses on understanding information about environmental issues, but also promotes critical reflection, social communication and active participation. In addition, significant links are established between the participants and the socio-environmental problem."
+            },
+            "TITLE": "5.4. Is the methodology used (in the activities) oriented towards understanding, reflection, social communication and action to improve the social relations we establish with our local and global environment?"
+          }
+        },
+        "TITLE": "5. A plan of activities consistent with the objectives and contents of the EEPP"
+      },
+      "6": {
+        "DESCRIPTION": "The methodology of EA programmes or projects should promote analysis of environmental and social complexities and views of environmental issues or issues, develop action skills based on critical thinking and not only based on knowledge transfer. This criterion would delimit the quality of a EEPP and assist in the identification of greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "The EEPP and its activities integrate only environmental visions, without integrating quality of life and planetary boundaries with these visions. Environmental problems do not arise as a direct consequence of human activities, and their resolution is approached solely from the standpoint of individual responsibility. The programme does not present a comprehensive approach or provide tools for reflection on the effects of political, economic and social decisions on the environment.",
+              "2": "The EEPP and its activities integrate environmental and social visions in a limited way, partially integrating the quality of life and planetary boundaries. Environmental problems arise as a direct consequence of human activities, but their resolution is approached solely from the point of view of individual responsibility. The programme presents an incomplete approach and does not provide tools to reflect on the effects of political, economic and social decisions on the environment",
+              "3": "The EEPP and its activities integrate environmental and social visions in a holistic way, integrating their relationship with quality of life and planetary boundaries. Environmental problems arise as a direct consequence of human activities, with emphasis on individual and collective responsibility in their resolution. The programme presents a comprehensive approach and provides tools for reflecting on the effects of political, economic and social decisions on the environment."
+            },
+            "TITLE": "6.1. Are complexity analyses, environmental and social visions and their relationship between quality of life and planetary boundaries incorporated?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "The contents of the EEPP take into account the characteristics of the people involved (background knowledge, educational level, curriculum), and although the information is adapted to them, it can be biased or use empty terms of content (ecofriendly, sustainable growth, eco-design, biofuel...) or questionable (e.g., individual carbon footprint to evade collective responsibility and propose individual solutions)",
+              "2": "The contents of the EEPP take into account certain characteristics of the people involved (background knowledge, educational level) and although the information may be partially adapted to these characteristics, it has too many technicalities that make it difficult to understand",
+              "3": "The contents of the EEPP take into account the characteristics of the people involved (previous knowledge, level of education, curriculum, socio-economic and cultural area, etc.), offering truthful, verified and easily understandable information."
+            },
+            "TITLE": "6.2. Is content identified appropriate to the characteristics of the target persons?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "The programme describes specific methods for each level of education and/or the different target actors and, although it includes practical examples or activities that can be implemented in different educational contexts, these are aimed at some individual pro-environmental actions",
+              "2": "The programme describes specific methods for each educational level and/or target actors, including practical examples or activities that can be implemented in different educational contexts, but they are not intended to promote pro-environmental actions",
+              "3": "The programme describes specific methods for each level of education and/or the different target actors, including practical examples or activities that can be implemented in the different educational contexts with a view to carrying out actions individual or collective environmental"
+            },
+            "TITLE": "6.3. Is the applicability reflected for each educational level and/or for the different target actors?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "The EEPP studies mainly environmental issues, leaving aside the social dimension, and although the analysis is carried out at different scales, it focuses on the global context and its problems as a basis for learning.",
+              "2": "The EEPP is based on the study of socio-environmental issues at different scales, focusing on the global context and its problems as a basis for learning",
+              "3": "The EEPP is based on the study of socio-environmental issues at different scales, focusing on the close context and its problems as a basis for learning"
+            },
+            "TITLE": "6.4. Is the study based on own and/or related socio-environmental issues?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "The EEPP can use a collaborative work methodology in which the people involved interact and share ideas for solving primarily environmental problems, but without using critical thinking or seeking joint innovative solutions",
+              "2": "The EEPP can use a collaborative work methodology in which participants interact and share ideas for solving socio-environmental problems through critical reflection, but lacks a search for solutions",
+              "3": "The EEPP uses a collaborative work methodology in which the people involved interact and share ideas for solving socio-environmental problems through critical reflection and finding innovative joint solutions"
+            },
+            "TITLE": "6.5. Does the methodology used help to develop action skills based on critical and creative thinking and the collective construction of knowledge?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "The EEPP reflects in a biased or ambiguous way the activities developed by the entity, making it difficult to establish the relationship of these in their role for the contribution or mitigation of the problems, mainly environmental, that are worked with the program",
+              "2": "The EEPP does not reflect the activities carried out by the entity, making it difficult to establish the relationship of these in its role for the contribution or mitigation of socio-environmental problems that are worked with the program",
+              "3": "The EEPP reflects the activities carried out by the entity and how it contributes or mitigates the socio-environmental problems that are worked with the program"
+            },
+            "TITLE": "6.6. Does the methodology invite a critical analysis of the activities carried out by the entity that designs, promotes or implements the EEPP?"
+          },
+          "7": {
+            "OPTIONS": {
+              "1": "The methodology used in the EEPP avoids reflection and, although a commitment is proposed for the resolution of the environmental problem worked, it focuses only on the individual responsibility of the target audience.",
+              "2": "The methodology used in the EEPP invites reflection and commitment, considering primarily the individual responsibility of the target audience (change of habits)",
+              "3": "The methodology used in the EEPP invites reflection and commitment, considering both the individual responsibility of the target audience (change of habits) and the collective responsibility (government) for the resolution of the socio-environmental problem worked"
+            },
+            "TITLE": "6.7. Does the methodology used involve commitment and implementation of actions to improve the socio-environmental problems addressed?"
+          }
+        },
+        "TITLE": "6. Consistent approaches to EA"
+      },
+      "7": {
+        "DESCRIPTION": "A good TE programme or project must have sufficient and quality human, material and financial resources for its implementation and must be consistent with the principles of environmental sustainability and social justice. This criterion would delimit the quality of a EEPP and help identify greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "The EEPP describes in a incomplete or vague who is part of the educational team and its Professional Competencies Education-related environmental",
+              "2": "The EEPP does not describe who member of the educational team or their Professional Competencies Education-related environmental",
+              "3": "In the EEPP it is described and You can verify that the equipment educational is interdisciplinary and has the competencies professionals necessary for the environmental education."
+            },
+            "TITLE": "7.1. Are the human resources and these are sufficient and have the adequate capacity for the Planning and Development of program 8 ?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "The educational team is stable, but he has no opportunities nor facilities for their training Continuous and professional retraining",
+              "2": "The educational team is unstable and has no opportunities or Facilities for your training Continuous and professional retraining",
+              "3": "The educational team is stable and their working conditions, and are suitable for the work they develop. In addition have opportunities and Facilities for your training Continuous and professional retraining"
+            },
+            "TITLE": "7.2. The conditions of those who are part of the resources Are humans worthy 9  "
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "The EEPP describes the material resources of support, but these are not varied, sufficient or appropriate to the activities that are raised in the program.",
+              "2": "The material resources of support are didactic, use tools analogue and digital, but are not adapted to the Characteristics of the public addressee",
+              "3": "The EEPP describes the material resources of support and these use analog tools and digital and adapt to the Characteristics of the public recipient, reducing the Inequalities"
+            },
+            "TITLE": "7.3. Are the material resources of support and these are varied, sufficient and adequate to each activity l 10 ?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "The materials do not follow environmental and social sustainability criteria",
+              "2": "Support materials do not follow sustainability criteria Environmental and Social",
+              "3": "Support materials follow sustainability criteria Environmental and Social"
+            },
+            "TITLE": "7.4. Do the supporting material resources follow principles of environmental and social sustainability 10 ?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "The EEPP describes the infrastructure and states that it follows the principles of environmental sustainability (), although they are used as a",
+              "2": "Infrastructure is not described in the EAP, although it could follow principles of environmental sustainability. In addition, they are not used as an educational resource in the programme",
+              "3": "Infrastructure is described in the EEPP and follows environmental sustainability principles ( and is used as an educational resource in the programme"
+            },
+            "TITLE": "7.5. Are the infrastructures used described and do they follow environmental sustainability criteria 11 in terms of material typology and resource consumption (energy, water, etc.)?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "The institution publishes annual financial statements, but does not specify the source of financial resources in a clear or transparent manner",
+              "2": "The institution does not publish annual financial statements or the information it provides lacks proven evidence about, the origin of the financial resources",
+              "3": "The institution publishes annual financial statements detailing the origin of the financial resources"
+            },
+            "TITLE": "7.6. Is it made clear where the financial resources that make up the above ratio of human and material resources come from?"
+          }
+        },
+        "TITLE": "7. Resources consistent with the aims of the EEPP and the principles of environmental sustainability and social justice"
+      },
+      "8": {
+        "DESCRIPTION": "In order to measure and assess the impact of a EEPP, it is essential to determine the tools and methods by which information will be collected to evaluate the scope of the objectives and purpose of the EEPP. This criterion would delimit the quality of a EEPP and help identify greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "The programme describes the tools and strategies that would be used to assess whether the targets proposed for the target audience have been achieved, but is vague or not demonstrable. There are no tools or strategies to measure the contribution of this programme to the resolution of the socio-environmental problems being addressed. Lacks a comprehensive impact measurement strategy.",
+              "2": "The programme does not describe the tools and strategies that would be used to assess whether the objectives proposed for the target audience have been achieved, nor to measure the contribution of this programme to the resolution of the socio-environmental problems being addressed. Lacks a comprehensive impact measurement strategy.",
+              "3": "The programme describes the tools and strategies that will be used to assess whether the objectives proposed for the target group in the programme have been achieved, as well as their contribution to solving the socio-environmental problems being addressed. They are integrated into an overall impact measurement strategy."
+            },
+            "TITLE": "8.1. Are evaluation tools and strategies available to measure the extent to which programme objectives and targets have been achieved?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "The EEPP includes final activities that are presented as a synthesis of the work done; but it is not presented as an exercise in reflecting on what has been learned by the people to whom it is addressed, so that they become aware of their learning process.",
+              "2": "The EEPP does not include final activities",
+              "3": "The EEPP includes final activities that are intended as an exercise in reflecting on what has been learned by the target group so that they become aware of their learning process."
+            },
+            "TITLE": "8.2. Are synthesis and self-assessment activities included for the recipients?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "It is described that throughout the process there will be a systematic and ongoing collection of information to assess the extent to which activities are in line with the objectives and aims of the programme, so that they can be reviewed for improvement; but not running.",
+              "2": "There is no description of the fact that information will be collected in a systematic way throughout the process and continues to assess the extent to which activities are in line with the objectives and aims of the programme so that they can be reviewed for improvement",
+              "3": "The collection of information is described and carried out in a systematic way throughout the process, and continues to assess the degree of adequacy of activities with the objectives and aims of the programme so that they can be reviewed for improvement"
+            },
+            "TITLE": "8.3. Is there a system of continuous evaluation by the programme implementer to change or adapt the implementation of planned activities with the results of this evaluation?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "The entity cannot use the results of the assessment to determine the extent to which targets have been met or identify elements of the programme that need improvement since the continuous assessment system has not been implemented.",
+              "2": "The entity does not use the results of the assessment to determine the extent to which targets have been met and to identify elements of the programme that need improvement in order to analyse what is working and what is not, and how to change it.",
+              "3": "The entity uses the results of the assessment to determine the extent to which targets are met and to identify those elements of the programme that need improvement in order to analyse what is working and what is not, and how to change it."
+            },
+            "TITLE": "8.4. Are evaluation results used to improve the achievement of socio-environmental improvement objectives?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "The entity presents in its memos or other reports vague evidence on the scope of the objectives identified in the EEPP (general objectives are mentioned without verifiable results of improvement of the socio-environmental problem or the statements are not supported with qualitative or quantitative data on the environmental or social impact achieved by the project.",
+              "2": "The entity does not present in its reports or other reports clear evidence on the scope of the objectives determined in the EEPP (general objectives are mentioned without verifiable results for improving social and environmental problems)",
+              "3": "The entity presents in its reports or other reports the scope of the objectives determined for the EEPP, allowing an improvement or positive contribution to be identified in relation to the socio-environmental problem being worked on  (either because it is directly improved or indirectly because there is a higher level of awareness), supported by verifiable data and linked to the initial objectives of the project."
+            },
+            "TITLE": "8.5. What environmental and/or social impact has been achieved with the project results?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "The entity does not make publicly available the report on the results of the development of the EEPP or, if they are communicated, it is done with a clearly advertising approach, without reflecting a real impact on the socio-environmental problem or using data that can hardly be verified.",
+              "2": "The entity makes publicly available the report on the results of the development of the EEPP, but with limitations in terms of clarity, accessibility or real impact in relation to the improvement of social and environmental issues.",
+              "3": "The entity makes publicly available the report on the results of the development of the EEPP in order to share the improvement that it brings to the socio-environmental problem and invite the replicability of the program."
+            },
+            "TITLE": "8.6. Are the results of the evaluation disseminated to reflect the improvement in the socio-environmental problem (and not for the entity’s advertising purposes)?"
+          }
+        },
+        "TITLE": "8. A forecast of evaluation strategies for the PEEA and subsequent publication of results"
+      }
+    },
+    "PROJECT_NAME": "Project/Business name",
+    "PROJECT_URL": "Project/Business URL",
+    "SCORE": {
+      "1": {
+        "DESCRIPTION": "Not a good environmental education program, whether or not it is greenwashing, as it lacks some, or several, dimensions of environmental education programs(target groups, objectives are not correctly defined; there is no systemic and interdisciplinary view of the environmental problem at stake, the educational strategy is not adequate, there is no system for evaluating results and/or programme",
+        "TITLE": "Incurs greenwashing"
+      },
+      "2": {
+        "DESCRIPTION": "A good education programme could be considered (well-defined objectives, good methodology, correctly defined target groups, etc.) but not environmental, since it does not provide a systemic and interdisciplinary vision of the environmental problem that is being addressed and also involves greenwashing practices (half-truths, a commitment to some environmental problem is stated but at the same time contributes negatively to it, focuses on individual responsibility, etc.)",
+        "TITLE": "Could incur greenwashing"
+      },
+      "3": {
+        "DESCRIPTION": "It is a good environmental education programme, as it presents all the dimensions of a EEPP and also exposes environmental problems in a way that invites reflection, explaining the real causes and consequences and providing a systemic and interdisciplinary view of the environmental problems being addressed",
+        "TITLE": "Does not engage in greenwashing"
+      }
+    },
+    "TITLE": "New evaluation"
+  }
 }

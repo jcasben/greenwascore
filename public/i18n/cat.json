@@ -1,484 +1,498 @@
 {
-	"EVALUATIONS": {
-		"DETAILS": "Detalls",
-		"EMPTY": "Encara no hi ha avaluacions a la base de dades.",
-		"PROJECT_URL": "URL del projecte:",
-		"TITLE": "Base de dades de avaluacions"
-	},
-	"FOOTER": {
-		"CONTACT": "Contacte",
-		"LEGAL": "Legal / Contacte",
-		"LICENSE": "Llicència",
-		"NAVIGATION": "Navegació"
-	},
-	"HEADER": {
-		"NAVBAR": {
-			"EVALUATIONS": "Avaluacions",
-			"HOME": "Inici",
-			"RUBRIC": "Rúbrica"
-		}
-	},
-	"HOME": {
-		"ABOUT_PROJECT": {
-			"TEXT": "El projecte GreenWaScore neix amb la intenció de donar resposta a una preocupació cada vegada més present: les campanyes i programes que es presenten com d'educació ambiental (EA), però que poden ser d'una dubtosa qualitat educativa. Sovint, darrere d'una imatge \"verda\", s'amaguen pràctiques empresarials o organitzatives poc sostenibles o que  d'ètica ambiental. Pràctica coneguda com greenwashing o \"rentat verd\".\n\nEl greenwashing és una tècnica de comunicació d'informació ambiental enganyosa, falsa o incompleta per part d'empreses, organitzacions i institucions, que pretenen transmetre una imatge de sostenibilitat i responsabilitat ambiental que no es correspon amb les seves pràctiques reals.\n\nAmb aquest projecte, des del Grup de Recerca en Educació Ambiental per a la Sostenibilitat (GREAS) de la Universitat de les Illes Balears (UIB), desenvolupat parcialment en el marc del programa SOIB Recerca i Innovació - INVESTIGO, hem creat una eina pràctica que ajuda a identificar si un programa, projecte o activitat d’EA promou valors de sostenibilitat o si simplement busca millorar la imatge verda d’una entitat.",
-			"TITLE": "Què és aquest projecte?"
-		},
-		"PROJECT_OBJECTIVES": {
-			"OBJECTIVE_LIST": {
-				"1": "Donar a conèixer les característiques del greenwashing com pràctica educativa enganyosa.",
-				"2": "Oferir una eina pràctica, útil i accessible en forma de rúbrica per analitzar i avaluar la qualitat de projectes i programes d’educació ambiental.",
-				"3": "Ajudar al professorat (en actiu i en formació) i a educadors/es ambientals en la presa de decisions informades a l’hora de seleccionar recursos educatius per la sostenibilitat ambiental, promovent una educació ambiental de qualitat, crítica i coherent amb els principis de la sostenibilitat."
-			},
-			"TEXT": "El projecte GreenWaScore té com a objectius principals:",
-			"TITLE": "Quins son els seus objectius?"
-		},
-		"RUBRIC_FUNCTION": {
-			"LIST1": {
-				"1": "Quina entitat ha dissenyat/executat/patrocinat el PPEA i quines són les seves característiques",
-				"2": "Quina informació, conceptes, dades i continguts ofereix el PPEA",
-				"3": "Quines són les característiques d’un bon PPEA",
-				"4": "Quines són les principals tècniques de greenwashing"
-			},
-			"LIST2": {
-				"1": "Incorre en greenwashing: 1 punt",
-				"2": "Podria incórrer en greenwashing: 2 punts",
-				"3": "No incorre en greenwashing: 3 punts"
-			},
-			"LIST3": {
-				"1": "Mínim total possible: 43 (tots els indicadors amb 1 punt)",
-				"2": "Màxim total possible: 129 (tots amb 3 punts)"
-			},
-			"LIST4": {
-				"1": "Incorre en greenwashing: 43–65",
-				"2": "Podria incórrer en greenwashing: 66–105",
-				"3": "No incorre en greenwashing: 106–129"
-			},
-			"TEXT1": "La rúbrica és fàcil d'utilitzar i serveix per analitzar de manera crítica projectes i programes d'educació ambiental (PPEA). Consta de tres nivells d'execució qualitatius (incorre en greenwashing, podria incórrer en greenwashing, no incorre en greenwashing) i 43 indicadors dividits en 8 criteris. Per a cadascun dels indicadors, s'ha de triar el nivell corresponent tenint en compte els descriptors dels indicadors i les característiques del projecte o programa que s'està avaluant, així com de l'organització que l'ofereix.\n\nCada nivell aporta una puntuació diferent:",
-			"TEXT2": "S'ha de tenir en compte que per a alguns d'aquests aspectes no serà suficient analitzar el PPEA i s'hauran de consultar, per tant, altres fonts d'informació (Consultar Guia de Suport Ús Rúbrica).\n\nEn analitzar el PPEA s'ha de determinar de cada criteri i d'acord amb els descriptors de cada indicador, quin nivell d'execució li correspondria al PPEA. Cada nivell aporta una puntuació distinta:",
-			"TEXT3": "Per tant:",
-			"TEXT4": "Per identificar en quin grau el PPEA avaluat podria incórrer en greenwashing, es sumen els valors obtinguts en cada indicador i la puntuació total determinarà a quin nivell pertany:",
-			"TITLE": "Com utilitzar l'eina?"
-		}
-	},
-	"LEGAL": {
-		"COPYRIGHT": "Aquesta pàgina web va ser desenvolupada per Jesús Castillo, estudiant del Grau en Enginyeria Informàtica de la Universitat de les Illes Balears.\n\nAmb el suport de la Universitat de les Illes Balears – Facultat d’Educació.\n\nLa rúbrica d’anàlisi de programes d’educació ambiental va ser dissenyada per el Grup d' Investigació d'Educació Ambiental per la Sostenibilidtat de la Universitat de les Illes Balears en el marc del Programa SOIB Recerca i Innovació - Investigo.",
-		"LICENSE": {
-			"TEXT": "Aquesta rúbrica pot ser utilitzada lliurement amb finalitats educatives i no comercials, sempre que se’n citi correctament la font original.\nEs permet la reproducció, distribució i adaptació per a contextos educatius, investigacions acadèmiques o projectes formatius, sempre que no tinguin finalitats lucratives.\nNo es permet l’ús amb propòsits comercials ni la modificació amb la intenció d’ocultar-ne l’autoria.\n\nSi tens qualsevol dubte sobre com utilitzar aquests recursos, no dubtis a contactar amb nosaltres.\n\nEl codi font d’aquesta pàgina web està disponible sota la Llicència MIT.\nAixò vol dir que pots utilitzar, copiar, modificar i distribuir el codi lliurement per a qualsevol finalitat, sempre que es mantingui l’avís original de copyright.",
-			"TITLE": "Llicència d'ús"
-		}
-	},
-	"RUBRIC": {
-		"BUTTON": "Veure resultats",
-		"CRITERIA": {
-			"1": {
-				"DESCRIPTION": "A vegades, entitats i/o empreses que no es dediquen a l'EA, el medi ambient o l'educació en general (fundacions, entitats sense ànim de lucre, bancs o caixes…) patrocinen, dissenyen i/o executen programes. Considerem que les finalitats i objectius dels PPEA haurien de coincidir amb la missió i els valors de l'entitat o empresa que patrocina, dissenya i/o executa el programa. Aquest criteri podria contribuir a identificar el greenwashing, si no existís una relació clara entre la missió i els valors de l'entitat o empresa i allò que es treballa amb el programa",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "S' integren els principis de sostenibilitat, tot i que aquests s' allunyen o no estan vinculats amb l' activitat econòmica principal de l' empresa",
-							"2": "No es pot identificar de forma clara la integració dels principis de sostenibilitat",
-							"3": "S' integren els principis de sostenibilitat i a més són coherents amb l' activitat econòmica principal de l' empresa"
-						},
-						"TITLE": "1.1.¿La missió i els valors descrits per l' entitat integren els principis de sostenibilitat"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "S'estableixen funcions de sensibilització, formació o educació, encara que a través d'empreses/entitats secundàries o fundacions pròpies, intentant-les allunyar de la idea de l'activitat principal de l'entitat",
-							"2": "No s' estableixen o no es poden identificar entre les seves funcions la sensibilització, formació o educació en relació amb la problemàtica tractada, ni de manera directa ni indirecta",
-							"3": "S' estableix la sensibilització, formació o educació com una de les seves funcions principals i aquesta és conscient i transparent en la seva possible contribució a la problemàtica ambiental que es tracta en el PPEA"
-						},
-						"TITLE": "1.2.¿Estableix l'entitat entre les seves funcions la sensibilització, la formació o l'educació en relació amb la problemàtica socioambiental del PPEA?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "L'entitat mostra en les seves comunicacions corporatives activitats seleccionades de forma interessada, ometent els aspectes negatius o d'insostenibilitat d'aquestes; o afirma en el seu pla de sostenibilitat que les seves activitats són coherents amb els principis de sostenibilitat i que està compromesa amb ells, però aquesta informació no té proves objectives, no es pot justificar amb altra informació de fàcil accés o no presenta una aprovació fiable per part de tercers",
-							"2": "L' entitat no mostra en les seves comunicacions corporatives si les seves activitats són coherents amb els principis de sostenibilitat; o en el seu pla de sostenibilitat no realitza afirmacions relacionades amb l' activitat",
-							"3": "L' entitat mostra en les seves comunicacions corporatives coherència entre les seves activitats i els principis de sostenibilitat. Les dades estan justificades per tercers en el seu pla de sostenibilitat"
-						},
-						"TITLE": "1.3.¿Les activitats de l'entitat són coherents amb els principis de sostenibilitat?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "L' entitat afirma el seu compromís ambiental amb un o diversos problemes ambientals, però la seva activitat principal contribueix de forma directa i negativa a aquests.",
-							"2": "L' entitat no informa sobre el seu compromís ambiental amb un o diversos problemes ambientals; o sí que ho fa, però la seva activitat principal contribueix indirectament a aquests",
-							"3": "L' entitat es va constituir per abordar problemàtiques socioambientals i és coherent en les seves activitats, avalant la seva preocupació per aquests temes."
-						},
-						"TITLE": "1.4. S'identifica una clara coherència interna entre el tema que s'aborda amb el PPEA i les característiques de l'entitat que el patrocina, dissenya o executa?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "La missió de l'entitat es vincula amb el problema ambiental que es tracta en el PPEA, però no es fa de forma transparent (no informa de la seva contribució al problema) o proposa solucions davant el problema a llarg termini",
-							"2": "La missió de l'entitat es vincula amb el problema ambiental que es tracta en el PPEA, però no comunica la seva contribució a aquest a pesar que és conscient que la seva activitat contribueix negativament al problema, per això proposa solucions objectives i intenta disminuir el seu impacte",
-							"3": "La missió de l'entitat es vincula directament o indirectament amb la problemàtica ambiental que es tracta en el PPEA. L'entitat es va fundar per a sensibilitzar i abordar les problemàtiques socioambientales i és coherent en les seves activitats, avalant la seva preocupació per aquests temes i proposant solucions a curt i llarg termini per a enfrontar-ho."
-						},
-						"TITLE": "1.5. El PPEA dona resposta a una necessitat detectada que està clarament contemplada dins de la missió de l'entitat que ho patrocina, dissenya o executa?"
-					}
-				},
-				"TITLE": "1. La coherència entre l'activitat principal de l'entitat i els objectius i continguts del Pla i/o Programa d'Educació Ambiental (PPEA) que es patrocina, dissenya i/o executa"
-			},
-			"2": {
-				"DESCRIPTION": "Sovint, els PPEA que es dissenyen podrien no suposar una evidència demostrada sobre els beneficis que l'entitat comporta per al tema o problema que es treballa i són més aviat reclams elaborats per a vendre una imatge verda. L'entitat utilitza termes buits de contingut (p. ex. ecofriendly, basuraleza, etc) o informació o termes excessivament científics que solament poden ser entesos per especialistes en la matèria, de manera que poden portar a la confusió o a l'engany. Aquest criteri podria contribuir a identificar el greenwashing, en el cas que el PPEA no millori o treballi una situació ambiental, si no que suposi, més aviat, un benefici per a l'entitat i confon o enganya els/as destinataris/as del PPEA",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "L'entitat proporciona informació sobre les seves activitats, però aquesta informació manca de proves objectives (no es pot justificar amb una altra informació de fàcil accés o no presenta una aprovació fiable per part de tercers) o és una informació esbiaixada (se selecciona la informació en relació amb el tema del programa de forma interessada: omet els aspectes negatius en relació amb la seva activitat principal)",
-							"2": "L'entitat no proporciona informació sobre les seves activitats",
-							"3": "L'entitat proporciona informació sobre les seves activitats i aquestes suposen una evidència demostrada sobre els beneficis que comporta l'entitat enfront del tema o problema que es treballa amb el PPEA"
-						},
-						"TITLE": "2.1. Proporciona l'entitat informació sobre les seves activitats de manera objectiva i està recolzada per dades mesurables que es relacionen amb el tema del programa 2 ?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "Utilitza un llenguatge amb excessius tecnicismes, i termes buits de contingut (ecofriendly, creixement sostenible, ecodisseny, biocombustible…) i/o termes discutibles (ex. petjada de carboni individual per a evadir la responsabilitat col·lectiva i proposar solucions individuals)",
-							"2": "Utilitza un llenguatge comprensible per a les persones destinatàries, amb alguns tecnicismes, encara que també es distingeixen alguns termes buits de contingut (ecofriendly, creixement sostenible, ecodisseny, biocombustible…) o termes discutibles (petjada de carboni individual)",
-							"3": "Utilitza un llenguatge comprensible per a les persones destinatàries, amb un ús correcte de tecnicismes i sense utilitzar termes buits de contingut (ecofriendly, creixement sostenible, ecodisseny, biocombustible…) o termes discutibles (petjada de carboni a títol individual)"
-						},
-						"TITLE": "2.2. Presenta l'entitat informació utilitzant un llenguatge tècnic en relació amb el tema que es treballa i aquest és comprensible per totes les persones 3 ?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "Els valors que l'entitat difon en el PPEA es reflecteixen en les seves memòries anuals o de RSC, però aquests no presenten una concordança amb l'activitat principal de l'entitat (afirma sucompromiso amb algun problema ambiental, però, d'altra banda, està contribuint negativament amb les seves activitats)",
-							"2": "Els valors que l'entitat difon en el PPEA no es reflecteixen en les seves memòries anuals o de RSC",
-							"3": "Els valors que l'entitat difon en el PPEA són coherents amb la informació aportada en les seves memòries anuals o de RSC (informació completa, clara, aprovada per tercers, etc.)"
-						},
-						"TITLE": "2.3. Presenta l'entitat informació relativa als valors que difon en el PPEA en les seves memòries anuals o en les seves memòries de Responsabilitat Social Corporativa (RSC)?"
-					}
-				},
-				"TITLE": "2. La veracitat de la informació que l'entitat o empresa patrocinadora, dissenyadora o executora ofereix de si mateixa i del PPEA"
-			},
-			"3": {
-				"DESCRIPTION": "Considerem que els PPEA haurien de partir d'un estudi previ o d'un diagnòstic d'una situació o problemàtica ambiental que a més es relacioni amb les necessitats de les persones destinatàries. Aquest criteri podria servir per a identificar el greenwashing i per a valorar la qualitat d'un PPEA, ja que es dissenyaria amb una finalitat clara de sensibilitzar i educar per a canviar una situació o abordar una problemàtica.",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "S'aporta algun tipus d'informació sobre les causes del problema que s'està tractant, però no es justifica l'elecció del tema i per què és important o urgent i/o les conseqüències reals de no actuar (afirma que existeix un problema, però donant a entendre que hi ha molt de marge d'actuació i que les conseqüències encara no s'estan experimentant)",
-							"2": "No s'aporten o s'aporten molt poques dades sobre la situació del problema (causes i conseqüències) per a justificar l'elecció del tema (tracta alguns dels principals problemes ambientals- canvi climàtic, residus, energia, etc.- de manera superficial, sense indagar en la seva urgència)",
-							"3": "Es justifica l'elecció del problema a tractar aportant informació de manera clara i detallada sobre les causes i conseqüències del problema i les implicacions de no actuar."
-						},
-						"TITLE": "3.1. Es disposa d'informació i/o de dades en el PPEA sobre la situació que fa que es consideri necessari realitzar-ho?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "El PPEA aporta informació ambigua (de caràcter global i sense dades numèriques específiques; no es contextualitza adequadament l'origen del problema ni la seva situació actual; o les dades disponibles són incomplets o provenen de fonts no fiables 4 ) o omet informació per a no contextualitzar l'origen del problema que s'està tractant, així com la seva situació actual. Aquest fet dificulta la valoració realista de l'impacte del programa",
-							"2": "El PPEA manca de dades que contextualitzin l'origen del problema o la seva situació actual o, si n'hi ha, aquests estan incomplets o no s'esmenten les fonts, la qual cosa dificulta la valoració de l'impacte del programa",
-							"3": "El PPEA aporta dades tant qualitatives com quantitatius que serveixen per a contextualitzar l'origen del problema que s'està tractant, així com la seva situació actual, de manera que poden utilitzar-se per a realitzar una valoració realista de l'impacte del programa"
-						},
-						"TITLE": "3.2. ¿Se dispone en el PPEA de datos cualitativos y cuantitativos que lo sitúan (punto de partida) y lo contextualizan (local y global), y que son utilizados más adelante para realizar una valoración del impacto del PPEA?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "El PPEA està dissenyat exclusivament per a alumnat de diferents nivells educatius (educació formal) però no s'analitzen ni consideren les seves característiques de partida (particularitats locals, socioculturals, diferents capacitats d'aprenentatge, etc.)",
-							"2": "El PPEA està dissenyat per a un determinat públic destinatari (alumnat de diferents nivells educatius, col·lectius, famílies, etc.), però no s'analitzen ni consideren les seves característiques de partida (particularitats individuals, culturals i locals dels destinataris, així com les seves capacitats) i per tant no està adaptat a aquests",
-							"3": "El PPEA està dissenyat per a un determinat públic destinatari (alumnat de diferents nivells educatius, col·lectius, famílies, etc.), i a més s'analitzen i consideren les seves característiques de partida (particularitats individuals, culturals i locals)"
-						},
-						"TITLE": "3.3. S'identifica a les persones destinatàries del PPEA i, en el cas d'estar destinat a un sector ampli de la població, s'identifiquen uns certs subgrups diana sobre els quals se centra prioritàriament el PPEA?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "El programa reconeix unes certes característiques dels participants (nivell d'alfabetització ambiental, context sociocultural, nivell educatiu…) i pren avantatge d'això adaptant parcialment les seves activitats o enfocaments per als seus propis interessos",
-							"2": "El programa reconeix unes certes característiques dels participants (nivell d'alfabetització ambiental) i adapta parcialment les seves activitats o enfocaments per a la resolució de la problemàtica que es treballa en el programa",
-							"3": "El programa reconeix totes les característiques dels participants (nivell d'alfabetització ambiental) i adapta les seves activitats o enfocaments per a la resolució de la problemàtica que es treballa en el programa"
-						},
-						"TITLE": "3.4.Es defineixen les característiques pròpies de les persones destinatàries, respecte a l'apropiació de la necessitat del programa: participació, obstacles, reptes i/o desconeixement?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "El contingut del programa es presenta considerant el nivell de coneixements o les idees prèvies de les persones participants, de manera que es pot aprofitar aquesta falta de coneixement (d'idees, de creences, errors, ...) per a introduir idees que poden ser imprecises o esbiaixades, no verificades o allunyades de la realitat",
-							"2": "El contingut del programa es presenta sense tenir en compte els coneixements o idees prèvies de les persones participants, de manera que el programa introdueix algunes idees sense verificar, però existeix almenys un intent de generar reflexió crítica, encara que aquest sigui limitat.",
-							"3": "El contingut del programa es presenta tenint en compte els coneixements o idees prèvies de les persones participants, per a tractar de generar una reflexió crítica"
-						},
-						"TITLE": "3.5.Es parteix dels coneixements o idees prèvies dels qui participen?"
-					}
-				},
-				"TITLE": "3. Un diagnòstic sobre la necessitat del PPEA de resoldre problemàtiques socioambientales relacionades amb les persones destinatàries"
-			},
-			"4": {
-				"DESCRIPTION": "Els PPEA haurien de descriure els seus objectius i continguts i establir una coherència entre si. A més, haurien de respondre als objectius i característiques de l'EA i, per tant, promoure una educació a favor del mitjà. Aquest criteri delimitaria la qualitat d'un PPEA i ajudaria a la identificació del greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "Els objectius no estan clarament formulats i no presenten una intencionalitat clara per a la resolució de la problemàtica que es treballa. A més, no són fàcilment assolibles i la seva seqüenciació presenta algunes irregularitats que podrien dificultar la implementació efectiva.",
-							"2": "Els objectius no estan clarament formulats i no presenten una intencionalitat clara per a la resolució de la problemàtica que es treballa. Poden ser assolibles, però la seva seqüenciació presenta algunes irregularitats que podrien dificultar la implementació efectiva",
-							"3": "Els objectius estan clarament formulats i presenten una intencionalitat clara per a la resolució de la problemàtica que es treballa. A més, són fàcilment assolibles i la seva seqüenciació facilita una implementació efectiva."
-						},
-						"TITLE": "4.1.Es presenta una bona formulació d'objectius, així com la seva intencionalitat i seqüenciació 5 ?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "Els continguts (o les competències) s'aborden fonamentalment des de l'àrea conceptual, encara que de manera esbiaixada (la selecció de la informació en relació amb el tema del programa es fa de forma interessada), i aquests no es vinculen directament amb la resolució del problema que s'aborda en el PPEA, o si es fa, la capacitació pràctica per a l'acció es basa en la responsabilitat individual i no en la col·lectiva",
-							"2": "Els continguts (o les competències) no aborden de manera clara les àrees conceptuals, procedimentals i actitudinals. No es presenta una clara connexió entre els continguts conceptuals, procedimentals i actitudinals o aquests no es vinculen directament amb la resolució del problema que s'aborda en el PPEA. En cas d'una capacitació pràctica per a l'acció, aquesta es basa en la responsabilitat individual i no en la col·lectiva",
-							"3": "Els continguts (o les competències) s'aborden des de l'àrea conceptual, procedimental i actitudinal i aquests es vinculen directament amb la resolució del problema que s'aborda en el PPEA. Es realitza una capacitació pràctica per a l'acció basada en la responsabilitat col·lectiva"
-						},
-						"TITLE": "4.2. Es disposa d'una bona concreció i formulació de continguts conceptuals, procedimentals i actitudinals i/o competències en relació amb els objectius?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "Els objectius no estan formulats de manera clara, són massa generals, la qual cosa impedeix la seva verificació o avaluació efectiva. No s'han dissenyat indicadors d'avaluació clars ni mesurables, o els que s'han proposat no són adequats per a mesurar de manera objectiva els avanços cap als objectius",
-							"2": "Els objectius no estan formulats de manera clara i l'estratègia d'avaluació és inexistent o inadequada (no s'han dissenyat indicadors d'avaluació), la qual cosa impedeix realitzar una avaluació efectiva.",
-							"3": "Els objectius estan formulats de manera clara, específica i comprensible, la qual cosa facilita la seva verificació i avaluació. S'ha dissenyat una estratègia d'avaluació adequada, amb indicadors precisos, mesurables i quantificables, que estan alineats amb els objectius i permeten mesurar el seu progrés o assoliment de manera objectiva."
-						},
-						"TITLE": "4.3. Són els objectius fàcilment verificables i avaluables 6 ?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "Els objectius no estan clarament relacionats amb l'activitat de l'entitat i la relació amb els problemes ambientals abordats en el programa és mínima, vaga o fins i tot contradictòria. La connexió entre la labor de l'entitat i els desafiaments ambientals no fomenta una reflexió crítica sobre l'impacte d'aquesta activitat en el medi ambient.",
-							"2": "Els objectius estan relacionats amb l'activitat de l'entitat de manera general, però la relació amb els problemes ambientals abordats en el programa no és completament clara. La connexió entre la labor de l'entitat i els desafiaments ambientals no fomenta una reflexió crítica sobre l'impacte d'aquesta activitat en el medi ambient.",
-							"3": "Els objectius estan clarament relacionats amb l'activitat de l'entitat. La connexió entre la labor de l'entitat i els desafiaments ambientals que tracta és transparent amb les seves accions. Es fomenta la reflexió crítica sobre la pròpia activitat de l'entitat, convidant als participants a avaluar i qüestionar les seves accions"
-						},
-						"TITLE": "4.4. Es descriuen objectius orientats a la reflexió crítica de l'activitat de l'entitat que patrocina, dissenya o executa el PPEA?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "Els objectius del programa no estan alineats amb els objectius propis de l'EA. Els continguts proporcionen informació esbiaixada (omet dades, no s'esmenten els impactes negatius, etc.) i manquen de fonts clares. Està enfocat a un nivell educatiu determinat, però no es tenen en compte les realitats socioeconòmiques i culturals dels participants",
-							"2": "Els objectius del programa no estan completament alineats amb els objectius propis de l'EA. Els continguts proporcionen informació veraç (encara que no la suficient), però sense esmentar les fonts. Està enfocat a un determinat públic destinatari, però no es tenen en compte les realitats socioeconòmiques i culturals d'aquest",
-							"3": "Els objectius del programa estan completament alineats amb els objectius propis de l'EA. Els continguts proporcionen informació veraç, contrastada i amb fonts fiables. Està enfocat a un determinat públic destinatari i es té en compte les realitats socioeconòmiques i culturals d'aquest"
-						},
-						"TITLE": "4.5. S'incorporen objectius 7 i continguts propis de l'EA i rellevants en el context on es desenvolupa el programa?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "Els objectius es relacionen fonamentalment amb l'aprendre a saber (cognitius) i la selecció del tema que es treballa en el PPEA es fa de forma interessada. A més, no inclou objectius procedimentals ni emocionals",
-							"2": "No s'inclouen adequadament objectius que abordin les tres dimensions de l'aprenentatge. La falta d'atenció a una o més àrees limita l'efectivitat del programa i la seva capacitat per a promoure un aprenentatge integral.",
-							"3": "Els objectius aborden les tres dimensions de l'aprenentatge (cognitiva, procedimental i emocional) de manera equilibrada i significativa. S'afavoreix tant l'adquisició de coneixements com el desenvolupament d'habilitats i actituds o emocions, vinculats amb la realitat dels participants, garantint un aprenentatge integral i transferible per a la resolució de les problemàtiques que es treballen."
-						},
-						"TITLE": "4.6. S'inclouen objectius relacionats amb l'aprendre a saber (cognitius: fets i conceptes), aprendre a saber fer (procedimentals: habilitats) i aprendre a saber ser i saber conviure (emocionals: actituds)?"
-					},
-					"7": {
-						"OPTIONS": {
-							"1": "Els continguts no aborden adequadament l'aprenentatge actiu ni proporcionen suficients eines perquè les persones participants puguin actuar enfront dels problemes ambientals. Els continguts són teòrics, descontextualitzats o massa generals, sense una clara connexió amb les necessitats ambientals locals, la qual cosa limita l'aplicabilitat de l'aprenentatge.",
-							"2": "Els continguts aborden alguns aspectes relacionats amb l'aprenentatge actiu i la resolució de problemes, però la seva connexió amb la realitat local no és completament clara o està parcialment desenvolupada. Es presenten conceptes i eines per a afrontar els problemes ambientals, però les persones participants poden no aconseguir suficient capacitació per a aplicar aquestes solucions de manera efectiva.",
-							"3": "Els continguts aborden aspectes relacionats amb l'aprenentatge actiu i la resolució de problemes, i es connecten de manera clara amb la realitat local. Es presenten conceptes i eines per a afrontar els problemes ambientals i les persones participants poden comptar amb la suficient capacitació per a aplicar aquestes solucions de manera efectiva."
-						},
-						"TITLE": "4.7. S'inclouen continguts relacionats amb l'aprendre a actuar, fomentant la capacitació per a afrontar problemes i respondre a les necessitats reals del context en el qual es treballa?"
-					}
-				},
-				"TITLE": "4. Uns objectius i uns continguts definits clarament en el PPEA"
-			},
-			"5": {
-				"DESCRIPTION": "Un PPEA hauria de disposar d'un cronograma d'activitats en el qual es treballin i seqüenciïn els objectius i continguts que es promouen amb el programa o projecte i que s'adeqüi a les característiques de les persones destinatàries del PPEA. Aquest criteri delimitaria la qualitat d'un PPEA i ajudaria a la identificació del greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "El programa presenta una temporalització clara; però no s'observa una seqüenciació lògica de les activitats.",
-							"2": "El programa no presenta una temporalització clara i no s'observa una seqüència completament lògica de les activitats",
-							"3": "El programa presenta una temporalització clara i s'observa una seqüència completament lògica de les activitats"
-						},
-						"TITLE": "5.1. Es disposa d'un mètode de treball amb una seqüència d'activitats ben planificades i temporalizadas?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "La metodologia és parcialment coherent amb els objectius del programa, però hi ha indicis de falta de profunditat o biaix en la informació proporcionada. Encara que les activitats estan relacionades amb els objectius, alguns continguts no s'aborden de manera completa o equilibrada, i existeix una certa falta de transparència en la presentació de la informació. Les activitats poden fomentar la reflexió, però aquesta és superficial o limitada, i no sempre es relacionen amb una acció real",
-							"2": "La metodologia mostra una coherència general amb els objectius del programa, però existeixen àrees on la profunditat o l'enfocament de la informació són limitats. Encara que les activitats estan relacionades amb els objectius, alguns continguts no es desenvolupen amb suficient detall o equilibri, i la presentació de la informació podria mancar de claredat o ser parcial. Les activitats poden fomentar la reflexió, però aquesta és en alguns casos superficial o no completament vinculada a accions concretes, la qual cosa limita l'efectivitat del programa per a generar un canvi real",
-							"3": "La metodologia és totalment coherent amb els objectius del programa. S'aprofundeix en la informació que s'aporta, la qual és veraç i prové de fonts fiables. Les activitats estan relacionades amb els objectius i tots els continguts s'aborden de manera completa i equilibrada, amb total transparència en la presentació de la informació. Les activitats fomenten una reflexió crítica"
-						},
-						"TITLE": "5.2. La metodologia de treball utilitzada és coherent amb els objectius plantejats?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "Es disposa d'un pla d'activitats desenvolupat exclusivament per a alumnat (educació formal), però sense distingir específicament entre nivells educatius, per tant, hi ha algunes activitats que no s'adeqüen a les característiques d'aquest i no s'ofereixen altres alternatives per a adaptar aquestes activitats a la diversitat dels participants",
-							"2": "Es disposa d'un pla d'activitats desenvolupat per a un públic objectiu genèric, per tant, hi ha algunes activitats que no s'adeqüen a les característiques d'aquest i no s'ofereixen altres alternatives per a adaptar aquestes activitats a la diversitat dels participants",
-							"3": "Es disposa d'un pla d'activitats desenvolupat per a un determinat públic objectiu i les activitats s'adeqüen a les característiques d'aquest, ja que s'ofereixen alternatives per a adaptar-se a la diversitat dels participants"
-						},
-						"TITLE": "5.3. Es disposa d'un pla d'activitats que presenta un format ben adaptat i adequat a les característiques del públic objectiu destinatari?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "La metodologia es focalitza en la transmissió d'informació sobre la problemàtica socioambiental, però amb limitacions quant a la reflexió crítica o a la participació activa. Si bé hi ha un enfocament en la millora de les relacions socials amb l'entorn, no sempre s'aconsegueixen establir vincles significatius entre els participants i la problemàtica socioambiental.",
-							"2": "La metodologia es focalitza en la transmissió d'informació sobre la problemàtica ambiental i intenta promoure la reflexió crítica, la comunicació social i la participació activa; però no sempre s'aconsegueixen establir vincles significatius entre els participants i la problemàtica socioambiental.",
-							"3": "La metodologia no sols es focalitza en la comprensió d'informació sobre la problemàtica ambiental, sinó que també promou la reflexió crítica, la comunicació social i la participació activa. A més, s'aconsegueix establir vincles significatius entre els participants i la problemàtica socioambiental."
-						},
-						"TITLE": "5.4. La metodologia utilitzada (en les activitats) s'orienta a la comprensió, la reflexió, la comunicació social i l'acció, en la millora de les relacions socials que establim amb el nostre entorn local i global?"
-					}
-				},
-				"TITLE": "5. Un pla d'activitats coherent amb els objectius i continguts del PPEA"
-			},
-			"6": {
-				"DESCRIPTION": "La metodologia dels programes o projectes d'EA hauria de fomentar l'anàlisi de la complexitat i les visions ambientals i socials dels problemes o temes ambientals, desenvolupar habilitats d'acció basades en el pensament crític i no basar-se solament en la transmissió de coneixements. Aquest criteri delimitaria la qualitat d'un PPEA i ajudaria a la identificació del greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "El PPEA i les seves activitats integren únicament les visions ambientals, sense integrar la qualitat de vida i els límits planetaris amb aquestes visions. Els problemes ambientals no es presenten com a conseqüència directa de les activitats de l'ésser humà i la seva resolució s'enfoca únicament des de la responsabilitat individual. El programa no presenta un enfocament integral ni ofereix eines per a reflexionar sobre els efectes de les decisions polítiques, econòmiques i socials en el medi ambient.",
-							"2": "El PPEA i les seves activitats integren les visions ambientals i socials de manera limitada, integrant de manera parcial la qualitat de vida i els limitis planetaris. Els problemes ambientals es presenten com a conseqüència directa de les activitats de l'ésser humà, però la seva resolució s'enfoca únicament des de la responsabilitat individual. El programa presenta un enfocament incomplet i no ofereix eines per a reflexionar sobre els efectes de les decisions polítiques, econòmiques i socials en el medi ambient",
-							"3": "El PPEA i les seves activitats integren les visions ambientals i socials de manera holística, integrant la relació d'aquestes amb la qualitat de vida i els límits planetaris. Els problemes ambientals es presenten com a conseqüència directa de les activitats de l'ésser humà, subratllant-se la responsabilitat individual i col·lectiva en la seva resolució. El programa presenta un enfocament integral i ofereix eines per a reflexionar sobre els efectes de les decisions polítiques, econòmiques i socials en el medi ambient."
-						},
-						"TITLE": "6.1. S'incorporen anàlisi de la complexitat, les visions ambientals i socials i la seva relació entre la qualitat de vida i els límits planetaris?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "Els continguts del PPEA tenen en compte les característiques de les persones participants (coneixements previs, nivell educatiu, currículum), i encara que la informació està adaptada a aquestes, pot ser esbiaixada o utilitzar termes buits de contingut (ecofriendly, creixement sostenible, ecodisseny, biocombustible…) o discutibles (ej, petjada de carboni individual per a evadir la responsabilitat col·lectiva i proposar solucions individuals)",
-							"2": "Els continguts del PPEA tenen en compte unes certes característiques de les persones participants (coneixements previs, nivell educatiu) i, encara que la informació pot estar parcialment adaptada a aquestes característiques, aquesta presenta massa tecnicismes que dificulten la seva comprensió",
-							"3": "Els continguts del PPEA tenen en compte les característiques de les persones participants (coneixements previs, nivell educatiu, currículum, àmbit socioeconòmic i cultural, etc.), oferint informació veraç, verificada i fàcilment comprensible."
-						},
-						"TITLE": "6.2. S'identifiquen continguts adequats a les característiques de les persones destinatàries?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "El programa descriu mètodes específics per a cada nivell educatiu i/o els diferents actors i actrius destinatàries i, encara que s'inclouen exemples pràctics o activitats que es puguin implementar en els diferents contextos educatius, aquestes tenen per finalitat algunes accions proambientals de caràcter individual",
-							"2": "El programa descriu mètodes específics per a cada nivell educatiu i/o els diferents actors i actrius destinatàries que inclouen exemples pràctics o activitats que es puguin implementar en els diferents contextos educatius, però aquestes no tenen per finalitat promoure accions proambientals",
-							"3": "El programa descriu mètodes específics per a cada nivell educatiu i/o els diferents actors i actrius destinatàries que inclouen exemples pràctics o activitats que es puguin implementar en els diferents contextos educatius amb la finalitat de dur a terme accions proambientals individuals o col·lectives"
-						},
-						"TITLE": "6.3. Es reflecteix l'aplicabilitat per a cada nivell educatiu i/o per als diferents actors i actrius destinatàries?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "El PPEA estudia les temàtiques fonamentalment ambientals, deixant de costat la dimensió social, i encara que l'anàlisi es realitza a diferents escales, posa el focus en el context global i la seva problemàtica com a base de l'aprenentatge.",
-							"2": "El PPEA part de l'estudi de les temàtiques socioambientales en diferents escales, posant el focus en el context global i la seva problemàtica com a base de l'aprenentatge",
-							"3": "El PPEA part de l'estudi de temàtiques socioambientales en diferents escales, posant el focus en el context pròxim i la seva problemàtica com a base per a l'aprenentatge"
-						},
-						"TITLE": "6.4. Es parteix de l'estudi de temàtiques socioambientals pròpies i/o pròximes?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "El PPEA pot utilitzar una metodologia de treball col·laboratiu en la qual les persones participants interactuen i comparteixen idees per a la resolució de problemes fonamentalment ambientals, però sense utilitzar la reflexió crítica ni la cerca de solucions conjuntes innovadores",
-							"2": "El PPEA pot utilitzar una metodologia de treball col·laboratiu en la qual les persones participants interactuen i comparteixen idees per a la resolució de problemes socioambientales mitjançant la reflexió crítica, però manca d'una cerca de solucions",
-							"3": "El PPEA utilitza una metodologia de treball col·laboratiu en la qual les persones participants interactuen i comparteixen idees per a la resolució de problemes socioambientals mitjançant la reflexió crítica i la cerca de solucions conjuntes innovadores"
-						},
-						"TITLE": "6.5. La metodologia utilitzada ajuda a desenvolupar habilitats d'acció basades en el pensament crític i creatiu i en la construcció col·lectiva del coneixement?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "En el PPEA es reflecteixen de manera esbiaixada o ambigua les activitats desenvolupades per l'entitat, dificultant establir la relació d'aquestes en el seu paper per a la contribució o mitigació de les problemàtiques, fonamentalment ambientals, que es treballen amb el programa",
-							"2": "En el PPEA no es reflecteixen les activitats desenvolupades per l'entitat, dificultant establir la relació d'aquestes en el seu paper per a la contribució o mitigació de les problemàtiques socioambientals que es treballen amb el programa",
-							"3": "En el PPEA es reflecteixen les activitats desenvolupades per l'entitat i com aquesta contribueix o mitiga les problemàtiques socioambientales que es treballen amb el programa"
-						},
-						"TITLE": "6.6. La metodologia convida a l'anàlisi crítica de les activitats desenvolupades per l'entitat que dissenya, promociona o executa el PPEA?"
-					},
-					"7": {
-						"OPTIONS": {
-							"1": "La metodologia utilitzada en el PPEA evita la reflexió i, encara que es proposa un compromís per a la resolució de la problemàtica ambiental treballada, aquest s'enfoca únicament en la responsabilitat individual del públic destinatari.",
-							"2": "La metodologia utilitzada en el PPEA convida a la reflexió i al compromís, considerant prioritàriament la responsabilitat individual del públic destinatari (canvi d'hàbits)",
-							"3": "La metodologia utilitzada en el PPEA convida a la reflexió i al compromís, considerant tant la responsabilitat individual del públic destinatari (canvi d'hàbits) com la responsabilitat col·lectiva (governamental) per a la resolució de la problemàtica socioambiental treballada"
-						},
-						"TITLE": "6.7. La metodologia utilitzada suposa comprometre's i executar accions per a millorar la problemàtica socioambiental treballada?"
-					}
-				},
-				"TITLE": "6. Uns mètodes coherents amb els fins de l'EA"
-			},
-			"7": {
-				"DESCRIPTION": "Un bon programa o projecte d'EA ha de comptar amb els recursos humans, materials i econòmics suficients i de qualitat per a la seva execució i que han de ser coherents amb els principis de sostenibilitat ambiental i justícia social. Aquest criteri delimitaria la qualitat d'un PPEA i ajudaria a la identificació del greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "Al PPEA es descriu de forma incompleta o vaga qui integra el l' equip educatiu i els seus competències professionals relacionades amb l' educació ambiental",
-							"2": "Al PPEA no es descriu qui integra l' equip educatiu ni les seves competències professionals relacionades amb l' educació ambiental",
-							"3": "Al PPEA es descriu i es pot verificar que l' equip educatiu és interdisciplinari i compta amb les competències professionals necessàries per a la ambiental."
-						},
-						"TITLE": "7.1. Es descriuen els recursos humans i aquests són suficients i tenen la capacitat adequada per a la planificació i el desenvolupament del programa 8 ?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "L' equip educatiu és estable, però no disposa d'oportunitats ni facilitats per a la seva formació contínua i reciclatge professional",
-							"2": "L'equip educatiu és inestable i no disposa d' oportunitats ni facilitats per a la seva formació contínua i reciclatge professional",
-							"3": "L' equip educatiu és estable i les seves condicions laborals i professionals són adequades al treball que desenvolupen. A més, disposen d' oportunitats i facilitats per a la seva formació contínua i reciclatge professional"
-						},
-						"TITLE": "7.2. Les condicions laborals dels qui formen part dels recursos humans són dignes 9 ?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "Al PPEA es descriu els recursos materials de suport, però aquests no són variats, suficients ni adequats a les activitats que es plantegen en el programa.",
-							"2": "Els recursos materials de suport són didàctics, utilitzen eines analògiques i digitals, però no s'adeqüen a les característiques del públic destinatari",
-							"3": "Al PPEA es descriuen els recursos materials de suport i aquests utilitzen eines analògiques i digitals i s'adeqüen a les característiques del públic destinatari, reduint les desigualtats"
-						},
-						"TITLE": "7.3. Es descriuen els recursos materials de suport i aquests són variats,suficients i adequats per a cada activitat l 10 ?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "Els materials no segueixen criteris de sostenibilitat ambiental i social",
-							"2": "Els materials de suport no segueixen criteris de sostenibilitat ambiental i social",
-							"3": "Els materials de suport segueixen criteris de sostenibilitat ambiental i social"
-						},
-						"TITLE": "7.4. Els recursos materials de suport segueixen principis de sostenibilitat ambiental i social 10 ?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "En el PPEA es descriuen les infraestructures i s'afirma que segueixen els principis de sostenibilitat ambiental (), encara que s'utilitzen com a reclam",
-							"2": "En el PPEA no es descriuen les infraestructures, encara que aquestes podrien seguir els principis de sostenibilitat ambiental. A més, no són utilitzades com a recurs educatiu en el programa",
-							"3": "En el PPEA es descriuen les infraestructures i aquestes segueixen els principis de sostenibilitat ambiental ( i aquestes s'utilitzen com a recurs educatiu en el programa"
-						},
-						"TITLE": "7.5. Es descriuen les infraestructures utilitzades i aquestes segueixen criteris de sostenibilitat ambiental 11 quant a tipologia de materials i consum de recursos (energia, aigua, etc)?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "L'entitat publica informes de comptes anuals, però no especifica l'origen dels recursos financers de manera clara o transparent",
-							"2": "L'entitat no publica informes de comptes anuals o la informació que proporciona manca d'evidències demostrades sobre, l'origen dels recursos financers",
-							"3": "L'entitat publica informes de comptes anuals en els quals s'especifica de forma detallada l'origen dels recursos financers"
-						},
-						"TITLE": "7.6. S'explicita d'on provenen els recursos financers que permeten la relació anterior de recursos humans i materials?"
-					}
-				},
-				"TITLE": "7. Uns recursos coherents amb les finalitats del PPEA i els principis de sostenibilitat ambiental i justícia social"
-			},
-			"8": {
-				"DESCRIPTION": "Per a mesurar i valorar l'impacte d'un PPEA és imprescindible determinar les eines i mètodes amb els quals es recollirà la informació amb la qual avaluar l'abast dels objectius i la finalitat del PPEA. Aquest criteri delimitaria la qualitat d'un PPEA i ajudaria a la identificació del greenwashing",
-				"INDICATORS": {
-					"1": {
-						"OPTIONS": {
-							"1": "Es descriuen en el programa els instruments i estratègies que s'utilitzarien per a valorar si s'han aconseguit els objectius proposats per al públic destinatari, però es fa de manera vaga o poc demostrable. No es disposen d'instruments o estratègies per a mesurar la contribució d'aquest programa a la resolució de la problemàtica socioambiental que es treballa. Manca d'una estratègia general de mesurament d'impacte.",
-							"2": "No es descriuen en el programa els instruments i estratègies que s'utilitzarien per a valorar si s'han aconseguit els objectius proposats per al públic destinatari, ni per a mesurar la contribució d'aquest programa a la resolució de la problemàtica socioambiental que es treballa. Manca d'una estratègia general de mesurament d'impacte.",
-							"3": "Es descriuen en el programa els instruments i estratègies que s'utilitzaran per a valorar si s'han aconseguit els objectius proposats per al públic destinatari en el programa, així com la contribució d'aquest a la resolució de la problemàtica socioambiental que es treballa. S'integren en una estratègia general de mesurament d'impacte."
-						},
-						"TITLE": "8.1. Es disposa d'instruments i estratègies de valoració per a mesurar en quin grau s'han aconseguit els objectius i finalitats del programa?"
-					},
-					"2": {
-						"OPTIONS": {
-							"1": "El PPEA inclou activitats finals que es plantegen com una síntesi del treball realitzat; però no es planteja com un exercici de reflexió de l'après entre les persones destinatàries perquè prenguin consciència del seu procés d'aprenentatge.",
-							"2": "El PPEA no inclou activitats finals",
-							"3": "El PPEA inclou activitats finals que es plantegen com un exercici de reflexió de l'après entre les persones destinatàries perquè prenguin consciència del seu procés d'aprenentatge."
-						},
-						"TITLE": "8.2. S'inclouen activitats de síntesis i d'autoavaluació per a les persones destinatàries?"
-					},
-					"3": {
-						"OPTIONS": {
-							"1": "Es descriu que al llarg del procés es produirà una recollida d'informació de manera sistemàtica i continua per a valorar el grau d'adequació de les activitats amb els objectius i finalitats del programa, amb la finalitat de poder revisar-les per a la millora d'aquest; però no s'executa.",
-							"2": "No es descriu que al llarg del procés es produirà una recollida d'informació de manera sistemàtica i continua per a valorar el grau d'adequació de les activitats amb els objectius i finalitats del programa amb la finalitat de poder revisar-les per a la millora d'aquest",
-							"3": "Es descriu i s'executa, al llarg del procés, la recollida d'informació de manera sistemàtica i continua per a valorar el grau d'adequació de les activitats amb els objectius i finalitats del programa amb la finalitat de poder revisar-les per a la millora d'aquest"
-						},
-						"TITLE": "8.3. Es preveu un sistema d'avaluació contínua per part de qui executa el programa per a canviar o adaptar la realització de les activitats previstes amb els resultats d'aquesta avaluació?"
-					},
-					"4": {
-						"OPTIONS": {
-							"1": "L'entitat no pot utilitzar els resultats de l'avaluació per a determinar el grau de compliment dels objectius ni establir els elements del programa que necessiten millores atès que no s'ha executat el sistema d'avaluació contínua.",
-							"2": "L'entitat no utilitza els resultats de l'avaluació per a determinar el grau de compliment dels objectius i establir els elements del programa que necessiten millores per a analitzar que està funcionant i que no i com canviar-lo.",
-							"3": "L'entitat utilitza els resultats de l'avaluació per a determinar el grau de compliment dels objectius i establir els elements del programa que necessiten millores per a analitzar que està funcionant i que no i com canviar-lo."
-						},
-						"TITLE": "8.4. Els resultats de l'avaluació són utilitzats per a millorar en l'assoliment dels objectius de millora socioambiental?"
-					},
-					"5": {
-						"OPTIONS": {
-							"1": "L'entitat presenta en les seves memòries o altres informes evidències vagues sobre l'abast dels objectius determinats en el PPEA (s'esmenten objectius generals sense resultats verificables de millora de la problemàtica socioambiental o les afirmacions no es recolzen amb dades qualitatives o quantitatives sobre l'impacte ambiental o social aconseguit pel projecte.",
-							"2": "L'entitat no presenta en les seves memòries o altres informes evidències clares sobre l'abast dels objectius determinats en el PPEA (s'esmenten objectius generals sense resultats verificables de millora de la problemàtica socioambiental)",
-							"3": "L'entitat presenta en les seves memòries o altres informes l'abast dels objectius determinats per al PPEA, permetent-se identificar una millora o aportació positiva en relació amb el problema socioambiental que es treballa (bé perquè aquest es millora directament, bé perquè indirectament s'observa un major nivell de conscienciació sobre aquest tema), recolzats per dades verificables i vinculades amb els objectius inicials del projecte."
-						},
-						"TITLE": "8.5. Es presenta quin impacte ambiental i/o social s'ha aconseguit amb els resultats del projecte?"
-					},
-					"6": {
-						"OPTIONS": {
-							"1": "L'entitat no posa a disposició pública la memòria sobre els resultats del desenvolupament del PPEA o, si es comuniquen, es fa amb un enfocament clarament publicitari, sense reflectir un impacte real en la problemàtica socioambiental o utilitzant dades poc verificables.",
-							"2": "L'entitat posa a disposició pública la memòria sobre els resultats del desenvolupament del PPEA, però amb limitacions quant a la claredat, accessibilitat o impacte real en relació amb la millora de la problemàtica socioambiental.",
-							"3": "L'entitat posa a disposició pública la memòria sobre els resultats del desenvolupament del PPEA amb la finalitat de compartir la millora que suposa a la problemàtica socioambiental i convidar a la replicabilidad del programa."
-						},
-						"TITLE": "8.6. Els resultats de l'avaluació es difonen per a reflectir la millora de la problemàtica socioambiental (i no amb finalitats publicitaris de l'entitat)?"
-					}
-				},
-				"TITLE": "8. Una previsió d'estratègies d'avaluació del PEEA i la posterior publicació de resultats"
-			}
-		},
-		"PROJECT_NAME": "Nom del projecte/empresa",
-		"PROJECT_URL": "URL del projecte/empresa",
-		"SCORE": {
-			"1": {
-				"DESCRIPTION": "No és un bon programa d'educació ambiental, estigui incorrent o no en greenwashing, ja que manca d'alguna, o vàries, de les dimensions pròpies dels programes d'educació ambiental(no es defineix correctament a les persones destinatàries, els objectius; no s'aporta una visió sistèmica i interdisciplinària de la problemàtica ambiental que es tracta, l'estratègia educativa no és l'adequada, no disposa de sistema d'avaluació dels resultats i/o del programa",
-				"TITLE": "Incorre en greenwashing"
-			},
-			"2": {
-				"DESCRIPTION": "Es podria considerar un bon programa d'educació (objectius ben definits, una bona metodologia, es defineix correctament a les persones destinatàries, etc.) però no ambiental, ja que no aporta una visió sistèmica i interdisciplinària de la problemàtica ambiental que es tracta i a més incorre en pràctiques de greenwashing (veritats a mig fer, s'afirma un compromís amb algun problema ambiental però alhora es contribueix negativament a aquest, se centra en la responsabilitat individual, etc.)",
-				"TITLE": "Podria incórrer en greenwashing"
-			},
-			"3": {
-				"DESCRIPTION": "És un bon programa d'educació ambiental, ja que presenta totes les dimensions pròpies d'un PPEA i a més exposa els problemes ambientals d'una forma que conviden a la reflexió, explicant les causes i les conseqüències reals i aportant una visió sistèmica i interdisciplinària de la problemàtica ambiental que es tracta",
-				"TITLE": "No incorre en greenwashing"
-			}
-		},
-		"TITLE": "Nova evaluació"
-	}
+  "EVALUATIONS": {
+    "DETAILS": "Detalls",
+    "EMPTY": "Encara no hi ha avaluacions a la base de dades.",
+    "PROJECT_URL": "URL del projecte:",
+    "TITLE": "Base de dades de avaluacions"
+  },
+  "FOOTER": {
+    "CONTACT": "Contacte",
+    "LEGAL": "Legal / Contacte",
+    "LICENSE": "Llicència",
+    "NAVIGATION": "Navegació"
+  },
+  "HEADER": {
+    "NAVBAR": {
+      "EVALUATIONS": "Avaluacions",
+      "HOME": "Inici",
+      "RUBRIC": "Rúbrica"
+    }
+  },
+  "HOME": {
+    "ABOUT_PROJECT": {
+      "TEXT": "El projecte GreenWaScore neix amb la intenció de donar resposta a una preocupació cada vegada més present: les campanyes i programes que es presenten com d'educació ambiental (EA), però que poden ser d'una dubtosa qualitat educativa. Sovint, darrere d'una imatge \"verda\", s'amaguen pràctiques empresarials o organitzatives poc sostenibles o que  d'ètica ambiental. Pràctica coneguda com greenwashing o \"rentat verd\".\n\nEl greenwashing és una tècnica de comunicació d'informació ambiental enganyosa, falsa o incompleta per part d'empreses, organitzacions i institucions, que pretenen transmetre una imatge de sostenibilitat i responsabilitat ambiental que no es correspon amb les seves pràctiques reals.\n\nAmb aquest projecte, des del Grup de Recerca en Educació Ambiental per a la Sostenibilitat (GREAS) de la Universitat de les Illes Balears (UIB), desenvolupat parcialment en el marc del programa SOIB Recerca i Innovació - INVESTIGO, hem creat una eina pràctica que ajuda a identificar si un programa, projecte o activitat d’EA promou valors de sostenibilitat o si simplement busca millorar la imatge verda d’una entitat.",
+      "TITLE": "Què és aquest projecte?"
+    },
+    "PROJECT_OBJECTIVES": {
+      "OBJECTIVE_LIST": {
+        "1": "Donar a conèixer les característiques del greenwashing com pràctica educativa enganyosa.",
+        "2": "Oferir una eina pràctica, útil i accessible en forma de rúbrica per analitzar i avaluar la qualitat de projectes i programes d’educació ambiental.",
+        "3": "Ajudar al professorat (en actiu i en formació) i a educadors/es ambientals en la presa de decisions informades a l’hora de seleccionar recursos educatius per la sostenibilitat ambiental, promovent una educació ambiental de qualitat, crítica i coherent amb els principis de la sostenibilitat."
+      },
+      "TEXT": "El projecte GreenWaScore té com a objectius principals:",
+      "TITLE": "Quins son els seus objectius?"
+    },
+    "RUBRIC_FUNCTION": {
+      "LIST1": {
+        "1": "Quina entitat ha dissenyat/executat/patrocinat el PPEA i quines són les seves característiques",
+        "2": "Quina informació, conceptes, dades i continguts ofereix el PPEA",
+        "3": "Quines són les característiques d’un bon PPEA",
+        "4": "Quines són les principals tècniques de greenwashing"
+      },
+      "LIST2": {
+        "1": "Incorre en greenwashing: 1 punt",
+        "2": "Podria incórrer en greenwashing: 2 punts",
+        "3": "No incorre en greenwashing: 3 punts"
+      },
+      "LIST3": {
+        "1": "Mínim total possible: 43 (tots els indicadors amb 1 punt)",
+        "2": "Màxim total possible: 129 (tots amb 3 punts)"
+      },
+      "LIST4": {
+        "1": "Incorre en greenwashing: 43–65",
+        "2": "Podria incórrer en greenwashing: 66–105",
+        "3": "No incorre en greenwashing: 106–129"
+      },
+      "TEXT1": "La rúbrica és fàcil d'utilitzar i serveix per analitzar de manera crítica projectes i programes d'educació ambiental (PPEA). Consta de tres nivells d'execució qualitatius (incorre en greenwashing, podria incórrer en greenwashing, no incorre en greenwashing) i 43 indicadors dividits en 8 criteris. Per a cadascun dels indicadors, s'ha de triar el nivell corresponent tenint en compte els descriptors dels indicadors i les característiques del projecte o programa que s'està avaluant, així com de l'organització que l'ofereix.\n\nCada nivell aporta una puntuació diferent:",
+      "TEXT2": "S'ha de tenir en compte que per a alguns d'aquests aspectes no serà suficient analitzar el PPEA i s'hauran de consultar, per tant, altres fonts d'informació (Consultar Guia de Suport Ús Rúbrica).\n\nEn analitzar el PPEA s'ha de determinar de cada criteri i d'acord amb els descriptors de cada indicador, quin nivell d'execució li correspondria al PPEA. Cada nivell aporta una puntuació distinta:",
+      "TEXT3": "Per tant:",
+      "TEXT4": "Per identificar en quin grau el PPEA avaluat podria incórrer en greenwashing, es sumen els valors obtinguts en cada indicador i la puntuació total determinarà a quin nivell pertany:",
+      "TITLE": "Com utilitzar l'eina?"
+    }
+  },
+  "LEGAL": {
+    "COPYRIGHT": "Aquesta pàgina web va ser desenvolupada per Jesús Castillo, estudiant del Grau en Enginyeria Informàtica de la Universitat de les Illes Balears.\n\nAmb el suport de la Universitat de les Illes Balears – Facultat d’Educació.\n\nLa rúbrica d’anàlisi de programes d’educació ambiental va ser dissenyada per el Grup d' Investigació d'Educació Ambiental per la Sostenibilidtat de la Universitat de les Illes Balears en el marc del Programa SOIB Recerca i Innovació - Investigo.",
+    "LICENSE": {
+      "LIST1": {
+        "1": "Compartir — copiar i redistribuir el material en qualsevol mitjà o format.",
+        "2": "Adaptar — remezclar, transformar i crear a partir del material.",
+        "TITLE": "Està permès:"
+      },
+      "LIST2": {
+        "1": "Reconeixement — s’ha de donar el crèdit corresponent, proporcionar un enllaç a la llicència i indicar si s’han fet canvis.",
+        "2": "No Comercial — no es pot utilitzar el material amb finalitats comercials.",
+        "3": "Compartir Igual — si es remezcla, transforma o crea a partir del material, s’ha de distribuir amb la mateixa llicència que l’original.",
+        "TITLE": "Sota les condicions següents:"
+      },
+      "SOURCE": "El codi font d’aquesta pàgina web està disponible sota la Llicència MIT. Això significa que pots utilitzar, copiar, modificar i distribuir lliurement el codi per a qualsevol propòsit, sempre que es mantingui l’avís de llicència original.",
+      "SUBTITLE1": "Rúbrica i continguts textuals",
+      "SUBTITLE2": "Codi font",
+      "TEXT": "L’eina i els continguts textuals estan sota la llicència: Creative Commons BY-NC-SA 4.0 (Reconeixement - No Comercial - Compartir Igual).",
+      "TITLE": "Llicència d'ús"
+    }
+  },
+  "RUBRIC": {
+    "BUTTON": "Veure resultats",
+    "CRITERIA": {
+      "1": {
+        "DESCRIPTION": "A vegades, entitats i/o empreses que no es dediquen a l'EA, el medi ambient o l'educació en general (fundacions, entitats sense ànim de lucre, bancs o caixes…) patrocinen, dissenyen i/o executen programes. Considerem que les finalitats i objectius dels PPEA haurien de coincidir amb la missió i els valors de l'entitat o empresa que patrocina, dissenya i/o executa el programa. Aquest criteri podria contribuir a identificar el greenwashing, si no existís una relació clara entre la missió i els valors de l'entitat o empresa i allò que es treballa amb el programa",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "S' integren els principis de sostenibilitat, tot i que aquests s' allunyen o no estan vinculats amb l' activitat econòmica principal de l' empresa",
+              "2": "No es pot identificar de forma clara la integració dels principis de sostenibilitat",
+              "3": "S' integren els principis de sostenibilitat i a més són coherents amb l' activitat econòmica principal de l' empresa"
+            },
+            "TITLE": "1.1.¿La missió i els valors descrits per l' entitat integren els principis de sostenibilitat"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "S'estableixen funcions de sensibilització, formació o educació, encara que a través d'empreses/entitats secundàries o fundacions pròpies, intentant-les allunyar de la idea de l'activitat principal de l'entitat",
+              "2": "No s' estableixen o no es poden identificar entre les seves funcions la sensibilització, formació o educació en relació amb la problemàtica tractada, ni de manera directa ni indirecta",
+              "3": "S' estableix la sensibilització, formació o educació com una de les seves funcions principals i aquesta és conscient i transparent en la seva possible contribució a la problemàtica ambiental que es tracta en el PPEA"
+            },
+            "TITLE": "1.2.¿Estableix l'entitat entre les seves funcions la sensibilització, la formació o l'educació en relació amb la problemàtica socioambiental del PPEA?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "L'entitat mostra en les seves comunicacions corporatives activitats seleccionades de forma interessada, ometent els aspectes negatius o d'insostenibilitat d'aquestes; o afirma en el seu pla de sostenibilitat que les seves activitats són coherents amb els principis de sostenibilitat i que està compromesa amb ells, però aquesta informació no té proves objectives, no es pot justificar amb altra informació de fàcil accés o no presenta una aprovació fiable per part de tercers",
+              "2": "L' entitat no mostra en les seves comunicacions corporatives si les seves activitats són coherents amb els principis de sostenibilitat; o en el seu pla de sostenibilitat no realitza afirmacions relacionades amb l' activitat",
+              "3": "L' entitat mostra en les seves comunicacions corporatives coherència entre les seves activitats i els principis de sostenibilitat. Les dades estan justificades per tercers en el seu pla de sostenibilitat"
+            },
+            "TITLE": "1.3.¿Les activitats de l'entitat són coherents amb els principis de sostenibilitat?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "L' entitat afirma el seu compromís ambiental amb un o diversos problemes ambientals, però la seva activitat principal contribueix de forma directa i negativa a aquests.",
+              "2": "L' entitat no informa sobre el seu compromís ambiental amb un o diversos problemes ambientals; o sí que ho fa, però la seva activitat principal contribueix indirectament a aquests",
+              "3": "L' entitat es va constituir per abordar problemàtiques socioambientals i és coherent en les seves activitats, avalant la seva preocupació per aquests temes."
+            },
+            "TITLE": "1.4. S'identifica una clara coherència interna entre el tema que s'aborda amb el PPEA i les característiques de l'entitat que el patrocina, dissenya o executa?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "La missió de l'entitat es vincula amb el problema ambiental que es tracta en el PPEA, però no es fa de forma transparent (no informa de la seva contribució al problema) o proposa solucions davant el problema a llarg termini",
+              "2": "La missió de l'entitat es vincula amb el problema ambiental que es tracta en el PPEA, però no comunica la seva contribució a aquest a pesar que és conscient que la seva activitat contribueix negativament al problema, per això proposa solucions objectives i intenta disminuir el seu impacte",
+              "3": "La missió de l'entitat es vincula directament o indirectament amb la problemàtica ambiental que es tracta en el PPEA. L'entitat es va fundar per a sensibilitzar i abordar les problemàtiques socioambientales i és coherent en les seves activitats, avalant la seva preocupació per aquests temes i proposant solucions a curt i llarg termini per a enfrontar-ho."
+            },
+            "TITLE": "1.5. El PPEA dona resposta a una necessitat detectada que està clarament contemplada dins de la missió de l'entitat que ho patrocina, dissenya o executa?"
+          }
+        },
+        "TITLE": "1. La coherència entre l'activitat principal de l'entitat i els objectius i continguts del Pla i/o Programa d'Educació Ambiental (PPEA) que es patrocina, dissenya i/o executa"
+      },
+      "2": {
+        "DESCRIPTION": "Sovint, els PPEA que es dissenyen podrien no suposar una evidència demostrada sobre els beneficis que l'entitat comporta per al tema o problema que es treballa i són més aviat reclams elaborats per a vendre una imatge verda. L'entitat utilitza termes buits de contingut (p. ex. ecofriendly, basuraleza, etc) o informació o termes excessivament científics que solament poden ser entesos per especialistes en la matèria, de manera que poden portar a la confusió o a l'engany. Aquest criteri podria contribuir a identificar el greenwashing, en el cas que el PPEA no millori o treballi una situació ambiental, si no que suposi, més aviat, un benefici per a l'entitat i confon o enganya els/as destinataris/as del PPEA",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "L'entitat proporciona informació sobre les seves activitats, però aquesta informació manca de proves objectives (no es pot justificar amb una altra informació de fàcil accés o no presenta una aprovació fiable per part de tercers) o és una informació esbiaixada (se selecciona la informació en relació amb el tema del programa de forma interessada: omet els aspectes negatius en relació amb la seva activitat principal)",
+              "2": "L'entitat no proporciona informació sobre les seves activitats",
+              "3": "L'entitat proporciona informació sobre les seves activitats i aquestes suposen una evidència demostrada sobre els beneficis que comporta l'entitat enfront del tema o problema que es treballa amb el PPEA"
+            },
+            "TITLE": "2.1. Proporciona l'entitat informació sobre les seves activitats de manera objectiva i està recolzada per dades mesurables que es relacionen amb el tema del programa 2 ?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "Utilitza un llenguatge amb excessius tecnicismes, i termes buits de contingut (ecofriendly, creixement sostenible, ecodisseny, biocombustible…) i/o termes discutibles (ex. petjada de carboni individual per a evadir la responsabilitat col·lectiva i proposar solucions individuals)",
+              "2": "Utilitza un llenguatge comprensible per a les persones destinatàries, amb alguns tecnicismes, encara que també es distingeixen alguns termes buits de contingut (ecofriendly, creixement sostenible, ecodisseny, biocombustible…) o termes discutibles (petjada de carboni individual)",
+              "3": "Utilitza un llenguatge comprensible per a les persones destinatàries, amb un ús correcte de tecnicismes i sense utilitzar termes buits de contingut (ecofriendly, creixement sostenible, ecodisseny, biocombustible…) o termes discutibles (petjada de carboni a títol individual)"
+            },
+            "TITLE": "2.2. Presenta l'entitat informació utilitzant un llenguatge tècnic en relació amb el tema que es treballa i aquest és comprensible per totes les persones 3 ?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "Els valors que l'entitat difon en el PPEA es reflecteixen en les seves memòries anuals o de RSC, però aquests no presenten una concordança amb l'activitat principal de l'entitat (afirma sucompromiso amb algun problema ambiental, però, d'altra banda, està contribuint negativament amb les seves activitats)",
+              "2": "Els valors que l'entitat difon en el PPEA no es reflecteixen en les seves memòries anuals o de RSC",
+              "3": "Els valors que l'entitat difon en el PPEA són coherents amb la informació aportada en les seves memòries anuals o de RSC (informació completa, clara, aprovada per tercers, etc.)"
+            },
+            "TITLE": "2.3. Presenta l'entitat informació relativa als valors que difon en el PPEA en les seves memòries anuals o en les seves memòries de Responsabilitat Social Corporativa (RSC)?"
+          }
+        },
+        "TITLE": "2. La veracitat de la informació que l'entitat o empresa patrocinadora, dissenyadora o executora ofereix de si mateixa i del PPEA"
+      },
+      "3": {
+        "DESCRIPTION": "Considerem que els PPEA haurien de partir d'un estudi previ o d'un diagnòstic d'una situació o problemàtica ambiental que a més es relacioni amb les necessitats de les persones destinatàries. Aquest criteri podria servir per a identificar el greenwashing i per a valorar la qualitat d'un PPEA, ja que es dissenyaria amb una finalitat clara de sensibilitzar i educar per a canviar una situació o abordar una problemàtica.",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "S'aporta algun tipus d'informació sobre les causes del problema que s'està tractant, però no es justifica l'elecció del tema i per què és important o urgent i/o les conseqüències reals de no actuar (afirma que existeix un problema, però donant a entendre que hi ha molt de marge d'actuació i que les conseqüències encara no s'estan experimentant)",
+              "2": "No s'aporten o s'aporten molt poques dades sobre la situació del problema (causes i conseqüències) per a justificar l'elecció del tema (tracta alguns dels principals problemes ambientals- canvi climàtic, residus, energia, etc.- de manera superficial, sense indagar en la seva urgència)",
+              "3": "Es justifica l'elecció del problema a tractar aportant informació de manera clara i detallada sobre les causes i conseqüències del problema i les implicacions de no actuar."
+            },
+            "TITLE": "3.1. Es disposa d'informació i/o de dades en el PPEA sobre la situació que fa que es consideri necessari realitzar-ho?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "El PPEA aporta informació ambigua (de caràcter global i sense dades numèriques específiques; no es contextualitza adequadament l'origen del problema ni la seva situació actual; o les dades disponibles són incomplets o provenen de fonts no fiables 4 ) o omet informació per a no contextualitzar l'origen del problema que s'està tractant, així com la seva situació actual. Aquest fet dificulta la valoració realista de l'impacte del programa",
+              "2": "El PPEA manca de dades que contextualitzin l'origen del problema o la seva situació actual o, si n'hi ha, aquests estan incomplets o no s'esmenten les fonts, la qual cosa dificulta la valoració de l'impacte del programa",
+              "3": "El PPEA aporta dades tant qualitatives com quantitatius que serveixen per a contextualitzar l'origen del problema que s'està tractant, així com la seva situació actual, de manera que poden utilitzar-se per a realitzar una valoració realista de l'impacte del programa"
+            },
+            "TITLE": "3.2. ¿Se dispone en el PPEA de datos cualitativos y cuantitativos que lo sitúan (punto de partida) y lo contextualizan (local y global), y que son utilizados más adelante para realizar una valoración del impacto del PPEA?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "El PPEA està dissenyat exclusivament per a alumnat de diferents nivells educatius (educació formal) però no s'analitzen ni consideren les seves característiques de partida (particularitats locals, socioculturals, diferents capacitats d'aprenentatge, etc.)",
+              "2": "El PPEA està dissenyat per a un determinat públic destinatari (alumnat de diferents nivells educatius, col·lectius, famílies, etc.), però no s'analitzen ni consideren les seves característiques de partida (particularitats individuals, culturals i locals dels destinataris, així com les seves capacitats) i per tant no està adaptat a aquests",
+              "3": "El PPEA està dissenyat per a un determinat públic destinatari (alumnat de diferents nivells educatius, col·lectius, famílies, etc.), i a més s'analitzen i consideren les seves característiques de partida (particularitats individuals, culturals i locals)"
+            },
+            "TITLE": "3.3. S'identifica a les persones destinatàries del PPEA i, en el cas d'estar destinat a un sector ampli de la població, s'identifiquen uns certs subgrups diana sobre els quals se centra prioritàriament el PPEA?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "El programa reconeix unes certes característiques dels participants (nivell d'alfabetització ambiental, context sociocultural, nivell educatiu…) i pren avantatge d'això adaptant parcialment les seves activitats o enfocaments per als seus propis interessos",
+              "2": "El programa reconeix unes certes característiques dels participants (nivell d'alfabetització ambiental) i adapta parcialment les seves activitats o enfocaments per a la resolució de la problemàtica que es treballa en el programa",
+              "3": "El programa reconeix totes les característiques dels participants (nivell d'alfabetització ambiental) i adapta les seves activitats o enfocaments per a la resolució de la problemàtica que es treballa en el programa"
+            },
+            "TITLE": "3.4.Es defineixen les característiques pròpies de les persones destinatàries, respecte a l'apropiació de la necessitat del programa: participació, obstacles, reptes i/o desconeixement?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "El contingut del programa es presenta considerant el nivell de coneixements o les idees prèvies de les persones participants, de manera que es pot aprofitar aquesta falta de coneixement (d'idees, de creences, errors, ...) per a introduir idees que poden ser imprecises o esbiaixades, no verificades o allunyades de la realitat",
+              "2": "El contingut del programa es presenta sense tenir en compte els coneixements o idees prèvies de les persones participants, de manera que el programa introdueix algunes idees sense verificar, però existeix almenys un intent de generar reflexió crítica, encara que aquest sigui limitat.",
+              "3": "El contingut del programa es presenta tenint en compte els coneixements o idees prèvies de les persones participants, per a tractar de generar una reflexió crítica"
+            },
+            "TITLE": "3.5.Es parteix dels coneixements o idees prèvies dels qui participen?"
+          }
+        },
+        "TITLE": "3. Un diagnòstic sobre la necessitat del PPEA de resoldre problemàtiques socioambientales relacionades amb les persones destinatàries"
+      },
+      "4": {
+        "DESCRIPTION": "Els PPEA haurien de descriure els seus objectius i continguts i establir una coherència entre si. A més, haurien de respondre als objectius i característiques de l'EA i, per tant, promoure una educació a favor del mitjà. Aquest criteri delimitaria la qualitat d'un PPEA i ajudaria a la identificació del greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "Els objectius no estan clarament formulats i no presenten una intencionalitat clara per a la resolució de la problemàtica que es treballa. A més, no són fàcilment assolibles i la seva seqüenciació presenta algunes irregularitats que podrien dificultar la implementació efectiva.",
+              "2": "Els objectius no estan clarament formulats i no presenten una intencionalitat clara per a la resolució de la problemàtica que es treballa. Poden ser assolibles, però la seva seqüenciació presenta algunes irregularitats que podrien dificultar la implementació efectiva",
+              "3": "Els objectius estan clarament formulats i presenten una intencionalitat clara per a la resolució de la problemàtica que es treballa. A més, són fàcilment assolibles i la seva seqüenciació facilita una implementació efectiva."
+            },
+            "TITLE": "4.1.Es presenta una bona formulació d'objectius, així com la seva intencionalitat i seqüenciació 5 ?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "Els continguts (o les competències) s'aborden fonamentalment des de l'àrea conceptual, encara que de manera esbiaixada (la selecció de la informació en relació amb el tema del programa es fa de forma interessada), i aquests no es vinculen directament amb la resolució del problema que s'aborda en el PPEA, o si es fa, la capacitació pràctica per a l'acció es basa en la responsabilitat individual i no en la col·lectiva",
+              "2": "Els continguts (o les competències) no aborden de manera clara les àrees conceptuals, procedimentals i actitudinals. No es presenta una clara connexió entre els continguts conceptuals, procedimentals i actitudinals o aquests no es vinculen directament amb la resolució del problema que s'aborda en el PPEA. En cas d'una capacitació pràctica per a l'acció, aquesta es basa en la responsabilitat individual i no en la col·lectiva",
+              "3": "Els continguts (o les competències) s'aborden des de l'àrea conceptual, procedimental i actitudinal i aquests es vinculen directament amb la resolució del problema que s'aborda en el PPEA. Es realitza una capacitació pràctica per a l'acció basada en la responsabilitat col·lectiva"
+            },
+            "TITLE": "4.2. Es disposa d'una bona concreció i formulació de continguts conceptuals, procedimentals i actitudinals i/o competències en relació amb els objectius?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "Els objectius no estan formulats de manera clara, són massa generals, la qual cosa impedeix la seva verificació o avaluació efectiva. No s'han dissenyat indicadors d'avaluació clars ni mesurables, o els que s'han proposat no són adequats per a mesurar de manera objectiva els avanços cap als objectius",
+              "2": "Els objectius no estan formulats de manera clara i l'estratègia d'avaluació és inexistent o inadequada (no s'han dissenyat indicadors d'avaluació), la qual cosa impedeix realitzar una avaluació efectiva.",
+              "3": "Els objectius estan formulats de manera clara, específica i comprensible, la qual cosa facilita la seva verificació i avaluació. S'ha dissenyat una estratègia d'avaluació adequada, amb indicadors precisos, mesurables i quantificables, que estan alineats amb els objectius i permeten mesurar el seu progrés o assoliment de manera objectiva."
+            },
+            "TITLE": "4.3. Són els objectius fàcilment verificables i avaluables 6 ?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "Els objectius no estan clarament relacionats amb l'activitat de l'entitat i la relació amb els problemes ambientals abordats en el programa és mínima, vaga o fins i tot contradictòria. La connexió entre la labor de l'entitat i els desafiaments ambientals no fomenta una reflexió crítica sobre l'impacte d'aquesta activitat en el medi ambient.",
+              "2": "Els objectius estan relacionats amb l'activitat de l'entitat de manera general, però la relació amb els problemes ambientals abordats en el programa no és completament clara. La connexió entre la labor de l'entitat i els desafiaments ambientals no fomenta una reflexió crítica sobre l'impacte d'aquesta activitat en el medi ambient.",
+              "3": "Els objectius estan clarament relacionats amb l'activitat de l'entitat. La connexió entre la labor de l'entitat i els desafiaments ambientals que tracta és transparent amb les seves accions. Es fomenta la reflexió crítica sobre la pròpia activitat de l'entitat, convidant als participants a avaluar i qüestionar les seves accions"
+            },
+            "TITLE": "4.4. Es descriuen objectius orientats a la reflexió crítica de l'activitat de l'entitat que patrocina, dissenya o executa el PPEA?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "Els objectius del programa no estan alineats amb els objectius propis de l'EA. Els continguts proporcionen informació esbiaixada (omet dades, no s'esmenten els impactes negatius, etc.) i manquen de fonts clares. Està enfocat a un nivell educatiu determinat, però no es tenen en compte les realitats socioeconòmiques i culturals dels participants",
+              "2": "Els objectius del programa no estan completament alineats amb els objectius propis de l'EA. Els continguts proporcionen informació veraç (encara que no la suficient), però sense esmentar les fonts. Està enfocat a un determinat públic destinatari, però no es tenen en compte les realitats socioeconòmiques i culturals d'aquest",
+              "3": "Els objectius del programa estan completament alineats amb els objectius propis de l'EA. Els continguts proporcionen informació veraç, contrastada i amb fonts fiables. Està enfocat a un determinat públic destinatari i es té en compte les realitats socioeconòmiques i culturals d'aquest"
+            },
+            "TITLE": "4.5. S'incorporen objectius 7 i continguts propis de l'EA i rellevants en el context on es desenvolupa el programa?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "Els objectius es relacionen fonamentalment amb l'aprendre a saber (cognitius) i la selecció del tema que es treballa en el PPEA es fa de forma interessada. A més, no inclou objectius procedimentals ni emocionals",
+              "2": "No s'inclouen adequadament objectius que abordin les tres dimensions de l'aprenentatge. La falta d'atenció a una o més àrees limita l'efectivitat del programa i la seva capacitat per a promoure un aprenentatge integral.",
+              "3": "Els objectius aborden les tres dimensions de l'aprenentatge (cognitiva, procedimental i emocional) de manera equilibrada i significativa. S'afavoreix tant l'adquisició de coneixements com el desenvolupament d'habilitats i actituds o emocions, vinculats amb la realitat dels participants, garantint un aprenentatge integral i transferible per a la resolució de les problemàtiques que es treballen."
+            },
+            "TITLE": "4.6. S'inclouen objectius relacionats amb l'aprendre a saber (cognitius: fets i conceptes), aprendre a saber fer (procedimentals: habilitats) i aprendre a saber ser i saber conviure (emocionals: actituds)?"
+          },
+          "7": {
+            "OPTIONS": {
+              "1": "Els continguts no aborden adequadament l'aprenentatge actiu ni proporcionen suficients eines perquè les persones participants puguin actuar enfront dels problemes ambientals. Els continguts són teòrics, descontextualitzats o massa generals, sense una clara connexió amb les necessitats ambientals locals, la qual cosa limita l'aplicabilitat de l'aprenentatge.",
+              "2": "Els continguts aborden alguns aspectes relacionats amb l'aprenentatge actiu i la resolució de problemes, però la seva connexió amb la realitat local no és completament clara o està parcialment desenvolupada. Es presenten conceptes i eines per a afrontar els problemes ambientals, però les persones participants poden no aconseguir suficient capacitació per a aplicar aquestes solucions de manera efectiva.",
+              "3": "Els continguts aborden aspectes relacionats amb l'aprenentatge actiu i la resolució de problemes, i es connecten de manera clara amb la realitat local. Es presenten conceptes i eines per a afrontar els problemes ambientals i les persones participants poden comptar amb la suficient capacitació per a aplicar aquestes solucions de manera efectiva."
+            },
+            "TITLE": "4.7. S'inclouen continguts relacionats amb l'aprendre a actuar, fomentant la capacitació per a afrontar problemes i respondre a les necessitats reals del context en el qual es treballa?"
+          }
+        },
+        "TITLE": "4. Uns objectius i uns continguts definits clarament en el PPEA"
+      },
+      "5": {
+        "DESCRIPTION": "Un PPEA hauria de disposar d'un cronograma d'activitats en el qual es treballin i seqüenciïn els objectius i continguts que es promouen amb el programa o projecte i que s'adeqüi a les característiques de les persones destinatàries del PPEA. Aquest criteri delimitaria la qualitat d'un PPEA i ajudaria a la identificació del greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "El programa presenta una temporalització clara; però no s'observa una seqüenciació lògica de les activitats.",
+              "2": "El programa no presenta una temporalització clara i no s'observa una seqüència completament lògica de les activitats",
+              "3": "El programa presenta una temporalització clara i s'observa una seqüència completament lògica de les activitats"
+            },
+            "TITLE": "5.1. Es disposa d'un mètode de treball amb una seqüència d'activitats ben planificades i temporalizadas?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "La metodologia és parcialment coherent amb els objectius del programa, però hi ha indicis de falta de profunditat o biaix en la informació proporcionada. Encara que les activitats estan relacionades amb els objectius, alguns continguts no s'aborden de manera completa o equilibrada, i existeix una certa falta de transparència en la presentació de la informació. Les activitats poden fomentar la reflexió, però aquesta és superficial o limitada, i no sempre es relacionen amb una acció real",
+              "2": "La metodologia mostra una coherència general amb els objectius del programa, però existeixen àrees on la profunditat o l'enfocament de la informació són limitats. Encara que les activitats estan relacionades amb els objectius, alguns continguts no es desenvolupen amb suficient detall o equilibri, i la presentació de la informació podria mancar de claredat o ser parcial. Les activitats poden fomentar la reflexió, però aquesta és en alguns casos superficial o no completament vinculada a accions concretes, la qual cosa limita l'efectivitat del programa per a generar un canvi real",
+              "3": "La metodologia és totalment coherent amb els objectius del programa. S'aprofundeix en la informació que s'aporta, la qual és veraç i prové de fonts fiables. Les activitats estan relacionades amb els objectius i tots els continguts s'aborden de manera completa i equilibrada, amb total transparència en la presentació de la informació. Les activitats fomenten una reflexió crítica"
+            },
+            "TITLE": "5.2. La metodologia de treball utilitzada és coherent amb els objectius plantejats?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "Es disposa d'un pla d'activitats desenvolupat exclusivament per a alumnat (educació formal), però sense distingir específicament entre nivells educatius, per tant, hi ha algunes activitats que no s'adeqüen a les característiques d'aquest i no s'ofereixen altres alternatives per a adaptar aquestes activitats a la diversitat dels participants",
+              "2": "Es disposa d'un pla d'activitats desenvolupat per a un públic objectiu genèric, per tant, hi ha algunes activitats que no s'adeqüen a les característiques d'aquest i no s'ofereixen altres alternatives per a adaptar aquestes activitats a la diversitat dels participants",
+              "3": "Es disposa d'un pla d'activitats desenvolupat per a un determinat públic objectiu i les activitats s'adeqüen a les característiques d'aquest, ja que s'ofereixen alternatives per a adaptar-se a la diversitat dels participants"
+            },
+            "TITLE": "5.3. Es disposa d'un pla d'activitats que presenta un format ben adaptat i adequat a les característiques del públic objectiu destinatari?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "La metodologia es focalitza en la transmissió d'informació sobre la problemàtica socioambiental, però amb limitacions quant a la reflexió crítica o a la participació activa. Si bé hi ha un enfocament en la millora de les relacions socials amb l'entorn, no sempre s'aconsegueixen establir vincles significatius entre els participants i la problemàtica socioambiental.",
+              "2": "La metodologia es focalitza en la transmissió d'informació sobre la problemàtica ambiental i intenta promoure la reflexió crítica, la comunicació social i la participació activa; però no sempre s'aconsegueixen establir vincles significatius entre els participants i la problemàtica socioambiental.",
+              "3": "La metodologia no sols es focalitza en la comprensió d'informació sobre la problemàtica ambiental, sinó que també promou la reflexió crítica, la comunicació social i la participació activa. A més, s'aconsegueix establir vincles significatius entre els participants i la problemàtica socioambiental."
+            },
+            "TITLE": "5.4. La metodologia utilitzada (en les activitats) s'orienta a la comprensió, la reflexió, la comunicació social i l'acció, en la millora de les relacions socials que establim amb el nostre entorn local i global?"
+          }
+        },
+        "TITLE": "5. Un pla d'activitats coherent amb els objectius i continguts del PPEA"
+      },
+      "6": {
+        "DESCRIPTION": "La metodologia dels programes o projectes d'EA hauria de fomentar l'anàlisi de la complexitat i les visions ambientals i socials dels problemes o temes ambientals, desenvolupar habilitats d'acció basades en el pensament crític i no basar-se solament en la transmissió de coneixements. Aquest criteri delimitaria la qualitat d'un PPEA i ajudaria a la identificació del greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "El PPEA i les seves activitats integren únicament les visions ambientals, sense integrar la qualitat de vida i els límits planetaris amb aquestes visions. Els problemes ambientals no es presenten com a conseqüència directa de les activitats de l'ésser humà i la seva resolució s'enfoca únicament des de la responsabilitat individual. El programa no presenta un enfocament integral ni ofereix eines per a reflexionar sobre els efectes de les decisions polítiques, econòmiques i socials en el medi ambient.",
+              "2": "El PPEA i les seves activitats integren les visions ambientals i socials de manera limitada, integrant de manera parcial la qualitat de vida i els limitis planetaris. Els problemes ambientals es presenten com a conseqüència directa de les activitats de l'ésser humà, però la seva resolució s'enfoca únicament des de la responsabilitat individual. El programa presenta un enfocament incomplet i no ofereix eines per a reflexionar sobre els efectes de les decisions polítiques, econòmiques i socials en el medi ambient",
+              "3": "El PPEA i les seves activitats integren les visions ambientals i socials de manera holística, integrant la relació d'aquestes amb la qualitat de vida i els límits planetaris. Els problemes ambientals es presenten com a conseqüència directa de les activitats de l'ésser humà, subratllant-se la responsabilitat individual i col·lectiva en la seva resolució. El programa presenta un enfocament integral i ofereix eines per a reflexionar sobre els efectes de les decisions polítiques, econòmiques i socials en el medi ambient."
+            },
+            "TITLE": "6.1. S'incorporen anàlisi de la complexitat, les visions ambientals i socials i la seva relació entre la qualitat de vida i els límits planetaris?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "Els continguts del PPEA tenen en compte les característiques de les persones participants (coneixements previs, nivell educatiu, currículum), i encara que la informació està adaptada a aquestes, pot ser esbiaixada o utilitzar termes buits de contingut (ecofriendly, creixement sostenible, ecodisseny, biocombustible…) o discutibles (ej, petjada de carboni individual per a evadir la responsabilitat col·lectiva i proposar solucions individuals)",
+              "2": "Els continguts del PPEA tenen en compte unes certes característiques de les persones participants (coneixements previs, nivell educatiu) i, encara que la informació pot estar parcialment adaptada a aquestes característiques, aquesta presenta massa tecnicismes que dificulten la seva comprensió",
+              "3": "Els continguts del PPEA tenen en compte les característiques de les persones participants (coneixements previs, nivell educatiu, currículum, àmbit socioeconòmic i cultural, etc.), oferint informació veraç, verificada i fàcilment comprensible."
+            },
+            "TITLE": "6.2. S'identifiquen continguts adequats a les característiques de les persones destinatàries?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "El programa descriu mètodes específics per a cada nivell educatiu i/o els diferents actors i actrius destinatàries i, encara que s'inclouen exemples pràctics o activitats que es puguin implementar en els diferents contextos educatius, aquestes tenen per finalitat algunes accions proambientals de caràcter individual",
+              "2": "El programa descriu mètodes específics per a cada nivell educatiu i/o els diferents actors i actrius destinatàries que inclouen exemples pràctics o activitats que es puguin implementar en els diferents contextos educatius, però aquestes no tenen per finalitat promoure accions proambientals",
+              "3": "El programa descriu mètodes específics per a cada nivell educatiu i/o els diferents actors i actrius destinatàries que inclouen exemples pràctics o activitats que es puguin implementar en els diferents contextos educatius amb la finalitat de dur a terme accions proambientals individuals o col·lectives"
+            },
+            "TITLE": "6.3. Es reflecteix l'aplicabilitat per a cada nivell educatiu i/o per als diferents actors i actrius destinatàries?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "El PPEA estudia les temàtiques fonamentalment ambientals, deixant de costat la dimensió social, i encara que l'anàlisi es realitza a diferents escales, posa el focus en el context global i la seva problemàtica com a base de l'aprenentatge.",
+              "2": "El PPEA part de l'estudi de les temàtiques socioambientales en diferents escales, posant el focus en el context global i la seva problemàtica com a base de l'aprenentatge",
+              "3": "El PPEA part de l'estudi de temàtiques socioambientales en diferents escales, posant el focus en el context pròxim i la seva problemàtica com a base per a l'aprenentatge"
+            },
+            "TITLE": "6.4. Es parteix de l'estudi de temàtiques socioambientals pròpies i/o pròximes?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "El PPEA pot utilitzar una metodologia de treball col·laboratiu en la qual les persones participants interactuen i comparteixen idees per a la resolució de problemes fonamentalment ambientals, però sense utilitzar la reflexió crítica ni la cerca de solucions conjuntes innovadores",
+              "2": "El PPEA pot utilitzar una metodologia de treball col·laboratiu en la qual les persones participants interactuen i comparteixen idees per a la resolució de problemes socioambientales mitjançant la reflexió crítica, però manca d'una cerca de solucions",
+              "3": "El PPEA utilitza una metodologia de treball col·laboratiu en la qual les persones participants interactuen i comparteixen idees per a la resolució de problemes socioambientals mitjançant la reflexió crítica i la cerca de solucions conjuntes innovadores"
+            },
+            "TITLE": "6.5. La metodologia utilitzada ajuda a desenvolupar habilitats d'acció basades en el pensament crític i creatiu i en la construcció col·lectiva del coneixement?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "En el PPEA es reflecteixen de manera esbiaixada o ambigua les activitats desenvolupades per l'entitat, dificultant establir la relació d'aquestes en el seu paper per a la contribució o mitigació de les problemàtiques, fonamentalment ambientals, que es treballen amb el programa",
+              "2": "En el PPEA no es reflecteixen les activitats desenvolupades per l'entitat, dificultant establir la relació d'aquestes en el seu paper per a la contribució o mitigació de les problemàtiques socioambientals que es treballen amb el programa",
+              "3": "En el PPEA es reflecteixen les activitats desenvolupades per l'entitat i com aquesta contribueix o mitiga les problemàtiques socioambientales que es treballen amb el programa"
+            },
+            "TITLE": "6.6. La metodologia convida a l'anàlisi crítica de les activitats desenvolupades per l'entitat que dissenya, promociona o executa el PPEA?"
+          },
+          "7": {
+            "OPTIONS": {
+              "1": "La metodologia utilitzada en el PPEA evita la reflexió i, encara que es proposa un compromís per a la resolució de la problemàtica ambiental treballada, aquest s'enfoca únicament en la responsabilitat individual del públic destinatari.",
+              "2": "La metodologia utilitzada en el PPEA convida a la reflexió i al compromís, considerant prioritàriament la responsabilitat individual del públic destinatari (canvi d'hàbits)",
+              "3": "La metodologia utilitzada en el PPEA convida a la reflexió i al compromís, considerant tant la responsabilitat individual del públic destinatari (canvi d'hàbits) com la responsabilitat col·lectiva (governamental) per a la resolució de la problemàtica socioambiental treballada"
+            },
+            "TITLE": "6.7. La metodologia utilitzada suposa comprometre's i executar accions per a millorar la problemàtica socioambiental treballada?"
+          }
+        },
+        "TITLE": "6. Uns mètodes coherents amb els fins de l'EA"
+      },
+      "7": {
+        "DESCRIPTION": "Un bon programa o projecte d'EA ha de comptar amb els recursos humans, materials i econòmics suficients i de qualitat per a la seva execució i que han de ser coherents amb els principis de sostenibilitat ambiental i justícia social. Aquest criteri delimitaria la qualitat d'un PPEA i ajudaria a la identificació del greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "Al PPEA es descriu de forma incompleta o vaga qui integra el l' equip educatiu i els seus competències professionals relacionades amb l' educació ambiental",
+              "2": "Al PPEA no es descriu qui integra l' equip educatiu ni les seves competències professionals relacionades amb l' educació ambiental",
+              "3": "Al PPEA es descriu i es pot verificar que l' equip educatiu és interdisciplinari i compta amb les competències professionals necessàries per a la ambiental."
+            },
+            "TITLE": "7.1. Es descriuen els recursos humans i aquests són suficients i tenen la capacitat adequada per a la planificació i el desenvolupament del programa 8 ?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "L' equip educatiu és estable, però no disposa d'oportunitats ni facilitats per a la seva formació contínua i reciclatge professional",
+              "2": "L'equip educatiu és inestable i no disposa d' oportunitats ni facilitats per a la seva formació contínua i reciclatge professional",
+              "3": "L' equip educatiu és estable i les seves condicions laborals i professionals són adequades al treball que desenvolupen. A més, disposen d' oportunitats i facilitats per a la seva formació contínua i reciclatge professional"
+            },
+            "TITLE": "7.2. Les condicions laborals dels qui formen part dels recursos humans són dignes 9 ?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "Al PPEA es descriu els recursos materials de suport, però aquests no són variats, suficients ni adequats a les activitats que es plantegen en el programa.",
+              "2": "Els recursos materials de suport són didàctics, utilitzen eines analògiques i digitals, però no s'adeqüen a les característiques del públic destinatari",
+              "3": "Al PPEA es descriuen els recursos materials de suport i aquests utilitzen eines analògiques i digitals i s'adeqüen a les característiques del públic destinatari, reduint les desigualtats"
+            },
+            "TITLE": "7.3. Es descriuen els recursos materials de suport i aquests són variats,suficients i adequats per a cada activitat l 10 ?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "Els materials no segueixen criteris de sostenibilitat ambiental i social",
+              "2": "Els materials de suport no segueixen criteris de sostenibilitat ambiental i social",
+              "3": "Els materials de suport segueixen criteris de sostenibilitat ambiental i social"
+            },
+            "TITLE": "7.4. Els recursos materials de suport segueixen principis de sostenibilitat ambiental i social 10 ?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "En el PPEA es descriuen les infraestructures i s'afirma que segueixen els principis de sostenibilitat ambiental (), encara que s'utilitzen com a reclam",
+              "2": "En el PPEA no es descriuen les infraestructures, encara que aquestes podrien seguir els principis de sostenibilitat ambiental. A més, no són utilitzades com a recurs educatiu en el programa",
+              "3": "En el PPEA es descriuen les infraestructures i aquestes segueixen els principis de sostenibilitat ambiental ( i aquestes s'utilitzen com a recurs educatiu en el programa"
+            },
+            "TITLE": "7.5. Es descriuen les infraestructures utilitzades i aquestes segueixen criteris de sostenibilitat ambiental 11 quant a tipologia de materials i consum de recursos (energia, aigua, etc)?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "L'entitat publica informes de comptes anuals, però no especifica l'origen dels recursos financers de manera clara o transparent",
+              "2": "L'entitat no publica informes de comptes anuals o la informació que proporciona manca d'evidències demostrades sobre, l'origen dels recursos financers",
+              "3": "L'entitat publica informes de comptes anuals en els quals s'especifica de forma detallada l'origen dels recursos financers"
+            },
+            "TITLE": "7.6. S'explicita d'on provenen els recursos financers que permeten la relació anterior de recursos humans i materials?"
+          }
+        },
+        "TITLE": "7. Uns recursos coherents amb les finalitats del PPEA i els principis de sostenibilitat ambiental i justícia social"
+      },
+      "8": {
+        "DESCRIPTION": "Per a mesurar i valorar l'impacte d'un PPEA és imprescindible determinar les eines i mètodes amb els quals es recollirà la informació amb la qual avaluar l'abast dels objectius i la finalitat del PPEA. Aquest criteri delimitaria la qualitat d'un PPEA i ajudaria a la identificació del greenwashing",
+        "INDICATORS": {
+          "1": {
+            "OPTIONS": {
+              "1": "Es descriuen en el programa els instruments i estratègies que s'utilitzarien per a valorar si s'han aconseguit els objectius proposats per al públic destinatari, però es fa de manera vaga o poc demostrable. No es disposen d'instruments o estratègies per a mesurar la contribució d'aquest programa a la resolució de la problemàtica socioambiental que es treballa. Manca d'una estratègia general de mesurament d'impacte.",
+              "2": "No es descriuen en el programa els instruments i estratègies que s'utilitzarien per a valorar si s'han aconseguit els objectius proposats per al públic destinatari, ni per a mesurar la contribució d'aquest programa a la resolució de la problemàtica socioambiental que es treballa. Manca d'una estratègia general de mesurament d'impacte.",
+              "3": "Es descriuen en el programa els instruments i estratègies que s'utilitzaran per a valorar si s'han aconseguit els objectius proposats per al públic destinatari en el programa, així com la contribució d'aquest a la resolució de la problemàtica socioambiental que es treballa. S'integren en una estratègia general de mesurament d'impacte."
+            },
+            "TITLE": "8.1. Es disposa d'instruments i estratègies de valoració per a mesurar en quin grau s'han aconseguit els objectius i finalitats del programa?"
+          },
+          "2": {
+            "OPTIONS": {
+              "1": "El PPEA inclou activitats finals que es plantegen com una síntesi del treball realitzat; però no es planteja com un exercici de reflexió de l'après entre les persones destinatàries perquè prenguin consciència del seu procés d'aprenentatge.",
+              "2": "El PPEA no inclou activitats finals",
+              "3": "El PPEA inclou activitats finals que es plantegen com un exercici de reflexió de l'après entre les persones destinatàries perquè prenguin consciència del seu procés d'aprenentatge."
+            },
+            "TITLE": "8.2. S'inclouen activitats de síntesis i d'autoavaluació per a les persones destinatàries?"
+          },
+          "3": {
+            "OPTIONS": {
+              "1": "Es descriu que al llarg del procés es produirà una recollida d'informació de manera sistemàtica i continua per a valorar el grau d'adequació de les activitats amb els objectius i finalitats del programa, amb la finalitat de poder revisar-les per a la millora d'aquest; però no s'executa.",
+              "2": "No es descriu que al llarg del procés es produirà una recollida d'informació de manera sistemàtica i continua per a valorar el grau d'adequació de les activitats amb els objectius i finalitats del programa amb la finalitat de poder revisar-les per a la millora d'aquest",
+              "3": "Es descriu i s'executa, al llarg del procés, la recollida d'informació de manera sistemàtica i continua per a valorar el grau d'adequació de les activitats amb els objectius i finalitats del programa amb la finalitat de poder revisar-les per a la millora d'aquest"
+            },
+            "TITLE": "8.3. Es preveu un sistema d'avaluació contínua per part de qui executa el programa per a canviar o adaptar la realització de les activitats previstes amb els resultats d'aquesta avaluació?"
+          },
+          "4": {
+            "OPTIONS": {
+              "1": "L'entitat no pot utilitzar els resultats de l'avaluació per a determinar el grau de compliment dels objectius ni establir els elements del programa que necessiten millores atès que no s'ha executat el sistema d'avaluació contínua.",
+              "2": "L'entitat no utilitza els resultats de l'avaluació per a determinar el grau de compliment dels objectius i establir els elements del programa que necessiten millores per a analitzar que està funcionant i que no i com canviar-lo.",
+              "3": "L'entitat utilitza els resultats de l'avaluació per a determinar el grau de compliment dels objectius i establir els elements del programa que necessiten millores per a analitzar que està funcionant i que no i com canviar-lo."
+            },
+            "TITLE": "8.4. Els resultats de l'avaluació són utilitzats per a millorar en l'assoliment dels objectius de millora socioambiental?"
+          },
+          "5": {
+            "OPTIONS": {
+              "1": "L'entitat presenta en les seves memòries o altres informes evidències vagues sobre l'abast dels objectius determinats en el PPEA (s'esmenten objectius generals sense resultats verificables de millora de la problemàtica socioambiental o les afirmacions no es recolzen amb dades qualitatives o quantitatives sobre l'impacte ambiental o social aconseguit pel projecte.",
+              "2": "L'entitat no presenta en les seves memòries o altres informes evidències clares sobre l'abast dels objectius determinats en el PPEA (s'esmenten objectius generals sense resultats verificables de millora de la problemàtica socioambiental)",
+              "3": "L'entitat presenta en les seves memòries o altres informes l'abast dels objectius determinats per al PPEA, permetent-se identificar una millora o aportació positiva en relació amb el problema socioambiental que es treballa (bé perquè aquest es millora directament, bé perquè indirectament s'observa un major nivell de conscienciació sobre aquest tema), recolzats per dades verificables i vinculades amb els objectius inicials del projecte."
+            },
+            "TITLE": "8.5. Es presenta quin impacte ambiental i/o social s'ha aconseguit amb els resultats del projecte?"
+          },
+          "6": {
+            "OPTIONS": {
+              "1": "L'entitat no posa a disposició pública la memòria sobre els resultats del desenvolupament del PPEA o, si es comuniquen, es fa amb un enfocament clarament publicitari, sense reflectir un impacte real en la problemàtica socioambiental o utilitzant dades poc verificables.",
+              "2": "L'entitat posa a disposició pública la memòria sobre els resultats del desenvolupament del PPEA, però amb limitacions quant a la claredat, accessibilitat o impacte real en relació amb la millora de la problemàtica socioambiental.",
+              "3": "L'entitat posa a disposició pública la memòria sobre els resultats del desenvolupament del PPEA amb la finalitat de compartir la millora que suposa a la problemàtica socioambiental i convidar a la replicabilidad del programa."
+            },
+            "TITLE": "8.6. Els resultats de l'avaluació es difonen per a reflectir la millora de la problemàtica socioambiental (i no amb finalitats publicitaris de l'entitat)?"
+          }
+        },
+        "TITLE": "8. Una previsió d'estratègies d'avaluació del PEEA i la posterior publicació de resultats"
+      }
+    },
+    "PROJECT_NAME": "Nom del projecte/empresa",
+    "PROJECT_URL": "URL del projecte/empresa",
+    "SCORE": {
+      "1": {
+        "DESCRIPTION": "No és un bon programa d'educació ambiental, estigui incorrent o no en greenwashing, ja que manca d'alguna, o vàries, de les dimensions pròpies dels programes d'educació ambiental(no es defineix correctament a les persones destinatàries, els objectius; no s'aporta una visió sistèmica i interdisciplinària de la problemàtica ambiental que es tracta, l'estratègia educativa no és l'adequada, no disposa de sistema d'avaluació dels resultats i/o del programa",
+        "TITLE": "Incorre en greenwashing"
+      },
+      "2": {
+        "DESCRIPTION": "Es podria considerar un bon programa d'educació (objectius ben definits, una bona metodologia, es defineix correctament a les persones destinatàries, etc.) però no ambiental, ja que no aporta una visió sistèmica i interdisciplinària de la problemàtica ambiental que es tracta i a més incorre en pràctiques de greenwashing (veritats a mig fer, s'afirma un compromís amb algun problema ambiental però alhora es contribueix negativament a aquest, se centra en la responsabilitat individual, etc.)",
+        "TITLE": "Podria incórrer en greenwashing"
+      },
+      "3": {
+        "DESCRIPTION": "És un bon programa d'educació ambiental, ja que presenta totes les dimensions pròpies d'un PPEA i a més exposa els problemes ambientals d'una forma que conviden a la reflexió, explicant les causes i les conseqüències reals i aportant una visió sistèmica i interdisciplinària de la problemàtica ambiental que es tracta",
+        "TITLE": "No incorre en greenwashing"
+      }
+    },
+    "TITLE": "Nova evaluació"
+  }
 }
