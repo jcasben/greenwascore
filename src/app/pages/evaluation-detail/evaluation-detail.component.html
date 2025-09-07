@@ -1,47 +1,176 @@
-<div>
+<main>
   @let value = evaluation.result;
 
-  <div class="flex items-center justify-between">
+  <!-- Cabecera -->
+  <section class="flex items-center justify-between">
     <div>
-      <h2 class="text-5xl font-bold">{{ evaluation.rubric.title }}</h2>
+      <h2 class="text-5xl font-bold text-gray-800">
+        {{ evaluation.rubric.title }}
+      </h2>
       <div class="flex gap-2 my-2">
-        <p>{{ "EVALUATIONS.PROJECT_URL" | translate }}</p>
+        <p class="font-medium text-gray-600">
+          {{ "EVALUATIONS.PROJECT_URL" | translate }}
+        </p>
         <a
           class="text-blue-500 cursor-pointer hover:underline hover:text-blue-700"
           [href]="evaluation.rubric.projectURL"
           target="_blank"
-          >{{ evaluation.rubric.projectURL }}</a
+        >{{ evaluation.rubric.projectURL }}</a
         >
       </div>
     </div>
-  </div>
+  </section>
 
-  <hr class="border-2 border-gray-400 my-1 rounded-xl" />
+  <hr class="border-2 border-gray-300 my-4 rounded-xl"/>
 
-  <div class="my-10">
+  <!-- Resultado global -->
+  <section class="my-10 text-center">
     @if (value <= 65) {
       <h3 class="text-4xl text-red-500 font-extrabold">
         {{ "RUBRIC.SCORE.1.TITLE" | translate }}
       </h3>
-      <p>{{ "RUBRIC.SCORE.1.DESCRIPTION" | translate }}</p>
-    } @else if (value >= 65 && value <= 105) {
+      <p class="text-lg text-gray-700 mt-2">
+        {{ "RUBRIC.SCORE.1.DESCRIPTION" | translate }}
+      </p>
+    } @else if (value > 65 && value <= 105) {
       <h3 class="text-4xl text-yellow-500 font-extrabold">
         {{ "RUBRIC.SCORE.2.TITLE" | translate }}
       </h3>
-      <p class="text-xl my-4">{{ "RUBRIC.SCORE.2.DESCRIPTION" | translate }}</p>
+      <p class="text-lg text-gray-700 mt-2">
+        {{ "RUBRIC.SCORE.2.DESCRIPTION" | translate }}
+      </p>
     } @else {
       <h3 class="text-4xl text-green-500 font-extrabold">
         {{ "RUBRIC.SCORE.3.TITLE" | translate }}
       </h3>
-      <p class="text-xl my-4">{{ "RUBRIC.SCORE.3.DESCRIPTION" | translate }}</p>
+      <p class="text-lg text-gray-700 mt-2">
+        {{ "RUBRIC.SCORE.3.DESCRIPTION" | translate }}
+      </p>
     }
-  </div>
+  </section>
 
-  <div>
-    <h3 class="text-3xl font-bold">{{ "EVALUATIONS.DETAILS" | translate }}</h3>
-    <p>{{ value }}</p>
-    {{ evaluation.selectedOptions[1] ? evaluation.selectedOptions[1] : 0 }}
-    {{ evaluation.selectedOptions[2] ? evaluation.selectedOptions[2] : 0 }}
-    {{ evaluation.selectedOptions[3] ? evaluation.selectedOptions[3] : 0 }}
-  </div>
-</div>
+  <!-- Sección de detalles -->
+  <section class="mt-12">
+    <h3 class="text-3xl font-bold mb-8 text-gray-800 text-center">
+      {{ "EVALUATIONS.DETAILS.TITLE" | translate }}
+    </h3>
+
+    <!-- Puntuación total -->
+    <div class="flex flex-col items-center mb-12">
+      <p class="text-xl font-semibold text-gray-700 mb-4">
+        {{ "EVALUATIONS.SCORE" | translate }}
+      </p>
+      <div
+        class="w-40 h-40 flex items-center justify-center rounded-full border-8 shadow-lg"
+        [ngClass]="[
+          value <= 65 ? 'border-red-500 bg-red-100 text-red-600' : '',
+          value > 65 && value <= 105 ? 'border-yellow-500 bg-yellow-100 text-yellow-600' : '',
+          value > 105 ? 'border-green-500 bg-green-100 text-green-600' : ''
+        ]"
+      >
+        <p class="text-4xl font-extrabold">{{ value }}</p>
+      </div>
+    </div>
+
+    <!-- Desglose de respuestas -->
+    <div class="max-w-4xl mx-auto">
+      <p class="text-xl font-semibold text-gray-700 mb-6 text-center">
+        {{ "EVALUATIONS.ANSWER_BREAKDOWN" | translate }}
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <!-- Opción 1 -->
+        <div
+          class="p-6 rounded-xl bg-red-100 border border-red-300 text-center shadow-sm"
+        >
+          <p class="text-5xl font-extrabold text-red-600">
+            {{ evaluation.selectedOptions[1] ? evaluation.selectedOptions[1] : 0 }}
+          </p>
+          <p class="mt-2 font-medium text-red-700">
+            {{ "RUBRIC.SCORE.1.TITLE" | translate }}
+          </p>
+          <span class="text-sm text-gray-500">({{ "EVALUATIONS.DETAILS.ONE_POINT" | translate }})</span>
+        </div>
+
+        <!-- Opción 2 -->
+        <div
+          class="p-6 rounded-xl bg-yellow-100 border border-yellow-300 text-center shadow-sm"
+        >
+          <p class="text-5xl font-extrabold text-yellow-600">
+            {{ evaluation.selectedOptions[2] ? evaluation.selectedOptions[2] : 0 }}
+          </p>
+          <p class="mt-2 font-medium text-yellow-700">
+            {{ "RUBRIC.SCORE.2.TITLE" | translate }}
+          </p>
+          <span class="text-sm text-gray-500">({{ "EVALUATIONS.DETAILS.TWO_POINTS" | translate }})</span>
+        </div>
+
+        <!-- Opción 3 -->
+        <div
+          class="p-6 rounded-xl bg-green-100 border border-green-300 text-center shadow-sm"
+        >
+          <p class="text-5xl font-extrabold text-green-600">
+            {{ evaluation.selectedOptions[3] ? evaluation.selectedOptions[3] : 0 }}
+          </p>
+          <p class="mt-2 font-medium text-green-700">
+            {{ "RUBRIC.SCORE.3.TITLE" | translate }}
+          </p>
+          <span class="text-sm text-gray-500">({{ "EVALUATIONS.DETAILS.THREE_POINTS" | translate }})</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<hr class="border-2 border-gray-300 my-8 rounded-xl"/>
+
+<section class="flex flex-col gap-4 mt-12">
+  <h3 class="text-3xl font-bold mb-8 text-gray-800 text-center">
+    {{ "EVALUATIONS.ANSWERS" | translate }}
+  </h3>
+
+  @for (crit of evaluation.rubric.criteria; track crit.id) {
+    <details
+      class="group border border-gray-300 rounded-lg shadow-sm overflow-hidden"
+    >
+      <summary
+        class="cursor-pointer bg-gray-100 px-6 py-4 text-2xl font-bold flex justify-between items-center hover:bg-gray-200 transition"
+      >
+        <span>{{ crit.labelKey | translate }}</span>
+        <span
+          class="text-gray-500 group-open:rotate-180 transform transition-transform"
+        >⌄</span
+        >
+      </summary>
+
+      <div class="p-6 space-y-6">
+        <h5 class="text-lg text-gray-600">
+          {{ crit.descriptionKey | translate }}
+        </h5>
+
+        @for (indicator of crit.indicators; track indicator.id) {
+          <div class="space-y-4">
+            <h6 class="text-base font-semibold text-gray-800">
+              {{ indicator.labelKey | translate }}
+            </h6>
+
+            <div class="grid grid-cols-1 gap-6">
+              @for (option of indicator.options; track option.id) {
+                <div
+                  class="flex items-center justify-center text-center p-6 rounded-lg border-2"
+                  [ngClass]="[
+                    indicator.selectedOptionId === option.id
+                      ? getOptionColor(option.id)
+                      : 'border-gray-300'
+                  ]"
+                >
+                  <p class="font-medium">{{ option.labelKey | translate }}</p>
+                </div>
+              }
+            </div>
+          </div>
+        }
+      </div>
+    </details>
+  }
+</section>

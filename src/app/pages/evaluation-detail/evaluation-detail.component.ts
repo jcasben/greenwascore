@@ -6,7 +6,7 @@ import { NgClass } from "@angular/common";
 
 @Component({
   selector: "app-evaluation-detail",
-  imports: [TranslatePipe],
+  imports: [TranslatePipe, NgClass],
   templateUrl: "./evaluation-detail.component.html",
   styleUrl: "./evaluation-detail.component.css",
 })
@@ -25,5 +25,18 @@ export class EvaluationDetailComponent {
     if (this.evaluation.result >= 66 && this.evaluation.result <= 105)
       return "text-yellow-500";
     return "text-green-500";
+  }
+
+  protected getOptionColor(value: number): string {
+    switch (value) {
+      case 1:
+        return "bg-red-200";
+      case 2:
+        return "bg-yellow-200";
+      case 3:
+        return "bg-green-200";
+      default:
+        return "bg-gray-200";
+    }
   }
 }
