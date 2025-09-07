@@ -1,14 +1,36 @@
-<h2 class="text-4xl text-blue-500 font-bold">Database of evaluations</h2>
-<div class="grid grid-cols gap-6 my-4">
-  @for (evaluation of evaluations; track evaluation.id) {
-    <div
-      class="border-2 border-blue-500 rounded-lg p-4"
-      (click)="onClick(evaluation)"
-    >
-      <h3 class="text-2xl font-semibold">{{ evaluation.rubric.title }}</h3>
-      <h4>{{ evaluation.rubric.projectURL }}</h4>
+<section class="max-w-6xl mx-auto px-6 py-10">
+  <!-- Título -->
+  <h2
+    class="text-3xl md:text-4xl font-extrabold text-center bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text mb-8"
+  >
+    Database of Evaluations
+  </h2>
+
+  @if (loading) {
+    <div class="flex justify-center items-center py-12">
+      <div class="h-12 w-12 border-4 border-green-500 border-t-transparent rounded-full animate-spin"></div>
     </div>
-  } @empty {
-    <p>{{ "EVALUATIONS.EMPTY" | translate }}</p>
+  } @else {
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      @for (evaluation of evaluations; track evaluation.id) {
+        <div
+          class="bg-white border border-gray-200 rounded-xl shadow-md p-6 cursor-pointer transform transition duration-200 hover:scale-105 hover:shadow-lg"
+          (click)="onClick(evaluation)"
+        >
+          <h3 class="text-xl font-bold text-green-600 mb-2">
+            {{ evaluation.rubric.title }}
+          </h3>
+          <h4 class="text-gray-500 text-sm truncate">
+            🌐 {{ evaluation.rubric.projectURL }}
+          </h4>
+        </div>
+      } @empty {
+        <div class="col-span-full text-center text-gray-500 py-12">
+          <p class="text-lg flex items-center justify-center gap-2">
+            <span>😕</span> {{ "EVALUATIONS.EMPTY" | translate }}
+          </p>
+        </div>
+      }
+    </div>
   }
-</div>
+</section>

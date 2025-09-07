@@ -16,17 +16,22 @@ export class EvaluationsComponent implements OnInit {
   private router = inject(Router);
 
   protected evaluations: Evaluation[] = [];
+  protected loading: boolean = true;
 
   ngOnInit(): void {
     this.evaluationService
       .getEvaluations()
       .pipe(take(1))
-      .subscribe((data) => (this.evaluations = data));
+      .subscribe({
+        next: (data) => (this.evaluations = data),
+        error: (err) => console.log(err),
+        complete: () => (this.loading = false),
+      });
   }
 
   onClick(evaluation: Evaluation) {
     this.router.navigate([`/evaluations/${evaluation.id}`], {
-      state: { evaluation: evaluation },
-    });
+      state: {evaluation: evaluation},
+    }).then();
   }
 }
