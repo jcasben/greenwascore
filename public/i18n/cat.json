@@ -1,8 +1,16 @@
 {
   "EVALUATIONS": {
-    "DETAILS": "Detalls",
+    "ANSWERS": "Respostes",
+    "ANSWER_BREAKDOWN": "Desglos de respostes",
+    "DETAILS": {
+      "ONE_POINT": "1 punt",
+      "THREE_POINTS": "3 punts",
+      "TITLE": "Detalls",
+      "TWO_POINTS": "2 punts"
+    },
     "EMPTY": "Encara no hi ha avaluacions a la base de dades.",
     "PROJECT_URL": "URL del projecte:",
+    "SCORE": "Puntuació Total",
     "TITLE": "Base de dades de avaluacions"
   },
   "FOOTER": {

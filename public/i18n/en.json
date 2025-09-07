@@ -1,8 +1,16 @@
 {
   "EVALUATIONS": {
-    "DETAILS": "Details",
+    "ANSWERS": "Answers",
+    "ANSWER_BREAKDOWN": "Answer breakdown",
+    "DETAILS": {
+      "ONE_POINT": "1 point",
+      "THREE_POINTS": "3 points",
+      "TITLE": "Details",
+      "TWO_POINTS": "2 points"
+    },
     "EMPTY": "There aren't evaluations in the database yet.",
     "PROJECT_URL": "Project URL:",
+    "SCORE": "Total Score",
     "TITLE": "Evaluations database"
   },
   "FOOTER": {
