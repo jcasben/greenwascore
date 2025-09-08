@@ -11,7 +11,7 @@
     "EMPTY": "Encara no hi ha avaluacions a la base de dades.",
     "PROJECT_URL": "URL del projecte:",
     "SCORE": "Puntuació Total",
-    "TITLE": "Base de dades de avaluacions"
+    "TITLE": "Base de dades d'avaluacions"
   },
   "FOOTER": {
     "CONTACT": "Contacte",
@@ -31,6 +31,8 @@
       "TEXT": "El projecte GreenWaScore neix amb la intenció de donar resposta a una preocupació cada vegada més present: les campanyes i programes que es presenten com d'educació ambiental (EA), però que poden ser d'una dubtosa qualitat educativa. Sovint, darrere d'una imatge \"verda\", s'amaguen pràctiques empresarials o organitzatives poc sostenibles o que  d'ètica ambiental. Pràctica coneguda com greenwashing o \"rentat verd\".\n\nEl greenwashing és una tècnica de comunicació d'informació ambiental enganyosa, falsa o incompleta per part d'empreses, organitzacions i institucions, que pretenen transmetre una imatge de sostenibilitat i responsabilitat ambiental que no es correspon amb les seves pràctiques reals.\n\nAmb aquest projecte, des del Grup de Recerca en Educació Ambiental per a la Sostenibilitat (GREAS) de la Universitat de les Illes Balears (UIB), desenvolupat parcialment en el marc del programa SOIB Recerca i Innovació - INVESTIGO, hem creat una eina pràctica que ajuda a identificar si un programa, projecte o activitat d’EA promou valors de sostenibilitat o si simplement busca millorar la imatge verda d’una entitat.",
       "TITLE": "Què és aquest projecte?"
     },
+    "DOWNLOAD_GUIDE": "Descarregar guia",
+    "DOWNLOAD_INDICATORS": "Descarregar indicadors",
     "PROJECT_OBJECTIVES": {
       "OBJECTIVE_LIST": {
         "1": "Donar a conèixer les característiques del greenwashing com pràctica educativa enganyosa.",
