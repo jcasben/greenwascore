@@ -1,4 +1,6 @@
 <main class="flex flex-col space-y-16 max-w-4xl mx-auto animate-fadeInUp">
+
+  <!-- Sobre la rúbrica -->
   <section>
     <h2 class="section-title">
       {{ "HOME.ABOUT_PROJECT.TITLE" | translate }}
@@ -8,6 +10,7 @@
     </p>
   </section>
 
+  <!-- Objetivos de la rúbrica -->
   <section>
     <h2 class="section-title">
       {{ "HOME.PROJECT_OBJECTIVES.TITLE" | translate }}
@@ -22,13 +25,14 @@
     </div>
   </section>
 
+  <!-- Uso de la rúbrica -->
   <section>
     <h2 class="section-title">
       {{ "HOME.RUBRIC_FUNCTION.TITLE" | translate }}
     </h2>
-    <div class="card whitespace-pre-line">
+    <div class="card whitespace-pre-line space-y-6 leading-relaxed">
       <p>{{ "HOME.RUBRIC_FUNCTION.TEXT1" | translate }}</p>
-      <ol class="list-decimal pl-8 py-4">
+      <ol class="list-decimal pl-8 space-y-2">
         <li>{{ "HOME.RUBRIC_FUNCTION.LIST1.1" | translate }}</li>
         <li>{{ "HOME.RUBRIC_FUNCTION.LIST1.2" | translate }}</li>
         <li>{{ "HOME.RUBRIC_FUNCTION.LIST1.3" | translate }}</li>
@@ -51,6 +55,23 @@
         <li>{{ "HOME.RUBRIC_FUNCTION.LIST4.2" | translate }}</li>
         <li>{{ "HOME.RUBRIC_FUNCTION.LIST4.3" | translate }}</li>
       </ul>
+
+      <div class="flex flex-wrap gap-4 justify-center pt-6">
+        <a
+          [href]="guidePath"
+          download
+          class="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow transition"
+        >
+          📘 {{ "HOME.DOWNLOAD_GUIDE" | translate }}
+        </a>
+        <a
+          [href]="indicatorsPath"
+          download
+          class="px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow transition"
+        >
+          📄 {{ "HOME.DOWNLOAD_INDICATORS" | translate }}
+        </a>
+      </div>
     </div>
   </section>
 </main>
